@@ -1,0 +1,40 @@
+name: Scrape TikTok Trending Sounds (US)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 02:15 UTC = 08:00 Nepal time (NPT, UTC+5:45)
+    - cron: "15 2 * * *"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: python scripts/scrape_tiktok.py
+
+      - name: Build dashboard data
+        run: python scripts/build_dashboard.py
+
+      - name: Commit data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ docs/
+          timestamp=$(date -u '+%Y-%m-%d %H:%M UTC')
+          git commit -m "data: refresh trending sounds (${timestamp})" || echo "no changes"
+          git push

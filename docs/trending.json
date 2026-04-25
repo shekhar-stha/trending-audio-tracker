@@ -1,0 +1,37 @@
+{
+  "scraped_at": "2026-04-25T14:00:00+00:00",
+  "region": "US",
+  "count": 3,
+  "sounds": [
+    {
+      "rank": 1,
+      "title": "(placeholder) Run the scraper to populate",
+      "artist": "GitHub Actions",
+      "clip_id": "demo1",
+      "tiktok_uses": 0,
+      "tiktok_link": "https://www.tiktok.com/",
+      "cover": "",
+      "period_days": 7
+    },
+    {
+      "rank": 2,
+      "title": "(placeholder) Sample sound 30d",
+      "artist": "demo",
+      "clip_id": "demo2",
+      "tiktok_uses": 0,
+      "tiktok_link": "",
+      "cover": "",
+      "period_days": 30
+    },
+    {
+      "rank": 1,
+      "title": "(placeholder) Sample sound 120d",
+      "artist": "demo",
+      "clip_id": "demo3",
+      "tiktok_uses": 0,
+      "tiktok_link": "",
+      "cover": "",
+      "period_days": 120
+    }
+  ]
+}
