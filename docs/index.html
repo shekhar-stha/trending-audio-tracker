@@ -207,9 +207,38 @@
         return String(n);
       };
 
-      const igSearch = (s) =>
-        `https://www.google.com/search?q=${encodeURIComponent(
-          `"${s.title}" ${s.artist} site:instagram.com/reels/audio`
+      // Strip co-artists / featurings so the search isn't over-constrained.
+      // "YN Jay & Louie Ray" -> "YN Jay"
+      // "Doja Cat feat. SZA"  -> "Doja Cat"
+      // "Drake, 21 Savage"    -> "Drake"
+      function primaryArtist(a) {
+        return String(a || "")
+          .split(/\s+(?:&|feat\.?|ft\.?|x|,|;|with|和|\+)\s+/i)[0]
+          .trim();
+      }
+
+      // Strip parentheticals (e.g. "(From "Euphoria"...)" / "(Remastered)") and
+      // any internal quotes — keeps the searchable hook clean.
+      function cleanTitle(t) {
+        return String(t || "")
+          .replace(/\s*\([^)]*\)\s*/g, " ")
+          .replace(/\s*\[[^\]]*\]\s*/g, " ")
+          .replace(/["']/g, "")
+          .replace(/\s+/g, " ")
+          .trim();
+      }
+
+      // Broader Google query: drop the narrow /reels/audio path filter so
+      // IG reel posts that USE the sound also rank.
+      const igSearch = (s) => {
+        const q = `"${cleanTitle(s.title)}" ${primaryArtist(s.artist)} site:instagram.com/reels`;
+        return `https://www.google.com/search?q=${encodeURIComponent(q)}`;
+      };
+
+      // Direct IG keyword search — useful as a fallback that the user can run inside IG.
+      const igDirect = (s) =>
+        `https://www.instagram.com/explore/search/keyword/?q=${encodeURIComponent(
+          cleanTitle(s.title) + " " + primaryArtist(s.artist)
         )}`;
 
       function escape(s) {
@@ -219,12 +248,25 @@
         );
       }
 
+      function activeSounds() {
+        // For the "Trending in US" pill (period=7) tokchart only exposes
+        // 10 free rows. Top up with the highest-ranked sounds from the
+        // "Fastest growing" lens (period=30) so the user sees ~20 entries.
+        const primary = DATA.sounds.filter((s) => s.period_days === period);
+        if (period !== 7) return primary;
+        const seen = new Set(primary.map((s) => s.clip_id));
+        const topUp = DATA.sounds
+          .filter((s) => s.period_days === 30 && !seen.has(s.clip_id))
+          .sort((a, b) => (a.rank || 9999) - (b.rank || 9999))
+          .slice(0, 10);
+        return [...primary, ...topUp.map((s, i) => ({ ...s, rank: 11 + i }))];
+      }
+
       function render() {
         const grid = document.getElementById("grid");
         const empty = document.getElementById("empty");
         const q = query.toLowerCase();
-        const filtered = DATA.sounds
-          .filter((s) => s.period_days === period)
+        const filtered = activeSounds()
           .filter(
             (s) =>
               !q ||
@@ -253,7 +295,8 @@
                     ? `<a class="btn" href="${s.tiktok_link}" target="_blank" rel="noopener">TikTok</a>`
                     : ""
                 }
-                <a class="btn ig" href="${igSearch(s)}" target="_blank" rel="noopener">Find on Instagram</a>
+                <a class="btn ig" href="${igSearch(s)}" target="_blank" rel="noopener" title="Google search for this audio on instagram.com/reels">Google → IG</a>
+                <a class="btn ig" href="${igDirect(s)}" target="_blank" rel="noopener" title="Search inside Instagram directly">Search IG</a>
               </div>
             </div>
           </div>`
