@@ -2,18 +2,36 @@
   "runs": [
     {
       "period": 7,
-      "captured_rows": 0,
-      "matched_endpoints": []
+      "rows": 0,
+      "page_notes": [
+        {
+          "page": 1,
+          "error": "no sounds in payload",
+          "code": 40101
+        }
+      ]
     },
     {
       "period": 30,
-      "captured_rows": 0,
-      "matched_endpoints": []
+      "rows": 0,
+      "page_notes": [
+        {
+          "page": 1,
+          "error": "no sounds in payload",
+          "code": 40101
+        }
+      ]
     },
     {
       "period": 120,
-      "captured_rows": 0,
-      "matched_endpoints": []
+      "rows": 0,
+      "page_notes": [
+        {
+          "page": 1,
+          "error": "no sounds in payload",
+          "code": 40101
+        }
+      ]
     }
   ],
   "total_rows": 0
