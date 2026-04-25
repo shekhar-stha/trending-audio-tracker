@@ -319,7 +319,7 @@
   <body>
     <header>
       <div class="title">
-        <h1>US Trending Sounds</h1>
+        <h1 id="pageTitle">US Trends Dashboard</h1>
         <div class="sub" id="meta">Loading…</div>
       </div>
       <div class="badges">
@@ -327,15 +327,29 @@
         <span class="badge" id="regionBadge">Region: US</span>
       </div>
     </header>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="sounds">🎵 Sounds</button>
+      <button class="tab" data-tab="trends">🔥 Trends</button>
+    </div>
+
     <main>
-      <div class="controls">
-        <div id="pills" style="display: flex; gap: 8px;"></div>
-        <input class="search" id="search" placeholder="Search title or artist…" />
+      <div id="panel-sounds">
+        <div class="controls">
+          <div id="pills" style="display: flex; gap: 8px;"></div>
+          <input class="search" id="search" placeholder="Search title or artist…" />
+        </div>
+        <div class="grid" id="grid"></div>
+        <div class="empty" id="empty" hidden>
+          <h3>No sounds yet</h3>
+          <p>Data is refreshed automatically every 4 hours by GitHub Actions.</p>
+        </div>
       </div>
-      <div class="grid" id="grid"></div>
-      <div class="empty" id="empty" hidden>
-        <h3>No sounds yet</h3>
-        <p>Data is refreshed automatically every 4 hours by GitHub Actions. If you’re seeing this, the latest scrape returned no sounds — check the Actions tab on the repo.</p>
+
+      <div id="panel-trends" hidden>
+        <div id="trendsContainer">
+          <div class="empty">Loading trends…</div>
+        </div>
       </div>
     </main>
 
@@ -519,6 +533,69 @@
         if (diff < 3600) return `${Math.round(diff / 60)} min ago`;
         if (diff < 86400) return `${Math.round(diff / 3600)} hr ago`;
         return `${Math.round(diff / 86400)} days ago`;
+      }
+
+      // ---- Tab switching ----
+      document.querySelectorAll(".tab").forEach((t) =>
+        t.addEventListener("click", () => {
+          document.querySelectorAll(".tab").forEach((x) => x.classList.remove("active"));
+          t.classList.add("active");
+          const tab = t.dataset.tab;
+          document.getElementById("panel-sounds").hidden = tab !== "sounds";
+          document.getElementById("panel-trends").hidden = tab !== "trends";
+          if (tab === "trends" && !window.__trendsLoaded) loadTrends();
+        })
+      );
+
+      // ---- Trends loader ----
+      function loadTrends() {
+        window.__trendsLoaded = true;
+        fetch("trends.json?_=" + Date.now())
+          .then((r) => r.json())
+          .then((d) => {
+            const c = document.getElementById("trendsContainer");
+            if (!d.sections || d.sections.length === 0) {
+              c.innerHTML = `<div class="empty"><h3>No trends yet</h3><p>The next refresh will populate this.</p></div>`;
+              return;
+            }
+            const updated = relativeTime(d.scraped_at);
+            c.innerHTML =
+              `<div class="sub" style="color: var(--muted); margin-bottom: 18px; font-size: 13px;">Updated ${updated} · Sources: Google Trends, Reddit</div>` +
+              d.sections
+                .filter((s) => s.items && s.items.length)
+                .map(
+                  (s) => `
+                <div class="section">
+                  <h2>${escape(s.label)}</h2>
+                  <div class="trend-grid">
+                    ${s.items
+                      .map(
+                        (it) => `
+                        <a class="trend-card" href="${it.url}" target="_blank" rel="noopener">
+                          <div class="thumb" ${
+                            it.thumbnail
+                              ? `style="background-image: url('${it.thumbnail.replace(/'/g, "%27")}')"`
+                              : ""
+                          }></div>
+                          <div class="body">
+                            <div class="t">${escape(it.title)}</div>
+                            ${it.subtitle ? `<div class="sub">${escape(it.subtitle)}</div>` : ""}
+                            <div class="meta">${escape(it.source)} ${
+                              it.meta ? "· " + escape(it.meta) : ""
+                            }</div>
+                          </div>
+                        </a>`
+                      )
+                      .join("")}
+                  </div>
+                </div>`
+                )
+                .join("");
+          })
+          .catch((e) => {
+            document.getElementById("trendsContainer").innerHTML =
+              `<div class="empty"><h3>Couldn't load trends</h3><p>${escape(e.message)}</p></div>`;
+          });
       }
 
       fetch("trending.json?_=" + Date.now())

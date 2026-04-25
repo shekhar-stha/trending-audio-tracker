@@ -1,12 +1,15 @@
-"""Copy data/trending.json into docs/ so GitHub Pages can serve it."""
+"""Copy generated JSON into docs/ so GitHub Pages can serve it."""
 
 import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = ROOT / "data" / "trending.json"
-DST = ROOT / "docs" / "trending.json"
+DOCS = ROOT / "docs"
+DOCS.mkdir(parents=True, exist_ok=True)
 
-DST.parent.mkdir(parents=True, exist_ok=True)
-shutil.copyfile(SRC, DST)
-print(f"copied {SRC} -> {DST}")
+for name in ("trending.json", "trends.json"):
+    src = ROOT / "data" / name
+    if src.exists():
+        dst = DOCS / name
+        shutil.copyfile(src, dst)
+        print(f"copied {src} -> {dst}")

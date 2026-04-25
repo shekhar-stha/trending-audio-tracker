@@ -24,8 +24,11 @@ jobs:
           pip install -r scripts/requirements.txt
           python -m playwright install --with-deps chromium
 
-      - name: Run scraper
+      - name: Run sounds scraper
         run: python scripts/scrape_tiktok.py
+
+      - name: Run trends scraper
+        run: python scripts/scrape_trends.py
 
       - name: Build dashboard data
         run: python scripts/build_dashboard.py
