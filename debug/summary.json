@@ -1,0 +1,20 @@
+{
+  "runs": [
+    {
+      "period": 7,
+      "captured_rows": 0,
+      "matched_endpoints": []
+    },
+    {
+      "period": 30,
+      "captured_rows": 0,
+      "matched_endpoints": []
+    },
+    {
+      "period": 120,
+      "captured_rows": 0,
+      "matched_endpoints": []
+    }
+  ],
+  "total_rows": 0
+}
