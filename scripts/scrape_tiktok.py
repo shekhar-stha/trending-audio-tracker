@@ -1,16 +1,15 @@
 """
 Scrape TikTok Creative Center trending sounds (US region).
 
-Strategy: load the trending-music page in a headless browser and intercept
-the internal JSON API response. This avoids reverse-engineering the
-request signing scheme TikTok uses.
+We bootstrap a browser session (so TikTok sets ttwid + anti-bot cookies),
+then call the /sound/rank_list API directly with pagination to collect
+many more rows than the page itself loads.
 
 Output: data/trending.json
 """
 
 import json
 import sys
-import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -20,80 +19,89 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "trending.json"
 DEBUG_DIR = ROOT / "debug"
 
-# Match anything that looks like the Creative Center sound endpoint.
-# TikTok renames these occasionally — keep the matcher generous.
-API_HINTS = ("sound", "music", "popular_trend", "creative_radar")
-
 PERIODS = [7, 30, 120]
+PAGES_PER_PERIOD = 7  # 7 pages × ~limit returns enough trending rows
+LIMIT = 50
+
+API = "https://ads.tiktok.com/creative_radar_api/v1/popular_trend/sound/rank_list"
 
 
-def url_for(period: int) -> str:
+def bootstrap_url(period: int) -> str:
     return (
         "https://ads.tiktok.com/business/creativecenter/inspiration/popular/"
         f"music/pc/en?period={period}&countryCode=US"
     )
 
 
-def looks_like_sound_payload(body) -> bool:
-    if not isinstance(body, dict):
-        return False
-    data = body.get("data")
-    if not isinstance(data, dict):
-        return False
-    for key in ("sound_list", "list", "music_list", "items"):
-        v = data.get(key)
-        if isinstance(v, list) and v and isinstance(v[0], dict):
-            sample = v[0]
-            keys = set(sample.keys())
-            if keys & {"clip_id", "song_name", "title", "artist", "author", "music_id"}:
-                return True
-    return False
+def fetch_period(context, page, period: int, debug_log: list) -> list[dict]:
+    # Visit the matching page so the SPA primes any period-specific state.
+    page.goto(bootstrap_url(period), wait_until="domcontentloaded", timeout=60_000)
+    page.wait_for_timeout(3500)
 
+    rows: list[dict] = []
+    page_errors: list[dict] = []
 
-def scrape_period(page, period: int, debug_log: list) -> list[dict]:
-    captured: list[dict] = []
-    seen_endpoints: set[str] = set()
-
-    def on_response(response):
-        url = response.url
-        if not any(h in url for h in API_HINTS):
-            return
+    for pg in range(1, PAGES_PER_PERIOD + 1):
+        params = {
+            "period": str(period),
+            "page": str(pg),
+            "limit": str(LIMIT),
+            "rank_type": "popular",
+            "new_on_board": "false",
+            "commercial_music": "false",
+            "country_code": "US",
+        }
+        url = API + "?" + "&".join(f"{k}={v}" for k, v in params.items())
+        resp = context.request.get(
+            url,
+            headers={
+                "accept": "application/json, text/plain, */*",
+                "accept-language": "en-US,en;q=0.9",
+                "referer": bootstrap_url(period),
+                "lang": "en",
+                "anonymous-user-id": "",
+                "user-agent": (
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/124.0.0.0 Safari/537.36"
+                ),
+            },
+        )
         try:
-            body = response.json()
-        except Exception:
-            return
-        if not looks_like_sound_payload(body):
-            return
-        seen_endpoints.add(url.split("?")[0])
+            body = resp.json()
+        except Exception as e:
+            page_errors.append({"page": pg, "error": str(e), "status": resp.status})
+            break
+
+        if pg == 1 and period == PERIODS[0]:
+            (DEBUG_DIR / "sample_response.json").write_text(
+                json.dumps(body, indent=2)[:8000]
+            )
+
         data = body.get("data") or {}
-        for key in ("sound_list", "list", "music_list", "items"):
-            v = data.get(key)
-            if isinstance(v, list):
-                captured.extend(v)
-                break
+        sounds = (
+            data.get("sound_list")
+            or data.get("list")
+            or data.get("music_list")
+            or data.get("items")
+            or []
+        )
+        if not sounds:
+            page_errors.append(
+                {"page": pg, "error": "no sounds in payload", "code": body.get("code")}
+            )
+            break
+        rows.extend(sounds)
 
-    page.on("response", on_response)
-
-    page.goto(url_for(period), wait_until="domcontentloaded", timeout=60_000)
-
-    # Give TikTok time to fire its XHRs.
-    page.wait_for_timeout(6000)
-
-    # Scroll a few times to trigger pagination
-    for _ in range(5):
-        page.mouse.wheel(0, 4000)
-        page.wait_for_timeout(1500)
-
-    page.remove_listener("response", on_response)
+        # Stop if response indicates last page
+        has_more = data.get("has_more")
+        if has_more is False:
+            break
 
     debug_log.append(
-        {
-            "period": period,
-            "captured_rows": len(captured),
-            "matched_endpoints": sorted(seen_endpoints),
-        }
+        {"period": period, "rows": len(rows), "page_notes": page_errors}
     )
-    return captured
+    return rows
 
 
 def normalize(raw: dict, period: int) -> dict:
@@ -103,7 +111,11 @@ def normalize(raw: dict, period: int) -> dict:
     cover = raw.get("cover") or raw.get("cover_thumb") or raw.get("cover_large") or ""
     rank = raw.get("rank") or 0
     user_count = (
-        raw.get("user_count") or raw.get("usage") or raw.get("post_count") or 0
+        raw.get("user_count")
+        or raw.get("usage")
+        or raw.get("post_count")
+        or raw.get("usage_amount")
+        or 0
     )
     link = raw.get("link") or (
         f"https://www.tiktok.com/music/-{clip_id}" if clip_id else ""
@@ -124,15 +136,11 @@ def main() -> int:
     DEBUG_DIR.mkdir(parents=True, exist_ok=True)
     all_rows: list[dict] = []
     debug_log: list[dict] = []
-    all_seen_urls: list[str] = []
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
-            args=[
-                "--disable-blink-features=AutomationControlled",
-                "--no-sandbox",
-            ],
+            args=["--disable-blink-features=AutomationControlled", "--no-sandbox"],
         )
         context = browser.new_context(
             user_agent=(
@@ -146,45 +154,22 @@ def main() -> int:
         )
         page = context.new_page()
 
-        # Log every response URL so we can diagnose if matching fails
-        page.on("response", lambda r: all_seen_urls.append(r.url))
-
         for period in PERIODS:
             print(f"[scrape] period={period}d", flush=True)
             try:
-                raw = scrape_period(page, period, debug_log)
+                raw = fetch_period(context, page, period, debug_log)
             except Exception as e:
                 print(f"  error: {e}", flush=True)
                 raw = []
-            print(f"  captured {len(raw)} rows", flush=True)
+            print(f"  {len(raw)} raw rows", flush=True)
             all_rows.extend(normalize(r, period) for r in raw)
-
-        # Snapshot for diagnostics
-        try:
-            page.screenshot(path=str(DEBUG_DIR / "last_page.png"), full_page=False)
-        except Exception:
-            pass
-        try:
-            (DEBUG_DIR / "last_page.html").write_text(page.content())
-        except Exception:
-            pass
 
         browser.close()
 
-    # Diagnostics
-    interesting = [
-        u
-        for u in all_seen_urls
-        if any(h in u for h in API_HINTS) or "ads.tiktok.com" in u
-    ]
-    (DEBUG_DIR / "network.txt").write_text(
-        "\n".join(interesting[:300]) if interesting else "no matched URLs captured"
-    )
     (DEBUG_DIR / "summary.json").write_text(
         json.dumps({"runs": debug_log, "total_rows": len(all_rows)}, indent=2)
     )
 
-    # Dedupe per (clip_id, period)
     seen: set[tuple[str, int]] = set()
     unique: list[dict] = []
     for row in all_rows:
