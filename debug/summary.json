@@ -1,41 +1,13 @@
 {
   "runs": [
     {
-      "period": 7,
-      "rows": 0,
-      "page_notes": [
-        {
-          "page": 1,
-          "error": "no sounds in payload",
-          "code": 40101,
-          "msg": "no permission"
-        }
-      ]
+      "lens": "Trending in US",
+      "rows": 10
     },
     {
-      "period": 30,
-      "rows": 0,
-      "page_notes": [
-        {
-          "page": 1,
-          "error": "no sounds in payload",
-          "code": 40101,
-          "msg": "no permission"
-        }
-      ]
-    },
-    {
-      "period": 120,
-      "rows": 0,
-      "page_notes": [
-        {
-          "page": 1,
-          "error": "no sounds in payload",
-          "code": 40101,
-          "msg": "no permission"
-        }
-      ]
+      "lens": "Fastest growing",
+      "rows": 30
     }
   ],
-  "total_rows": 0
+  "total_rows": 40
 }

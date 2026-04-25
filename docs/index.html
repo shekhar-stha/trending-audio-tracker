@@ -185,9 +185,7 @@
     </header>
     <main>
       <div class="controls">
-        <button class="pill active" data-period="7">Past 7 days</button>
-        <button class="pill" data-period="30">Past 30 days</button>
-        <button class="pill" data-period="120">Past 120 days</button>
+        <div id="pills" style="display: flex; gap: 8px;"></div>
         <input class="search" id="search" placeholder="Search title or artist…" />
       </div>
       <div class="grid" id="grid"></div>
@@ -265,14 +263,27 @@
         empty.hidden = filtered.length > 0;
       }
 
-      document.querySelectorAll(".pill").forEach((b) =>
-        b.addEventListener("click", () => {
-          document.querySelectorAll(".pill").forEach((x) => x.classList.remove("active"));
-          b.classList.add("active");
-          period = Number(b.dataset.period);
-          render();
-        })
-      );
+      function renderPills() {
+        const lenses = DATA.lenses || [
+          { period_days: 7, label: "Trending in US" },
+          { period_days: 30, label: "Fastest growing" },
+        ];
+        if (!lenses.find((l) => l.period_days === period)) period = lenses[0].period_days;
+        document.getElementById("pills").innerHTML = lenses
+          .map(
+            (l) =>
+              `<button class="pill ${l.period_days === period ? "active" : ""}"
+                       data-period="${l.period_days}">${l.label}</button>`
+          )
+          .join("");
+        document.querySelectorAll(".pill").forEach((b) =>
+          b.addEventListener("click", () => {
+            period = Number(b.dataset.period);
+            renderPills();
+            render();
+          })
+        );
+      }
       document.getElementById("search").addEventListener("input", (e) => {
         query = e.target.value;
         render();
@@ -294,6 +305,10 @@
           const total = d.sounds.length;
           document.getElementById("meta").textContent =
             `${total} sounds tracked • Updated ${relativeTime(d.scraped_at)}`;
+          if (d.source) {
+            document.getElementById("regionBadge").textContent = "Source: " + d.source;
+          }
+          renderPills();
           render();
         })
         .catch((e) => {

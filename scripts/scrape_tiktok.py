@@ -1,190 +1,170 @@
 """
-Scrape TikTok Creative Center trending sounds (US region).
+Scrape US trending TikTok sounds from tokchart.com.
 
-We bootstrap a browser session (so TikTok sets ttwid + anti-bot cookies),
-then call the /sound/rank_list API directly with pagination to collect
-many more rows than the page itself loads.
+Why tokchart and not TikTok Creative Center directly: TikTok now requires
+ad-account login on the Creative Center API (returns 40101 "no permission").
+tokchart.com publishes the same data on plain HTML pages with no auth.
 
 Output: data/trending.json
 """
 
 import json
+import re
 import sys
+import urllib.request
 from datetime import datetime, timezone
+from html import unescape
 from pathlib import Path
-
-from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "trending.json"
 DEBUG_DIR = ROOT / "debug"
 
-PERIODS = [7, 30, 120]
-PAGES_PER_PERIOD = 7  # 7 pages × ~limit returns enough trending rows
-LIMIT = 50
+UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+)
 
-API = "https://ads.tiktok.com/creative_radar_api/v1/popular_trend/sound/rank_list"
+# Each "lens" = a tokchart page. Maps to the period_days field for back-compat
+# with the dashboard pills (7/30/120 → Trending / Growing / Top).
+LENSES = [
+    {"period_days": 7, "label": "Trending in US", "url": "https://tokchart.com/trending/US"},
+    {"period_days": 30, "label": "Fastest growing", "url": "https://tokchart.com/growing"},
+]
 
 
-def bootstrap_url(period: int) -> str:
-    return (
-        "https://ads.tiktok.com/business/creativecenter/inspiration/popular/"
-        f"music/pc/en?period={period}&countryCode=US"
-    )
+def fetch(url: str) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-US,en"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", errors="replace")
 
 
-def fetch_period(context, page, period: int, debug_log: list) -> list[dict]:
-    # Visit the matching page so TikTok sets ttwid + signs requests for us.
-    page.goto(bootstrap_url(period), wait_until="domcontentloaded", timeout=60_000)
-    page.wait_for_timeout(4000)
+def parse(html: str, period: int) -> list[dict]:
+    """
+    Each tokchart sound card has the rough shape:
 
+      <span class="text-3xl md:text-4xl">{rank}</span>
+      ... +{growth_24h} videos ...
+      <img ... src="https://tokchart.com/img/{id}/600"/>
+      <span class="text-slate-800">{artist}</span>
+      <a href=".../dashboard/sounds/{id}" class="...font-brico font-bold...">{title}</a>
+      :data="[{...numbers...}]"     <- ticker series, last value = current usage
+      <a href="https://www.tiktok.com/music/{slug}-{id}">
+
+    We split the page on the cover image (`/img/{id}/600`), then within
+    each chunk pull out the fields. This is resilient to surrounding
+    whitespace/markup tweaks.
+    """
     rows: list[dict] = []
-    page_errors: list[dict] = []
+    # Split into per-sound chunks anchored on the cover image
+    chunks = re.split(r'(?=<img[^>]+src="https://tokchart\.com/img/\d+/600")', html)
+    for chunk in chunks:
+        m_id = re.search(r'tokchart\.com/img/(\d+)/600', chunk)
+        if not m_id:
+            continue
+        clip_id = m_id.group(1)
 
-    for pg in range(1, PAGES_PER_PERIOD + 1):
-        params = {
-            "period": period,
-            "page": pg,
-            "limit": LIMIT,
-            "rank_type": "popular",
-            "new_on_board": False,
-            "commercial_music": False,
-            "country_code": "US",
-        }
-        # Call from inside the page so all anti-bot headers tag along.
-        body = page.evaluate(
-            """async (p) => {
-                const qs = new URLSearchParams(p).toString();
-                const r = await fetch(
-                    '/creative_radar_api/v1/popular_trend/sound/rank_list?' + qs,
-                    { credentials: 'include', headers: { 'lang': 'en' } }
-                );
-                return r.json();
-            }""",
-            {k: str(v).lower() if isinstance(v, bool) else v for k, v in params.items()},
+        # Rank is the most recent <span class="text-3xl..."> before this chunk —
+        # but since we split on cover, the rank lives in the *previous* chunk.
+        # Easier: grep for it relative to the cover by using the original html.
+        rank = 0
+
+        # Artist: <span class="text-slate-800">…</span>
+        m_artist = re.search(r'<span class="text-slate-800">\s*([^<]+?)\s*</span>', chunk)
+        artist = unescape(m_artist.group(1)).strip() if m_artist else ""
+
+        # Title: anchor with text-2xl/text-4xl font-brico font-bold
+        m_title = re.search(
+            r'<a[^>]+href="[^"]*?/dashboard/sounds/\d+"[^>]*?'
+            r'class="[^"]*font-brico[^"]*font-bold[^"]*"[^>]*>\s*([^<]+?)\s*</a>',
+            chunk,
+            re.S,
+        )
+        title = unescape(m_title.group(1)).strip() if m_title else ""
+
+        # Current usage: last value in the :data="[…]" array
+        m_data = re.search(r':data="\[([^\]]+)\]"', chunk)
+        usage = 0
+        if m_data:
+            nums = [int(x) for x in re.findall(r"\d+", m_data.group(1))]
+            if nums:
+                usage = nums[-1]
+
+        # 24h growth: "+{n} videos"
+        m_growth = re.search(r"\+([\d,]+)\s*videos", chunk)
+        growth_24h = int(m_growth.group(1).replace(",", "")) if m_growth else 0
+
+        # TikTok deep link
+        m_tt = re.search(
+            r'href="(https://www\.tiktok\.com/music/[^"]+)"', chunk
+        )
+        tiktok_link = m_tt.group(1) if m_tt else f"https://www.tiktok.com/music/-{clip_id}"
+
+        if not title:
+            continue
+        rows.append(
+            {
+                "rank": 0,  # filled in below from page order
+                "title": title,
+                "artist": artist,
+                "clip_id": clip_id,
+                "tiktok_uses": usage,
+                "tiktok_uses_24h": growth_24h,
+                "tiktok_link": tiktok_link,
+                "cover": f"https://tokchart.com/img/{clip_id}/600",
+                "period_days": period,
+            }
         )
 
-        if pg == 1 and period == PERIODS[0]:
-            (DEBUG_DIR / "sample_response.json").write_text(
-                json.dumps(body, indent=2)[:12000]
-            )
-
-        if not isinstance(body, dict):
-            page_errors.append({"page": pg, "error": "non-dict body"})
-            break
-        data = body.get("data") or {}
-        sounds = (
-            data.get("sound_list")
-            or data.get("list")
-            or data.get("music_list")
-            or data.get("items")
-            or []
-        )
-        if not sounds:
-            page_errors.append(
-                {
-                    "page": pg,
-                    "error": "no sounds in payload",
-                    "code": body.get("code"),
-                    "msg": body.get("msg"),
-                }
-            )
-            break
-        rows.extend(sounds)
-        if data.get("has_more") is False:
-            break
-
-    debug_log.append({"period": period, "rows": len(rows), "page_notes": page_errors})
-    return rows
-
-
-def normalize(raw: dict, period: int) -> dict:
-    title = raw.get("title") or raw.get("song_name") or raw.get("clip_title") or ""
-    author = raw.get("author") or raw.get("artist") or raw.get("singer") or ""
-    clip_id = raw.get("clip_id") or raw.get("music_id") or raw.get("id") or ""
-    cover = raw.get("cover") or raw.get("cover_thumb") or raw.get("cover_large") or ""
-    rank = raw.get("rank") or 0
-    user_count = (
-        raw.get("user_count")
-        or raw.get("usage")
-        or raw.get("post_count")
-        or raw.get("usage_amount")
-        or 0
-    )
-    link = raw.get("link") or (
-        f"https://www.tiktok.com/music/-{clip_id}" if clip_id else ""
-    )
-    return {
-        "rank": rank,
-        "title": title,
-        "artist": author,
-        "clip_id": str(clip_id),
-        "tiktok_uses": user_count,
-        "tiktok_link": link,
-        "cover": cover,
-        "period_days": period,
-    }
+    # Assign ranks by appearance order, deduping clip_ids within this lens
+    seen: set[str] = set()
+    out: list[dict] = []
+    rank = 1
+    for r in rows:
+        if r["clip_id"] in seen:
+            continue
+        seen.add(r["clip_id"])
+        r["rank"] = rank
+        rank += 1
+        out.append(r)
+    return out
 
 
 def main() -> int:
     DEBUG_DIR.mkdir(parents=True, exist_ok=True)
     all_rows: list[dict] = []
-    debug_log: list[dict] = []
+    notes: list[dict] = []
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
-            args=["--disable-blink-features=AutomationControlled", "--no-sandbox"],
-        )
-        context = browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0.0.0 Safari/537.36"
-            ),
-            locale="en-US",
-            viewport={"width": 1440, "height": 900},
-            timezone_id="America/New_York",
-        )
-        page = context.new_page()
-
-        for period in PERIODS:
-            print(f"[scrape] period={period}d", flush=True)
-            try:
-                raw = fetch_period(context, page, period, debug_log)
-            except Exception as e:
-                print(f"  error: {e}", flush=True)
-                raw = []
-            print(f"  {len(raw)} raw rows", flush=True)
-            all_rows.extend(normalize(r, period) for r in raw)
-
-        browser.close()
+    for lens in LENSES:
+        print(f"[scrape] {lens['label']} ← {lens['url']}", flush=True)
+        try:
+            html = fetch(lens["url"])
+            (DEBUG_DIR / f"raw_{lens['period_days']}.html").write_text(html[:500_000])
+            rows = parse(html, lens["period_days"])
+        except Exception as e:
+            print(f"  error: {e}", flush=True)
+            notes.append({"lens": lens["label"], "error": str(e)})
+            rows = []
+        print(f"  {len(rows)} rows", flush=True)
+        notes.append({"lens": lens["label"], "rows": len(rows)})
+        all_rows.extend(rows)
 
     (DEBUG_DIR / "summary.json").write_text(
-        json.dumps({"runs": debug_log, "total_rows": len(all_rows)}, indent=2)
+        json.dumps({"runs": notes, "total_rows": len(all_rows)}, indent=2)
     )
-
-    seen: set[tuple[str, int]] = set()
-    unique: list[dict] = []
-    for row in all_rows:
-        key = (row["clip_id"], row["period_days"])
-        if not row["clip_id"] or key in seen:
-            continue
-        seen.add(key)
-        unique.append(row)
-
-    unique.sort(key=lambda r: (r["period_days"], r["rank"] or 9999))
 
     payload = {
         "scraped_at": datetime.now(timezone.utc).isoformat(),
         "region": "US",
-        "count": len(unique),
-        "sounds": unique,
+        "source": "tokchart.com",
+        "count": len(all_rows),
+        "lenses": [{"period_days": l["period_days"], "label": l["label"]} for l in LENSES],
+        "sounds": all_rows,
     }
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
-    print(f"[done] wrote {len(unique)} sounds → {OUT}")
+    print(f"[done] wrote {len(all_rows)} sounds → {OUT}")
     return 0
 
 
