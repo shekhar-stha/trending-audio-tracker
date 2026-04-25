@@ -34,50 +34,44 @@ def bootstrap_url(period: int) -> str:
 
 
 def fetch_period(context, page, period: int, debug_log: list) -> list[dict]:
-    # Visit the matching page so the SPA primes any period-specific state.
+    # Visit the matching page so TikTok sets ttwid + signs requests for us.
     page.goto(bootstrap_url(period), wait_until="domcontentloaded", timeout=60_000)
-    page.wait_for_timeout(3500)
+    page.wait_for_timeout(4000)
 
     rows: list[dict] = []
     page_errors: list[dict] = []
 
     for pg in range(1, PAGES_PER_PERIOD + 1):
         params = {
-            "period": str(period),
-            "page": str(pg),
-            "limit": str(LIMIT),
+            "period": period,
+            "page": pg,
+            "limit": LIMIT,
             "rank_type": "popular",
-            "new_on_board": "false",
-            "commercial_music": "false",
+            "new_on_board": False,
+            "commercial_music": False,
             "country_code": "US",
         }
-        url = API + "?" + "&".join(f"{k}={v}" for k, v in params.items())
-        resp = context.request.get(
-            url,
-            headers={
-                "accept": "application/json, text/plain, */*",
-                "accept-language": "en-US,en;q=0.9",
-                "referer": bootstrap_url(period),
-                "lang": "en",
-                "anonymous-user-id": "",
-                "user-agent": (
-                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/124.0.0.0 Safari/537.36"
-                ),
-            },
+        # Call from inside the page so all anti-bot headers tag along.
+        body = page.evaluate(
+            """async (p) => {
+                const qs = new URLSearchParams(p).toString();
+                const r = await fetch(
+                    '/creative_radar_api/v1/popular_trend/sound/rank_list?' + qs,
+                    { credentials: 'include', headers: { 'lang': 'en' } }
+                );
+                return r.json();
+            }""",
+            {k: str(v).lower() if isinstance(v, bool) else v for k, v in params.items()},
         )
-        try:
-            body = resp.json()
-        except Exception as e:
-            page_errors.append({"page": pg, "error": str(e), "status": resp.status})
-            break
 
         if pg == 1 and period == PERIODS[0]:
             (DEBUG_DIR / "sample_response.json").write_text(
-                json.dumps(body, indent=2)[:8000]
+                json.dumps(body, indent=2)[:12000]
             )
 
+        if not isinstance(body, dict):
+            page_errors.append({"page": pg, "error": "non-dict body"})
+            break
         data = body.get("data") or {}
         sounds = (
             data.get("sound_list")
@@ -88,19 +82,19 @@ def fetch_period(context, page, period: int, debug_log: list) -> list[dict]:
         )
         if not sounds:
             page_errors.append(
-                {"page": pg, "error": "no sounds in payload", "code": body.get("code")}
+                {
+                    "page": pg,
+                    "error": "no sounds in payload",
+                    "code": body.get("code"),
+                    "msg": body.get("msg"),
+                }
             )
             break
         rows.extend(sounds)
-
-        # Stop if response indicates last page
-        has_more = data.get("has_more")
-        if has_more is False:
+        if data.get("has_more") is False:
             break
 
-    debug_log.append(
-        {"period": period, "rows": len(rows), "page_notes": page_errors}
-    )
+    debug_log.append({"period": period, "rows": len(rows), "page_notes": page_errors})
     return rows
 
 
