@@ -353,11 +353,6 @@
       </div>
     </main>
 
-    <dialog id="player">
-      <button id="playerClose" aria-label="Close" onclick="closePlay()">×</button>
-      <iframe id="ytFrame" src="" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-      <div id="playerCaption"></div>
-    </dialog>
 
     <script>
       let DATA = { sounds: [], scraped_at: "" };
@@ -458,21 +453,20 @@
               </div>
             </div>
             <div class="actions">
-              <button class="btn play" data-q="${escape(playQ)}" data-caption="${escape(s.title + " — " + s.artist)}">▶ Play</button>
+              <button class="btn play" data-link="${escape(s.tiktok_link || "")}" title="Open the sound's TikTok page in a popup">▶ Play sound</button>
               ${
                 s.tiktok_link
-                  ? `<a class="btn" href="${s.tiktok_link}" target="_blank" rel="noopener">TikTok</a>`
+                  ? `<a class="btn" href="${s.tiktok_link}" target="_blank" rel="noopener">TikTok ↗</a>`
                   : ""
               }
-              <a class="btn ig" href="${igSearch(s)}" target="_blank" rel="noopener" title="Google search for this audio on instagram.com/reels">Google → IG</a>
-              <a class="btn ig" href="${igDirect(s)}" target="_blank" rel="noopener" title="Search inside Instagram">Search IG</a>
+              <a class="btn ig" href="${igSearch(s)}" target="_blank" rel="noopener" title="Google search for this audio on instagram.com/reels">Find on Instagram</a>
             </div>
           </div>`;
           })
           .join("");
 
         document.querySelectorAll(".btn.play").forEach((b) =>
-          b.addEventListener("click", () => playSearch(b.dataset.q, b.dataset.caption))
+          b.addEventListener("click", () => playSound(b.dataset.link))
         );
         grid.hidden = filtered.length === 0;
         empty.hidden = filtered.length > 0;
@@ -504,27 +498,21 @@
         render();
       });
 
-      // Inline preview: open a YouTube search-and-play modal so the user can
-      // hear the song without leaving the dashboard. We use the search-list
-      // embed (no API key needed); first hit auto-loads.
-      function playSearch(query, caption) {
-        const iframe = document.getElementById("ytFrame");
-        iframe.src =
-          "https://www.youtube-nocookie.com/embed?listType=search&list=" +
-          encodeURIComponent(query) +
-          "&autoplay=1";
-        document.getElementById("playerCaption").textContent = caption || "";
-        document.getElementById("player").showModal();
+      // Open the TikTok music page (where the sound originates) in a small
+      // popup window. The page shows videos using the sound; clicking any
+      // one plays the audio. We don't iframe TikTok because they block it
+      // with X-Frame-Options.
+      function playSound(link) {
+        if (!link) return;
+        const w = 480, h = 820;
+        const left = Math.max(0, (screen.width - w) / 2);
+        const top = Math.max(0, (screen.height - h) / 2);
+        window.open(
+          link,
+          "soundPlayer",
+          `width=${w},height=${h},left=${left},top=${top},menubar=no,toolbar=no,location=no,status=no`
+        );
       }
-      function closePlay() {
-        const iframe = document.getElementById("ytFrame");
-        iframe.src = "";
-        document.getElementById("player").close();
-      }
-      // Click the backdrop to close
-      document.getElementById("player").addEventListener("click", (e) => {
-        if (e.target.id === "player") closePlay();
-      });
 
       function relativeTime(iso) {
         const t = new Date(iso).getTime();
