@@ -8,6 +8,7 @@
       :root {
         --bg: #0b0d10;
         --panel: #14171c;
+        --panel-2: #1a1e25;
         --line: #232830;
         --ink: #e8eaed;
         --muted: #8a93a0;
@@ -24,22 +25,52 @@
       header {
         padding: 28px 32px 20px;
         border-bottom: 1px solid var(--line);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 20px;
+        flex-wrap: wrap;
       }
-      h1 { margin: 0 0 4px; font-size: 22px; letter-spacing: -0.01em; }
-      .sub { color: var(--muted); font-size: 13px; }
+      header .title h1 { margin: 0 0 4px; font-size: 22px; letter-spacing: -0.01em; }
+      header .title .sub { color: var(--muted); font-size: 13px; }
+      header .badges { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+      .badge {
+        font-size: 12px;
+        padding: 5px 12px;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--muted);
+      }
+      .badge.live::before {
+        content: "";
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        background: var(--accent-2);
+        border-radius: 50%;
+        margin-right: 7px;
+        vertical-align: middle;
+        animation: pulse 2s infinite;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.4; }
+      }
+
       main { padding: 20px 32px 64px; }
       .controls {
         display: flex;
         gap: 8px;
         align-items: center;
-        margin-bottom: 16px;
+        margin-bottom: 18px;
         flex-wrap: wrap;
       }
       .pill {
         background: var(--panel);
         border: 1px solid var(--line);
         color: var(--ink);
-        padding: 6px 14px;
+        padding: 7px 16px;
         border-radius: 999px;
         cursor: pointer;
         font-size: 13px;
@@ -51,179 +82,147 @@
       }
       input.search {
         flex: 1;
-        min-width: 220px;
+        min-width: 260px;
         background: var(--panel);
         border: 1px solid var(--line);
         color: var(--ink);
-        padding: 8px 12px;
+        padding: 9px 14px;
         border-radius: 8px;
         font-size: 13px;
       }
-      table { width: 100%; border-collapse: collapse; }
-      th, td {
-        text-align: left;
-        padding: 10px 12px;
-        border-bottom: 1px solid var(--line);
-        vertical-align: middle;
+
+      /* Card grid */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 14px;
       }
-      th {
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        color: var(--muted);
-        font-weight: 600;
-        cursor: pointer;
-        user-select: none;
-      }
-      th:hover { color: var(--ink); }
-      td.rank { color: var(--muted); width: 40px; font-variant-numeric: tabular-nums; }
-      td.cover img { width: 44px; height: 44px; border-radius: 6px; object-fit: cover; display: block; }
-      td.title { font-weight: 500; }
-      td.artist { color: var(--muted); }
-      td.uses { font-variant-numeric: tabular-nums; color: var(--accent-2); }
-      td.actions { white-space: nowrap; }
-      a.action {
-        color: var(--ink);
-        text-decoration: none;
+      .card {
         background: var(--panel);
-        border: 1px solid var(--line);
-        padding: 4px 10px;
-        border-radius: 6px;
-        margin-right: 6px;
-        font-size: 12px;
-      }
-      a.action:hover { border-color: var(--accent); color: var(--accent); }
-      .empty { padding: 60px; text-align: center; color: var(--muted); }
-      .right { margin-left: auto; display: flex; gap: 8px; align-items: center; }
-      button.refresh {
-        background: var(--accent);
-        border: none;
-        color: white;
-        padding: 7px 16px;
-        border-radius: 8px;
-        font-size: 13px;
-        font-weight: 500;
-        cursor: pointer;
-      }
-      button.refresh:hover { filter: brightness(1.1); }
-      button.refresh:disabled { opacity: 0.5; cursor: not-allowed; }
-      button.icon {
-        background: var(--panel);
-        border: 1px solid var(--line);
-        color: var(--muted);
-        padding: 7px 10px;
-        border-radius: 8px;
-        font-size: 13px;
-        cursor: pointer;
-      }
-      button.icon:hover { color: var(--ink); }
-      .toast {
-        position: fixed;
-        bottom: 24px;
-        right: 24px;
-        background: var(--panel);
-        border: 1px solid var(--line);
-        padding: 12px 16px;
-        border-radius: 8px;
-        font-size: 13px;
-        max-width: 360px;
-      }
-      .toast.ok { border-color: var(--accent-2); }
-      .toast.err { border-color: var(--accent); }
-      dialog {
-        background: var(--panel);
-        color: var(--ink);
         border: 1px solid var(--line);
         border-radius: 12px;
-        padding: 20px;
-        max-width: 460px;
-        width: 90%;
+        padding: 14px;
+        display: flex;
+        gap: 12px;
+        align-items: flex-start;
+        transition: border-color 0.15s;
       }
-      dialog::backdrop { background: rgba(0, 0, 0, 0.5); }
-      dialog h2 { margin: 0 0 8px; font-size: 16px; }
-      dialog p { color: var(--muted); font-size: 12px; margin: 0 0 14px; }
-      dialog label { display: block; font-size: 12px; color: var(--muted); margin: 10px 0 4px; }
-      dialog input {
-        width: 100%;
-        background: var(--bg);
+      .card:hover { border-color: #3a4350; }
+      .card .rank {
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--muted);
+        font-variant-numeric: tabular-nums;
+        min-width: 28px;
+        padding-top: 2px;
+      }
+      .card .cover {
+        width: 64px;
+        height: 64px;
+        border-radius: 8px;
+        background: var(--panel-2);
+        flex-shrink: 0;
+        object-fit: cover;
+      }
+      .card .body { flex: 1; min-width: 0; }
+      .card .title {
+        font-weight: 600;
+        font-size: 14px;
+        margin: 0 0 2px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .card .artist {
+        color: var(--muted);
+        font-size: 12px;
+        margin: 0 0 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .card .uses {
+        color: var(--accent-2);
+        font-size: 12px;
+        font-variant-numeric: tabular-nums;
+        margin-bottom: 10px;
+      }
+      .card .actions { display: flex; gap: 6px; flex-wrap: wrap; }
+      .card a.btn {
+        text-decoration: none;
+        font-size: 12px;
+        padding: 5px 10px;
+        border-radius: 6px;
+        background: var(--panel-2);
         border: 1px solid var(--line);
         color: var(--ink);
-        padding: 8px 10px;
-        border-radius: 6px;
-        font-size: 13px;
       }
-      dialog .row { display: flex; gap: 8px; justify-content: flex-end; margin-top: 16px; }
-      dialog a { color: var(--accent-2); }
+      .card a.btn:hover { border-color: var(--accent); color: var(--accent); }
+      .card a.btn.ig { color: #e1306c; border-color: #4a2733; }
+      .card a.btn.ig:hover { background: #2a1620; }
+
+      .empty {
+        padding: 80px 20px;
+        text-align: center;
+        color: var(--muted);
+        background: var(--panel);
+        border: 1px dashed var(--line);
+        border-radius: 12px;
+      }
+      .empty h3 { color: var(--ink); margin: 0 0 6px; }
     </style>
   </head>
   <body>
     <header>
-      <h1>US Trending Sounds</h1>
-      <div class="sub" id="meta">Loading…</div>
+      <div class="title">
+        <h1>US Trending Sounds</h1>
+        <div class="sub" id="meta">Loading…</div>
+      </div>
+      <div class="badges">
+        <span class="badge live" id="freshBadge">Auto-refresh every 4 hours</span>
+        <span class="badge" id="regionBadge">Region: US</span>
+      </div>
     </header>
     <main>
       <div class="controls">
-        <button class="pill active" data-period="7">7 days</button>
-        <button class="pill" data-period="30">30 days</button>
-        <button class="pill" data-period="120">120 days</button>
+        <button class="pill active" data-period="7">Past 7 days</button>
+        <button class="pill" data-period="30">Past 30 days</button>
+        <button class="pill" data-period="120">Past 120 days</button>
         <input class="search" id="search" placeholder="Search title or artist…" />
-        <div class="right">
-          <button class="icon" id="settingsBtn" title="Settings">⚙</button>
-          <button class="refresh" id="refreshBtn">↻ Refresh now</button>
-        </div>
       </div>
-
-      <dialog id="settings">
-        <h2>Refresh settings</h2>
-        <p>
-          The refresh button triggers the GitHub Actions workflow that scrapes fresh data.
-          Your token is stored only in this browser and is sent only to api.github.com.
-          <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">Create a fine-grained token</a>
-          with <code>Actions: read &amp; write</code> permission for this repo.
-        </p>
-        <label>Repo owner (e.g. your GitHub username)</label>
-        <input id="cfgOwner" placeholder="your-username" />
-        <label>Repo name</label>
-        <input id="cfgRepo" placeholder="trending-audio-tracker" />
-        <label>GitHub personal access token</label>
-        <input id="cfgToken" type="password" placeholder="github_pat_..." />
-        <div class="row">
-          <button class="icon" id="cfgClose">Cancel</button>
-          <button class="refresh" id="cfgSave">Save</button>
-        </div>
-      </dialog>
-      <table id="table">
-        <thead>
-          <tr>
-            <th data-sort="rank">#</th>
-            <th></th>
-            <th data-sort="title">Title</th>
-            <th data-sort="artist">Artist</th>
-            <th data-sort="tiktok_uses">TikTok Uses</th>
-            <th>Open</th>
-          </tr>
-        </thead>
-        <tbody id="rows"></tbody>
-      </table>
-      <div class="empty" id="empty" hidden>No sounds match.</div>
+      <div class="grid" id="grid"></div>
+      <div class="empty" id="empty" hidden>
+        <h3>No sounds yet</h3>
+        <p>Data is refreshed automatically every 4 hours by GitHub Actions. If you’re seeing this, the latest scrape returned no sounds — check the Actions tab on the repo.</p>
+      </div>
     </main>
 
     <script>
       let DATA = { sounds: [], scraped_at: "" };
       let period = 7;
-      let sortKey = "rank";
-      let sortDir = 1;
       let query = "";
 
-      const fmt = (n) => (n || 0).toLocaleString();
+      const fmt = (n) => {
+        n = Number(n) || 0;
+        if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
+        if (n >= 1e3) return (n / 1e3).toFixed(1) + "K";
+        return String(n);
+      };
 
       const igSearch = (s) =>
         `https://www.google.com/search?q=${encodeURIComponent(
           `"${s.title}" ${s.artist} site:instagram.com/reels/audio`
         )}`;
 
+      function escape(s) {
+        return String(s || "").replace(
+          /[&<>"']/g,
+          (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]
+        );
+      }
+
       function render() {
-        const rows = document.getElementById("rows");
+        const grid = document.getElementById("grid");
         const empty = document.getElementById("empty");
         const q = query.toLowerCase();
         const filtered = DATA.sounds
@@ -234,44 +233,36 @@
               (s.title || "").toLowerCase().includes(q) ||
               (s.artist || "").toLowerCase().includes(q)
           )
-          .sort((a, b) => {
-            const av = a[sortKey] ?? "";
-            const bv = b[sortKey] ?? "";
-            if (typeof av === "number" && typeof bv === "number")
-              return (av - bv) * sortDir;
-            return String(av).localeCompare(String(bv)) * sortDir;
-          });
+          .sort((a, b) => (a.rank || 9999) - (b.rank || 9999));
 
-        rows.innerHTML = filtered
+        grid.innerHTML = filtered
           .map(
             (s) => `
-          <tr>
-            <td class="rank">${s.rank || ""}</td>
-            <td class="cover">${
-              s.cover ? `<img src="${s.cover}" loading="lazy" />` : ""
-            }</td>
-            <td class="title">${escape(s.title)}</td>
-            <td class="artist">${escape(s.artist)}</td>
-            <td class="uses">${fmt(s.tiktok_uses)}</td>
-            <td class="actions">
-              ${
-                s.tiktok_link
-                  ? `<a class="action" href="${s.tiktok_link}" target="_blank" rel="noopener">TikTok</a>`
-                  : ""
-              }
-              <a class="action" href="${igSearch(s)}" target="_blank" rel="noopener">Find on IG</a>
-            </td>
-          </tr>`
+          <div class="card">
+            <div class="rank">${s.rank || "—"}</div>
+            ${
+              s.cover
+                ? `<img class="cover" src="${s.cover}" loading="lazy" alt="" />`
+                : `<div class="cover"></div>`
+            }
+            <div class="body">
+              <div class="title" title="${escape(s.title)}">${escape(s.title) || "—"}</div>
+              <div class="artist" title="${escape(s.artist)}">${escape(s.artist) || "—"}</div>
+              ${s.tiktok_uses ? `<div class="uses">${fmt(s.tiktok_uses)} videos</div>` : ""}
+              <div class="actions">
+                ${
+                  s.tiktok_link
+                    ? `<a class="btn" href="${s.tiktok_link}" target="_blank" rel="noopener">TikTok</a>`
+                    : ""
+                }
+                <a class="btn ig" href="${igSearch(s)}" target="_blank" rel="noopener">Find on Instagram</a>
+              </div>
+            </div>
+          </div>`
           )
           .join("");
+        grid.hidden = filtered.length === 0;
         empty.hidden = filtered.length > 0;
-      }
-
-      function escape(s) {
-        return String(s || "").replace(
-          /[&<>"']/g,
-          (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]
-        );
       }
 
       document.querySelectorAll(".pill").forEach((b) =>
@@ -282,113 +273,27 @@
           render();
         })
       );
-
-      document.querySelectorAll("th[data-sort]").forEach((th) =>
-        th.addEventListener("click", () => {
-          const k = th.dataset.sort;
-          if (sortKey === k) sortDir *= -1;
-          else {
-            sortKey = k;
-            sortDir = k === "tiktok_uses" ? -1 : 1;
-          }
-          render();
-        })
-      );
-
       document.getElementById("search").addEventListener("input", (e) => {
         query = e.target.value;
         render();
       });
 
-      // -------- Refresh button + settings --------
-      const CFG_KEY = "tat.config.v1";
-      const cfg = JSON.parse(localStorage.getItem(CFG_KEY) || "{}");
-
-      // Auto-detect owner/repo from GitHub Pages URL: <owner>.github.io/<repo>/
-      (function autodetect() {
-        const host = location.hostname;
-        const m = host.match(/^([^.]+)\.github\.io$/);
-        if (m && !cfg.owner) cfg.owner = m[1];
-        const seg = location.pathname.split("/").filter(Boolean)[0];
-        if (seg && !cfg.repo) cfg.repo = seg;
-      })();
-
-      const dlg = document.getElementById("settings");
-      const $owner = document.getElementById("cfgOwner");
-      const $repo = document.getElementById("cfgRepo");
-      const $token = document.getElementById("cfgToken");
-
-      document.getElementById("settingsBtn").addEventListener("click", () => {
-        $owner.value = cfg.owner || "";
-        $repo.value = cfg.repo || "";
-        $token.value = cfg.token || "";
-        dlg.showModal();
-      });
-      document.getElementById("cfgClose").addEventListener("click", () => dlg.close());
-      document.getElementById("cfgSave").addEventListener("click", () => {
-        cfg.owner = $owner.value.trim();
-        cfg.repo = $repo.value.trim();
-        cfg.token = $token.value.trim();
-        localStorage.setItem(CFG_KEY, JSON.stringify(cfg));
-        dlg.close();
-        toast("Saved.", "ok");
-      });
-
-      function toast(msg, kind = "") {
-        const el = document.createElement("div");
-        el.className = "toast " + kind;
-        el.textContent = msg;
-        document.body.appendChild(el);
-        setTimeout(() => el.remove(), 4500);
+      function relativeTime(iso) {
+        const t = new Date(iso).getTime();
+        const diff = (Date.now() - t) / 1000;
+        if (diff < 60) return "just now";
+        if (diff < 3600) return `${Math.round(diff / 60)} min ago`;
+        if (diff < 86400) return `${Math.round(diff / 3600)} hr ago`;
+        return `${Math.round(diff / 86400)} days ago`;
       }
 
-      async function refreshNow() {
-        if (!cfg.owner || !cfg.repo || !cfg.token) {
-          dlg.showModal();
-          toast("Add your GitHub token in settings first.", "err");
-          return;
-        }
-        const btn = document.getElementById("refreshBtn");
-        btn.disabled = true;
-        btn.textContent = "Triggering…";
-        try {
-          const r = await fetch(
-            `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/actions/workflows/scrape.yml/dispatches`,
-            {
-              method: "POST",
-              headers: {
-                Authorization: `Bearer ${cfg.token}`,
-                Accept: "application/vnd.github+json",
-                "X-GitHub-Api-Version": "2022-11-28",
-              },
-              body: JSON.stringify({ ref: "main" }),
-            }
-          );
-          if (r.status === 204) {
-            toast("Workflow triggered. Auto-reloading in 2 minutes…", "ok");
-            btn.textContent = "Running…";
-            setTimeout(() => location.reload(), 2 * 60 * 1000);
-          } else {
-            const t = await r.text();
-            toast(`Failed (${r.status}): ${t.slice(0, 200)}`, "err");
-            btn.disabled = false;
-            btn.textContent = "↻ Refresh now";
-          }
-        } catch (e) {
-          toast("Error: " + e.message, "err");
-          btn.disabled = false;
-          btn.textContent = "↻ Refresh now";
-        }
-      }
-      document.getElementById("refreshBtn").addEventListener("click", refreshNow);
-
-      fetch("trending.json")
+      fetch("trending.json?_=" + Date.now())
         .then((r) => r.json())
         .then((d) => {
           DATA = d;
-          const date = new Date(d.scraped_at);
+          const total = d.sounds.length;
           document.getElementById("meta").textContent =
-            `${d.count} sounds • Updated ${date.toLocaleString()} • Region: ${d.region}`;
+            `${total} sounds tracked • Updated ${relativeTime(d.scraped_at)}`;
           render();
         })
         .catch((e) => {

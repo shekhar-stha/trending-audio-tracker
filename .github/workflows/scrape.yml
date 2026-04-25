@@ -3,8 +3,8 @@ name: Scrape TikTok Trending Sounds (US)
 on:
   workflow_dispatch:
   schedule:
-    # Daily at 02:15 UTC = 08:00 Nepal time (NPT, UTC+5:45)
-    - cron: "15 2 * * *"
+    # Every 4 hours, plus a run aligned to 08:00 Nepal time (02:15 UTC)
+    - cron: "15 2,6,10,14,18,22 * * *"
 
 jobs:
   scrape:
@@ -34,7 +34,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ docs/
+          git add data/ docs/ debug/ || true
           timestamp=$(date -u '+%Y-%m-%d %H:%M UTC')
           git commit -m "data: refresh trending sounds (${timestamp})" || echo "no changes"
           git push
+
+      - name: Upload debug artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-${{ github.run_id }}
+          path: debug/
+          retention-days: 7
