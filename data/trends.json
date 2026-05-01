@@ -1,25 +1,73 @@
 {
-  "scraped_at": "2026-05-01T15:16:08.950400+00:00",
+  "scraped_at": "2026-05-01T19:38:56.104007+00:00",
   "sections": [
     {
       "key": "tiktok_formats",
       "label": "TikTok video formats trending",
       "items": [
         {
-          "title": "12 trendjacking campaigns that turned trends into brand wins",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90QVZ5a0JGVHF1NEs1MUVJMF9zX0YtV2o0NmwwRzBXVkhBZjJkWmdoUXpKM0pCX1JTTGZwci00bnA1cnZPWnpoQlZfdUtIcHU2OFZDMDRmeTRRYnlEczJNdkh3SEtYd1NsVWdr?oc=5",
-          "source": "ContentGrip",
-          "thumbnail": "",
-          "meta": "2h ago"
-        },
-        {
           "title": "Scientology hits back at speedrunning trend by ramping up defenses as buildings get “damaged”",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbnY0OV9qbHRKQ2xMSUdFd2hxbEpzRDZYMXlMVFdYZ0wydV9aUXp1YWNZcW56ejVBMnFENWVySC1CaGh2US1YclNxSGRsNFMybHkxWW9XemRzaVhTejBXdjlMTTNGWU83cXJtTFNCUUY1YUtIVzEtVmJ3WGpMekV0WWFSb0t2ekpsczJUSFIyM1g3QjhnSUgtSUZBY21fZHdHN1RJTzRIbGVwc0dxQ2g2QU1fQllMRWJKVVp0Um9IajV5WjZXU1JJMW8xSQ?oc=5",
           "source": "Dexerto",
           "thumbnail": "",
+          "meta": "1h ago"
+        },
+        {
+          "title": "Scientology Locks Down Hollywood Sites After Viral “Speed Run” Chaos",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU2l1MDBJVTJSYkRLS1AyaTRIQjhfcUE0WXRoMURhMHhRVTlBYUZPM2RrRGpGMlJ0R3FqY0tMTjhtWlZTMTg1X1Q5XzZKd24tV3ppRjZxalZjOUZEM3lFcm8zTGtRYjgyMDY0VTMtSVJBWDJkTDZGVUFRTUtfY21TTQ?oc=5",
+          "source": "Baller Alert",
+          "thumbnail": "",
           "meta": "3h ago"
+        },
+        {
+          "title": "What Canadian experts are saying about a viral trend to treat PMDD and menopause symptoms",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRjRwdno3TXR5bHd2Q2kzdGYyZTV4SlFPYnJWbTl3UmF1NGVGMnpnSmtlRTRmRFVJc0p4VHNpQTdPREVuYjBiaHFMdGF0T1UtM0dFLUd1bTJsYm96bVpnUTJ0aDRaSjhNbnNlcDExQUVucWNZSzFTanhROXNjaEJiNEczSmhMc2I4a1dJc3dqSU1fejVNNFdOSVltUVNyckpQOXBleElaQnlWN1FKS3Z2bVYyQ24xMzR1NHNZallVZldQaGtmQTBwbV93anQxMDRoYW5CVmZSRQ?oc=5",
+          "source": "MSN",
+          "thumbnail": "",
+          "meta": "4h ago"
+        },
+        {
+          "title": "Scientology Strips Door Handles From Hollywood Buildings After TikTok “Speed Running” Viral Trend Sends Masked Runners Storming Inside",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWlpkbnU1QnE0S2M5Rno3ckVLSlJlbG5TQk1vMFJfbVlCc2F3WWZhWW5yT1VXdVJRSDM2ajg1eHhQWGlhRnhTSjU4RkZ4Y3BaRXBpeGVySnQ2R3RyUUhkYmlSOW5xYW1GMV8yZzdLbHJIbUt6ZnFwNGNJVks0Nm9WcWpwbi04dnFrRDRMTmxB?oc=5",
+          "source": "AOL.com",
+          "thumbnail": "",
+          "meta": "6h ago"
+        },
+        {
+          "title": "12 trendjacking campaigns that turned trends into brand wins",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90QVZ5a0JGVHF1NEs1MUVJMF9zX0YtV2o0NmwwRzBXVkhBZjJkWmdoUXpKM0pCX1JTTGZwci00bnA1cnZPWnpoQlZfdUtIcHU2OFZDMDRmeTRRYnlEczJNdkh3SEtYd1NsVWdr?oc=5",
+          "source": "ContentGrip",
+          "thumbnail": "",
+          "meta": "7h ago"
+        },
+        {
+          "title": "Viral AI photo trend: How to create your 'childhood self' portrait, check the exact prompts to try now",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZ3RXdkUyUEdocmhvWnJWejQ0ODdMcU5nVFBGbUpoVmZ6OTN6MHhKa1VTbVBrV29maVJQVFlMQW0za0FCX2s2bUx6SE5TekE2Mmo2cFduVjkzNUs4ZjQ2THkxSlNFN2ZMd2lGMmpUWjRKNE11ZU9sTUpUcndlbnZ0bzFvdVZlV2ZCcXR0Q3dubjM1cXVPc0VEU0ozYUdFUzc1bW9SYnkyUTRfMVpYMnZkbHpWTmhaSG1vbWF1ekk1Vi0waS1HcV9YdWoxSE1Qd2c5cXQxci1VYjVVUUJ3ZjEzTkVyVmExdDlQNGE1SFQxUEdOV2FfdDhoTUtCUzBUZ9IBgwJBVV95cUxQblYxYnVMXzVZTHNuNXhjaU15dWhudFl0OVhVZVpVb0t4YlNvd1NvQ1VIOEZQRUJIX3pUTTdzZjBtZFZYdE5nczZ1cHBxU2hpX2RKVEpESWgwdEtEbnNwX2hfaTBrT0N4ZEZfZHR0QlVlMmlMeTBMRjdUMnR1S1NCZDZKN3NRd2JfVGhsdk5QZlo3TzE0Z1pjTTBaWndUYWRyN1h4NF9hWFJxZ0p5TWxwNnRrOW5Bd2NYbnNHZ0VhXzdMdmFTVDBDZUI3RHdiUk9WZm9ScjBOc2J2Q2g3ZXRCdjcyMXJjNE4yOFcwcVpOUWdKeDVhTnV4N3c1VE9YU3FXRHdJ?oc=5",
+          "source": "The Economic Times",
+          "thumbnail": "",
+          "meta": "7h ago"
+        },
+        {
+          "title": "TikTok Keyword Metadata Update Gives U.S. Creators New Control Over Video Search Visibility Amid AI",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOU2ZhSUVyX3g1d3IwM0tuZzlhSGw0SVR5c0pvc2xFc2lPNVpjcE8zU0ZnendmSktjMWY5T2Y5aUU2TzBOZFJWYUczdmN6VzJIUDAxc2RiVVY0c3N0eGc3TVlMT2J6Mk9aTjMzMUt0UmJFY1dJcVdaZHJfZHRaTUdZbndjZUUyMWRGOVRvUDByeUlLd1lMZFF5ZUsweWdobl9DTjdwNUEyOExIYjJaenEybTRHVl9CZkxCM0Z2YVR6U1lNSFdUNjIzSi1KZw?oc=5",
+          "source": "AD HOC NEWS",
+          "thumbnail": "",
+          "meta": "10h ago"
+        },
+        {
+          "title": "The Vogue Business Beauty Trend Tracker",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5",
+          "source": "Vogue",
+          "thumbnail": "",
+          "meta": "10h ago"
         },
         {
           "title": "Forrest Frank Launches “Jesus Is Alive” Open Verse Challenge",
@@ -27,7 +75,7 @@
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeGhqWFlreEJzUGF1Q2g3RS0wb1JMUU9jODc0Mi1ZZTRZWXNBSVlfOU13S2NYQTVFejBCNl9TMUtYbl9zNDVndnJyMDhVUWtRUkx5ejZ3dUEzUlZ0MmRCcGRZMGROYUJUZkhBRm9wUlI0TThtdzdjYVNUb1ItbW1CdW9XaTdiRkxrN3FtdVNMZi1HNFFmYm1yOXFOMkloSnNkcDh2SkxPd0hnNTNWQlNxNmR0REY?oc=5",
           "source": "JubileeCast",
           "thumbnail": "",
-          "meta": "6h ago"
+          "meta": "11h ago"
         },
         {
           "title": "Why everyone is calling women birds trend: The viral birdemic explained",
@@ -35,7 +83,7 @@
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZE9fcUVSTUs1WjJ2OWFGYXdIeXB2VlF4NG01YlZ1c0NCeWV1UnJyU0pRNHh5X3N3bDM4dUdFYmM0STUtcHgtbERFd2EzM01VWkdrNkVxMnJNaEs3eUdEZFRyN21sanNwTVFHdnhPbGNnRVdjc3lNanpDRmJ0SzZxeTNnYWk5WU9JbHc4ZHJDaHdjOHk2c0htUkZTSHBJZG1CMC1LcEZpcUdkMUw5bXEwa0ZnOHlGdUozWnF2MGFOdF9TVHE3eXYtNDJiX2JJQdIB0wFBVV95cUxOUkxiMTBkZjVQbW9IY0hxREZ2S2ZVVTFXMGpEVHZzMkxvTUhkS1JGSUNldXFHb1NIMGZpWUpHRGY3b3hwTEprcU5uLV84NGhBbjlTS3RuZS1zcmNNMWVzaERvWVNvN1dTa1RXVUU2QmxyUkJUSHJXQU1kdzJJdGpINWtFS2JSMkljWWJSUnZlSVlXaEtHTUdaZTd2bzhSOTBKZGZRNWFJdnZleGlsWWNuVUV3Zm9xNTZkdFVFWmRnQVYzZFhiZ3JyQ3FLcjh1aFNFUXhz?oc=5",
           "source": "Indiatimes",
           "thumbnail": "",
-          "meta": "9h ago"
+          "meta": "14h ago"
         },
         {
           "title": "Is Spyder Sammy dead? Viral traffic collision death claim surrounding creator of Roblox's 'Steal a Brainrot' debunked",
@@ -43,7 +91,7 @@
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMzZuU29sR1NCSnF0QkxvWThpbmY0SjFTU29BYVZuYlFubFFQYkxqb1V2a0tqLVF1dTB6alo1QVZVb0FpVkZJWHVvWTZKS05SV2Q1Yng4c1VqT3dVemIxZ201eVlKM2duM2J2RzZNUmZweWo4dEZvYUU5VWtGXzMtNUFqUzFEM0tuMGNsSEpOVWx1RURxWWx5QVExckhyQ2lneFNURkU5b3FVb25lQzU1TjQ4ajV1ajBpMktfS1AxNzEwclZNTE1OcXpETmhmbXBmYWpmZjU0ak9ycTZ3T1VUM2lfYw?oc=5",
           "source": "primetimer.com",
           "thumbnail": "",
-          "meta": "11h ago"
+          "meta": "16h ago"
         },
         {
           "title": "Scientology ‘speed running’ trend has LA abuzz and church unhappy",
@@ -51,7 +99,7 @@
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVXNsTEJDd3JJOUhuemMwZ05DSk9NTmEzY3JrUDVvbDZwQXNYLXZDdUZHcVdyUnI4UUpQbVByM3JyZnphN2xkaWotVXB0T2hnbm1mUzl5QjFkamd0R0FwQ0FhQm5YWlZ2Zko3VjhVY2doWG9RYWd1eG84OU4zbk1mMUJWV0xhdG5tOHFDYjFNQXJvbFU2?oc=5",
           "source": "The Guardian",
           "thumbnail": "",
-          "meta": "13h ago"
+          "meta": "17h ago"
         },
         {
           "title": "‘Shook the whole house’: Man warns about dangers of viral ‘door kick’ challenge",
@@ -59,7 +107,7 @@
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOXd6MTNZYnFnQzdsREhvTzRsc1ZJUlMwSkdxajVvWHZ6SE1HVW9sSGJPMmpLRXJ4dXpQeV9Kczk4SmRpYXI2emZuekp4OE05Z3VlTXdhMFNrSVQ3czVjWnNsRG91M0hHZG5ydGZ2RmpoRlpZaHBwWnJJN2g3WU10eGc5TWhKX0JicWxWNzN5YzNyT0FDSjRoWDcyR0V2YTA1X0JORDFvYXlNTXVH0gHAAUFVX3lxTE9FU1NkXzBBeGtpT2ZzWm5oTWVYaUFuckx1ZHlCRW1VVklpS29HZXJwX3FhSk05dklWWGFZNWZlVWFXRmkwa2dsdkpEVFh2NTBGNmtVWld6emtEWkNZaEE3TWVEVnNXZlhKWGNTRDJaQy1qWTZ0WWI4SVBmeWsyeFV4ek15M051cHozQWRaa3hoeFFoUUJvSWQ4NEZtUDBvZUlhWWpoOUl4TDZtM2pWTGQ5RC1PMUdUUEpmSG1hQjFyYQ?oc=5",
           "source": "WWBT",
           "thumbnail": "",
-          "meta": "14h ago"
+          "meta": "18h ago"
         },
         {
           "title": "A Dad Went Poop While His Wife Was In Labor, So She Timed It To See If Giving Birth Was Faster",
@@ -67,7 +115,7 @@
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFV2ZRMTN5b1VQSEZrOEUzMDZqQ1FjdVRQYkFxenExOTFQbHVWakRMaDBWZzA4T244Ukw3UGdzY1ZkOEFQc0UxS19CdE9xOFdWVnUwaVlCLUh4WHYtVE5kMVlCSGs5ZGFmYmkxYUUxU2l4Mm9rOTB3NUVR?oc=5",
           "source": "BuzzFeed",
           "thumbnail": "",
-          "meta": "17h ago"
+          "meta": "22h ago"
         },
         {
           "title": "Inside ‘Scientology speedruns,’ the viral trend prompting the church to bolster security",
@@ -75,7 +123,7 @@
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNXzIxWEdadXZDVFV5TFQyUzh0ejVfRl95dDNLNWJrd3pxS1pPZEw3bnVkWUFiWUdxZzBIWmFoTldwbDVyaW9kZDRzdERvRTNCSVdHVnBib3pZdTN2X1ZHenhMc3NyT3FWMkd4a3NoMVpOd3ltRVZwMWE1cWJGdC1WbmRpNEd1Z1JOcGhwVHlUc1BNVEdkMk02bEl5ZjladHNteHRrRjQ3MA?oc=5",
           "source": "AP News",
           "thumbnail": "",
-          "meta": "19h ago"
+          "meta": "23h ago"
         },
         {
           "title": "Viral trends 2026: From AI fruits to billion-view beauty, what’s trending in social media",
@@ -83,7 +131,7 @@
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWXl5SzluNUkzbFVzYmk0S3Uxd0U1RWhWRWg3NU4wa2NBMU9zNk00QmU2UkxJcDgySVpRUFg1MHhiOC14dU11UXZHamxYVHVSd2MzcngtcXYwREY2WHh0b3NMRjhPTWYwODFHSFNFbmVVWC1QOUI4VkdRX3NRbkViSC04M0xWdWJLN2pFdDhXSE1XTFpBN0d5WlY4c1I5elFoWW12UFoycEVSYjJSVXd1bVd2VFVXVFFTVGwyUjlRUDloOUUzSm01RHhKSlR4X1AwS3c?oc=5",
           "source": "MSN",
           "thumbnail": "",
-          "meta": "22h ago"
+          "meta": "1d ago"
         },
         {
           "title": "TikTok “Speedrunning” Trend Targets Scientology Buildings, Triggers Police Scrutiny",
@@ -91,61 +139,13 @@
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb09zTTRfUmo5a3ZFUFFxc0lkb1FiX0pJRTZROERlUXp3SG1OYkkzblVucjhqd216YVNkRGtsWDVPNmhHY21BMTRrYUp3QUZ0S1dtSzhKaUpmOENNVXR1emViWEhxZEdLREIzcUxZNnA0alZ6dC1MYmVydnpuRzFpcF9Qd3dKUmZ2VW1sZGNpYUQ2TS1pTFJad2t2eHFySGJo?oc=5",
           "source": "South Florida Media",
           "thumbnail": "",
-          "meta": "22h ago"
+          "meta": "1d ago"
         },
         {
           "title": "UrbanTok Launches in Kenya to Compete with TikTok - innovation",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMTVIUEoydGdpM1BwVXZfMkFGSzVqbnRnd2xlWndqSGYyS0RMcHBTMFBpWEFfNTItZ2E3MTVMOUc1QVZ4aHlIWWloM1k1cHJvX0FPNjMwc3M1ZEEtZ3RKNnoyTjA1SzlfVHZmR2hINGpCb0o3eTFWb1pOV3kzMTJneTBMQ1ZwdEd2?oc=5",
           "source": "innovation-village.com",
-          "thumbnail": "",
-          "meta": "1d ago"
-        },
-        {
-          "title": "The viral Justin Bieber 'hallelujah' TikTok trend explained",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxOLVJEa0VmczNZbDNrYm9rVlE1MFFwa2dQUENKS3RMQWFFS3dZUnBKZkE2RWZ6c0tVUGppRFcyd1hGS1hCWXNuNDdNT0FMa1VKdUpTVldKeURkNFFGQ3VoaUJfa0FjWC1rTy10Qm84cEJXbDVBWTVrSTlmRkFKaGVrck5NbklqU2lidW1OcnRQdm9od3E2enZ4dDBVd0UzZE5oVlNsNWdpRDhZLW0ydHBOOUxJdVZ4Zi1Uci1sZUc1Mm5kLVR4Z0JGMUF6Ulk3SWZCa0RuS1dRcGprZmVOa1FnSlNvcVQySVlsUTVHZGlHQWRCb0xhdWRrRllmZlItdnZWOVdyV1EwRk9wYXNydVFvVFVKc1huMG40MXdXSEMtbUpOXzN6OUdCaDlhaDN2bnJlX3BNR2NVOHdYOFZCbHdjTGI2UHpvSVd4NGhRMWxyZlctNjZkNnlvYldMTzNvX0k0d0sxZ19LYTRmdw?oc=5",
-          "source": "MSN",
-          "thumbnail": "",
-          "meta": "1d ago"
-        },
-        {
-          "title": "Liquid microneedling explodes on TikTok as experts warn over viral skincare trend",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTm1OUTVqbXlpMFZ1Q1p1UWZsaFprY1kwNWUweHFqanYzUndCLTJxWmhvYTI5WTcyRWloMHkyV3pzNmFqZnpEVjJKZUd5WGx2RGtxcDZIcGRVSFN2Vl9TY2FjYWJBZFlwdzdiY294WTVMcHJ6SjE2QTB6eUFJV3VHMVlPLWF6TWI4VVp6SmNRTC1wLXR5ZzJuRmlWZWtSbzhTWTNXTzhnQjVVYUN2OHdOeQ?oc=5",
-          "source": "London Daily News",
-          "thumbnail": "",
-          "meta": "1d ago"
-        },
-        {
-          "title": "The $55 billion sweet spot: Why the confectionery industry is 2026’s ultimate resilience story",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSmtTclBhMTJORlVrTFJDakNXODJ1SXY0LVNXam83allOQ1l5THdCUHc5R2FDUXgxd0xaQm01MXRWNm1rYlN2R1hoQkRDeW9OaXlxLXYtRzdIZnBkQXRKOWR5Y2g4LWp6OGd2ekRCUHpXVzNoQWhqd1JlREFBQUQySXlCQ3g5Vm1XaGFsRGNNVFBkdW1WZ0xEVGd2X21SZlJRcm9rMWtjRi1UblJtUWRLTG1KeHoxQzN0d2NNV0xtdWJCZHZUWEE?oc=5",
-          "source": "SmartBrief",
-          "thumbnail": "",
-          "meta": "1d ago"
-        },
-        {
-          "title": "Mom tries to test toddler with a popular TikTok trend. Then, the 3-year-old outsmarts her (exclusive)",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMirANBVV95cUxNUE5HNldodEdMVUVFeElLMHpGSV83MlQ1UUgtM2ZVNzV4QnFCbl9rVEw1aF9lWDVyZlpSdktDdjBnU2x5Q211U3c2TUlSZW82QkdKQWozelhGRWRtcm9nRWlEY2tGYVRxVkZvZzFFcWEyNUxGSWwyLUFCTkZtbmQ0WUFFWE9iR2x2MnoybVR0UWNSUTIyOThBSWdxTjlIMzNvWjZ6eGFkVGF0R0Jlc3R2c0hTYmRRWmhXSmxFSjlfbmt2UEZzUmpQRmtTa2hRVkliS0pWWjBuby14X2cybjY4aTg2a3hNd084X0RzOE9ad1l1T2tsUWd4NzVuVlNqakJrcUNDZkpkZTJZM2tYeEE4b0N3Q25uYjZTTFVaMVNKNjh4WndtRWZfTi10STZqSUh0bHlPT1lfc0JpWER6MFNxWEFaM1k1bGlrY0J3UmxJYXlyVVJOdUtDQmZsS0daVkgwbWRjOVJWSkVVT3pIWGplczZrZFBwU1hfUWZRUm5Odi1DWFZ1WWwxOXZlcDNyQ281MVRRQXlHOFgydWxVYktSeTV1YzE2RmIyakJ5OQ?oc=5",
-          "source": "MSN",
-          "thumbnail": "",
-          "meta": "1d ago"
-        },
-        {
-          "title": "TikTok’s “Impossible Yoga Pose” challenge goes viral, but experts urge caution",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb3IzdE5NYUVJbW1RQ2ZTWUc1OTQxbEs4STVzaldGT0NYWkQ1TVpIM1RuemtEUXZjdmpDWHNVR2tDNlFLN1J2WWl1LTVvTldtUE5ITkgtSUNYN1hCb1lJdEVKZFlacUhUamxGSGU3Nk1fcWNWNFN4Y1YzWDVZUk9TdVExUTRmaDltR2NMX3RXa0ViNXlvRi10STlKWHNxQzE3RlQtTFFDcm8?oc=5",
-          "source": "Borneo Bulletin",
-          "thumbnail": "",
-          "meta": "1d ago"
-        },
-        {
-          "title": "TikTokers Are Sprinting Through Scientology Buildings in Viral ‘Run Challenge’ Trend",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMkxHeERIdE8xMnotTmo2OWhQQTlXemJMeTY0QVB4eW5fZGMwLXBwdjdnTGZ6bmw4cUFRZGpMY2NiNkp0NmJ3UHB0LUxFRkF0X29yWXVDUXZpeDBnT0RRMWk0TVBOVWxPZ0ZLREJFUEZ3eWVlRmNzZGZxeFRORExvQmxBU2dPZUk5Zy1PN245ZXlRUlZISnJqRTU1NTk?oc=5",
-          "source": "AOL.com",
           "thumbnail": "",
           "meta": "1d ago"
         }
@@ -156,20 +156,44 @@
       "label": "Instagram Reels formats trending",
       "items": [
         {
+          "title": "Instagram Cracks Down On Content Aggregators To Boost Originality",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNFQzdm5lS2hxby1qbkswUlhZOE5COEpDTjRrWjJ3OUZjYjkxdlRqNWhSejdadldaSDBMZTQyRDV3M2pVeFc3VDdQV1FoTjlkc2xJRXZyVS1ucDZ4b2tiNTAtN3dHc2tIZ3FKMnQ2NWY3bUNXN0lRVFJEdVAzZ2hwZTdqcVBadHJQbUxLYg?oc=5",
+          "source": "WeRSM",
+          "thumbnail": "",
+          "meta": "2h ago"
+        },
+        {
+          "title": "Top Tools for TikTok and Reels Creation in 2026 (And Why Filmora Is a Smart Default)",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSVlVQ1RWOUtGaF9zZGRkd29CQlpUcU44eTVxYkFvMUVzTnVVZkZPSTlET3pFc21Fa0NPZkIzY3ZfNC1OUGJoajVJUzNCYmlRZEU4MGZLV29FVXc5YWdhQ256WWZlbktJbGpBMTVub29tRE5ONk9EZm1BOVp5bFlkaXpCSHNUWUpqcmFFdkcwT0wtRzF4dzRaN0tiWlBtcngxQnhiOGhNa0ZUTV9VYlRKOGNxUWltVVMwSklWWFRYdXEwMkh6dmdz?oc=5",
+          "source": "Android Headlines",
+          "thumbnail": "",
+          "meta": "3h ago"
+        },
+        {
+          "title": "Greentext Stories - The situation | /r/Greentext",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rSWdvbGtmSnQwTDQ1d3MzMXRZZXlJRE5VZm9hbWRieFktX2g2WjNWcUlsdF9vaVBJUDdoNjlPY1k2ZkVFVGJQa0dIbldIdlhzQmRzYjQ2ZEFBNFR4b2VrSFpMTUIwd29N?oc=5",
+          "source": "Know Your Meme",
+          "thumbnail": "",
+          "meta": "5h ago"
+        },
+        {
           "title": "How these two Hyderabadi creators are taking Dakhni to Canada",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRl9YdkVvQV9kZXVvMkNvZmdDczhfRjlyMWl0Y2NvVTZ1WUQ5c1FiaGxmaXhZc0MweG1WdXVMVjBkVGN3dFdNNjljLW5iczdSWHpNa3FmbEE4TXNrc1BLeVlMMlh4Qno3SVNxdHBiNm44T0xJaVFMTDBCZ3VyTy1oZ1I4YjN0MDBDMjVjeEpMSHE4VXcwVnU4WUwyR2k5Z9IBngFBVV95cUxNRl9YdkVvQV9kZXVvMkNvZmdDczhfRjlyMWl0Y2NvVTZ1WUQ5c1FiaGxmaXhZc0MweG1WdXVMVjBkVGN3dFdNNjljLW5iczdSWHpNa3FmbEE4TXNrc1BLeVlMMlh4Qno3SVNxdHBiNm44T0xJaVFMTDBCZ3VyTy1oZ1I4YjN0MDBDMjVjeEpMSHE4VXcwVnU4WUwyR2k5Zw?oc=5",
           "source": "The Siasat Daily",
           "thumbnail": "",
-          "meta": "3h ago"
+          "meta": "8h ago"
         },
         {
           "title": "Why everyone is calling women birds trend: The viral birdemic explained",
           "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZE9fcUVSTUs1WjJ2OWFGYXdIeXB2VlF4NG01YlZ1c0NCeWV1UnJyU0pRNHh5X3N3bDM4dUdFYmM0STUtcHgtbERFd2EzM01VWkdrNkVxMnJNaEs3eUdEZFRyN21sanNwTVFHdnhPbGNnRVdjc3lNanpDRmJ0SzZxeTNnYWk5WU9JbHc4ZHJDaHdjOHk2c0htUkZTSHBJZG1CMC1LcEZpcUdkMUw5bXEwa0ZnOHlGdUozWnF2MGFOdF9TVHE3eXYtNDJiX2JJQdIB0wFBVV95cUxOUkxiMTBkZjVQbW9IY0hxREZ2S2ZVVTFXMGpEVHZzMkxvTUhkS1JGSUNldXFHb1NIMGZpWUpHRGY3b3hwTEprcU5uLV84NGhBbjlTS3RuZS1zcmNNMWVzaERvWVNvN1dTa1RXVUU2QmxyUkJUSHJXQU1kdzJJdGpINWtFS2JSMkljWWJSUnZlSVlXaEtHTUdaZTd2bzhSOTBKZGZRNWFJdnZleGlsWWNuVUV3Zm9xNTZkdFVFWmRnQVYzZFhiZ3JyQ3FLcjh1aFNFUXhz?oc=5",
-          "source": "Indiatimes",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxORzJYWFJhX0FsLUZDZlhPQjVwbEFBRXZvdXotTjNacW1pNTU0T2hYSlBubHVvckpwZl96ZG1jWmlOMExfSk50RllnSnM0UXpBRkFDNDR3UWhpUjdnQkM2bE1HNXIzTzVockxwejBpVUIxbG9lbGV3dF91OVhoOWl5RU14S016RFRmZGRxVl8tSW9YRDFiZFVleHZsWDI2U0pHOGhkYjBraVNQYURRdWVJT05JRFhtOGZtZUw4ZjQyN2hyV0VoREV0bFhnNW1UQThLb2hlMjQyeF8waFNVNFI4LXRvWkxVU25mZHY2dVlyMDRwbkw5MlF5bm1iNW00bktSQTNNTXRzdnZ5bVNlcDNvSXdTNi0yR3MzRlQzb1VGeEFEQjN0OHZDbWNFaTFqMXI2VGk3ZFRld1BhVlFfdWk1WTM4b1ZraFhyYktYZTJrWXI5dw?oc=5",
+          "source": "MSN",
           "thumbnail": "",
-          "meta": "9h ago"
+          "meta": "11h ago"
         },
         {
           "title": "Archana Puran Singh backs 'Aashiqui' star Rahul Roy amid his viral reel: 'Love that you are doing what...'",
@@ -177,7 +201,7 @@
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSVZPWVkzTUlTclBRaHVMbzdNb3NJdlVVeUxhRGVXcDk4bFNmeWhWU0NTYi1Wd1lOUnRBLS1Ca2xtdlBIWHFXNGE2ZjFBTUN6X2NocDktQ1ZqZ0ZTSjNlT19CZU5ISHRLcEdQa1dVOF9pT1Z3aVBxQzNobW01QU9OT29RWXBlNHQxaFZwdEZZWTYyRUFSSHI5cVVzWkxHUzdzZVpEeDh6NWhPMDBfUm5TNWNoaWZoWHMwdWc5MUx4WWJna2o5SzhkZ0FzMVRfTEdsWWZ0cXlXRGdzbTRfMzdSS2lXOUVZWTTSAewBQVVfeXFMUG15YXlSOXIyLXVNSXpXXzFxMnByb2s3ZlVJUG1zcUc0TGk1Ri1ZSlBwYU1tTmM4UDRJbnVtanJfbFVsY1NDMklXTWlYSUh6TnppckNUVVhjdmpWTXo2Ym9FbXplUzRybTNaMmdMTFN1VkpOMDQ1Uk1hSC1fQTNzRXRJUHNabXN4dk5Dc0RURk5DUGNSeWp3RldUVHlwdVMzVk1XdXd3WDlFS3pheUgtQnZFckxVS2ZMYUlmbTc5NEVNNV9QWHFmdVRlMWFlLV9CSkRhMUNGZHRIbHBzOENGcHgyNUJMbzVYcWE5ZGI?oc=5",
           "source": "Firstpost",
           "thumbnail": "",
-          "meta": "12h ago"
+          "meta": "16h ago"
         },
         {
           "title": "Instagram updates algorithm to benefit original creators",
@@ -185,7 +209,7 @@
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcm0yWjJFNC13WmZSOGt2VEtfZ1pDdmtWeVNiaVB0aXN1UGhZTkFGWXFoRFZHLTl3Qk1KSTM4RjRHQjVYbElHWmNtSHFmWXMzNVhLU2dLbkU2aTZoaXdDYXVOZTF5cWt0UG1XbWY3emFYQ1VXX3hwQWkyUTlnZXBnd1d6aGFMVU14clBZMzgzLXllSjdfaGswMF8zeVd3dTBlSXA5Xw?oc=5",
           "source": "Social Media Today",
           "thumbnail": "",
-          "meta": "15h ago"
+          "meta": "19h ago"
         },
         {
           "title": "Instagram Limits Content Aggregators to Boost Original Creators’ Reach - innovation",
@@ -193,7 +217,7 @@
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZy12QndPN1NOZDZOLXFYODJUQVNCbkNuREJ5Y3ZTRjdvdlZzRlBqMm5lLWlJdUhNLXExdVV2YjRPV2NUTFJrYWxqbXBOQVpBTW0yODZkWk82LTQ0blZaSjlPbWp0TXNDeDNZSXVDc3B2TUlUOHdxMG1jdG5SZG1kdDNOUXNKd28tUEszY0FMV3ZHVkZpWm1GYVhBc1ZUb1ltQS1v?oc=5",
           "source": "innovation-village.com",
           "thumbnail": "",
-          "meta": "22h ago"
+          "meta": "1d ago"
         },
         {
           "title": "Who is Yuvraj Dua, the influencer who posted 'Modi-Paglu Papa' reel and how did he help Ranveer Singh during 'Rocky Aur Rani Ki Prem Kahani'?",
@@ -201,13 +225,21 @@
           "url": "https://news.google.com/rss/articles/CBMiigRBVV95cUxPeVRSTnVnU1ZrR0FXVzJHTGRURlR1c2ZBYUYxWTV0REhWM2ZseWI5dml2SEVSX09DWFpaTkVqZkFnbkJpUGx5SnZ5aDE5a3VxdTQ3aXZDTGw4MlZ6R05NWG42Tk1FTDUzM1N5WTg4dG0yVUx3TEF2RGVfQ0R6RWVxcEplVE5XM1h0M2R2UzJrcXlPQkhBRzdCSVNkVmdpZWtkLXh2NWJFcWNWSTR4OVVzOHhQWVJpSzRLWnI5MjZQTEswMFBvcnV2dWt2VzkwVUppdzh2NXZaVm56ZTU3OFBsVlE2bFB0WDlIaWlobVpYcHhwd2pxTWZUN2tMOEdyQTFESWlzZjdmejZwS3UzMmRBd2JPdW14MDAyOE5Mc3pJeE9zejEtNS1nMGc2d0o0dTJpdDZ1Um1haHd4N0x6SlVLalB0V3lfeUI0RHVvRlBwTnBhdjBPSGxIWEtVUV94bUwySm12WEFtQ004Q3lSY0lVM3BVa0RLMHNraUlDVzVqS09YZFFkUnVIYUxtMThrZXM5T1NCSXNTLS0ybDU1VTJtTjFiQ2NyZTE0OVBuY2pRT1JCQ3dMRkxwaHZ3YWZUVEdBdUZYdkFEdFJlSjZETDV0cm1heUpEZWc4ems3RlQ4Vnl6dzlZcENrbDdMT0ZKRUQyS2I4ZmRXc1A4S0FnVjA4OG84ZVM1cVBKMnc?oc=5",
           "source": "MSN",
           "thumbnail": "",
-          "meta": "23h ago"
+          "meta": "1d ago"
         },
         {
           "title": "New Instagram Policies Target Reposted Content",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQlZtZ2xjckptX0JMRGhVSkRkelh4elFESDFzcDhNMkN2M0RxZkhvLVVSZ3ZCTXk5cm51VS0tR3pWRlEwYTFDY1dQemdOdVp6Si1nSXBlblZkaDNQdUcta0ZTUnhJSHQtemhtRzNxdTB1clhNMFhqT0hHckFiMzNaSXVXUlp3Q2M?oc=5",
           "source": "PetaPixel",
+          "thumbnail": "",
+          "meta": "1d ago"
+        },
+        {
+          "title": "Bollywood rallies behind Rahul Roy after trolling over reels",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWWN6el9pcGZKRHFDVkxpV0M2LVJJS0U3ZXp1RHc4b0JpcENGbjZtR1E3SkRsd19RTTEwMUhiUlIzUWU2VE92S1JTQVV4Z0tsNnpfTkxzVWhjSHllV3RILV92WWoza2NRelFlMFhpYzNNcFh1d0R3eFMyMDFxcUdNbDE5OEdROFRvUG5Yd3RkdzVQSkFiMHl4cGQzZlN3Rm9tQ3dDZTM5QmU4VE93TnNPUldjYXd6cXM2aUNlZmFOY2EwQ3pOUWVfdzg3SHZ2elJSaHVGWERDUjVZVlMzXzJxdmI5UU0?oc=5",
+          "source": "MSN",
           "thumbnail": "",
           "meta": "1d ago"
         },
@@ -266,38 +298,6 @@
           "source": "NewsBytes",
           "thumbnail": "",
           "meta": "1d ago"
-        },
-        {
-          "title": "Rahul Roy: Actor hits back at trolls, flags money woes after reels controversy",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOdjNyUVdYRFo2NVhPd0VKbEJ0Z1JWUVdmWE1ERGtVeEZnVUFyM1hvX3h2YjhSSk9KWEVWUDBma0ZlbDVNY0lZWFJGQzZOQjJlOGhXejhDb3JYVDRUSHRRNXdSQXZPVEx0QnBwbTFWdld4amk2Yjg0WEVCbUxmOTNrUWtxZW8wMThkTm53TWxtcG1DRUctSHRQOHYtWmo4dVlEbVlFV1dTOHBVNVFMWVY3NERCU040QW5jMWxUZHFFZ1FEamwxZk1YOXUyQ0hNd2t0UkJyTThiUERpOWNRekl5YUdOYk5abmtJX0QteTVGb1FTaTd5cW92azNCMFphS3ZVTzV0U2tFcEZZOEU?oc=5",
-          "source": "Deccan Herald",
-          "thumbnail": "",
-          "meta": "1d ago"
-        },
-        {
-          "title": "Rahul Roy: ‘If You Make Fun Of My Struggles…’ Aashiqui Actor Rebukes Trolls After Being Mocked For Romancing Content Creator In Viral Reels",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQSk1vSks1SFpHcXJkc3lIdy02OG0wUGRVZkVSaC1WQXhaSjhXSGx0cWVGMVhzVVFodm1Cdm0xNFhrb0VjUzk3clJQN3lLM29US2FNSzdRSmpqV3djdFhjUEllcmpnbXduZzJ5ZG9KZDVXX1Y0RExaYzIwLTNQMXZBMjdkS1o2MzlQN1p1dmlXblh1UGwwY1JYRE5WbEJqWnFKeWp4UDJWTUc1WXU0VVBuWml6SjMzQjNWU1dBSU55VEM1ZkdOQkpWSVBaanZiVnNiMTEwazM1SHl0dTA1VlJpTmFFY0hjY3hLdTF1T2V1SUtmX2FseVdXQnNVZTg5bl9oNkcxaFJSU3VXcXhPTXfSAY4CQVVfeXFMUEpNb0pLNUhaR3FyZHN5SHctNjhtMFBkVWZFUmgtVkF4Wko4V0hsdHFlRjFYc1VRaHZtQnZtMTRYa29FY1M5N3JSUDd5SzNvVEthTUs3UUpqald3Y3RYY1BJZXJqZ213bmcyeWRvSmQ1V19WNERMWmMyMC0zUDF2QTI3ZEtaNjM5UDdadXZpV25YdVBsMGNSWEROVmxCalpxSnlqeFAyVk1HNVl1NFVQblppekozM0IzVlNXQUlOeVRDNWZHTkJKVklQWmp2YlZzYjExMGszNUh5dHUwNVZSaU5hRWNIY2N4S3UxdU9ldUlLZl9hbHlXV0JzVWU4OW5faDZHMWhSUlN1V3F4T013?oc=5",
-          "source": "DNP India",
-          "thumbnail": "",
-          "meta": "1d ago"
-        },
-        {
-          "title": "Aashiqui Actor Rahul Roys Reels With Content Creator Go Viral; Netizens Say, Aisi Kya Majboori? - Watch",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSldKLVRrSGE0eTFxRVE5OWFfWFJ4cll5M1kzVGljQmctRUc2Q2VmaGFEME1GVGllNEx5bF9uZU15VGtaV213U25nQnM2RVNEbl83VVRvQXkzWDdQVlJRSnh2cVljbUZBSFZsaUtvWW9PbXl3d1JqTktjSWhqbzFmTTM3bU1aei10ODBfdE9NbEl3QWdzM0QzdjMySVNDTnF3VFZRVG5JVnhyQ1dmN2syT3EyN3hmRlh0eWt2S0cwalFpTEg3S2lFbnl2Nlplenc4OWRndNIB2gFBVV95cUxNSnpOSlloNXBSSnZlY1BCSWRjOHNHR3VZSHVaeDd4QXQwWEpyd3lnbFJYTVF5eHlOSXc3LVZWNGs5WF9IOE54ZGR0NGgwMjVPNGRROEpsWnRZOUZqUWxNazRWYzlUR1FQaGJ2ZE5mNndfSUE2Snltamd6MWNyR2cyQmxqSkJldk05YUljVDVJQV95NThDUGppYXpaRzQtSUh1aFJhUmJaSHhFMVpYWk5zQVl3NDlGaTZ6TmJCeER6bDJwYlpBRGI4T1NqM3FxUXZOVlBnUDktel9HZw?oc=5",
-          "source": "Free Press Journal",
-          "thumbnail": "",
-          "meta": "1d ago"
-        },
-        {
-          "title": "‘Help me find decent work’: Rahul Roy hits back at trolls, opens up about financial struggles",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORFlXbVhlYnRXVG9FWWNBMGI4YTlnUXVfaXQ0dklINW1kc2dGeDFpNHdpWEFQdEw3MXYzbzRxRmF1Nl92RWlUMDR2eHJXM0ppNVIxNUhTN3Y5UFdieU50Y0lIU0d5eTAyU0p1NDU1WFhHMHplVGJOa0lsNmNWTWV2dEJJYkxUcWpmN3I0TGRWUW1nQWhRaTNESk0yeTlHaDU1NEJBU05wZUdnS2lZeElpRC1qYmtfVUl4bS1fbDJWaDlDckt2YUN3a2dpSEhPQzJEX3Y00gHTAUFVX3lxTE5EWVdtWGVidFdUb0VZY0EwYjhhOWdRdV9pdDR2SUg1bWRzZ0Z4MWk0d2lYQVB0TDcxdjNvNHFGYXU2X3ZFaVQwNHZ4clczSmk1UjE1SFM3djlQV2J5TnRjSUhTR3l5MDJTSnU0NTVYWEcwemVUYk5rSWw2Y1ZNZXZ0QkliTFRxamY3cjRMZFZRbWdBaFFpM0RKTTJ5OUdoNTU0QkFTTnBlR2dLaVl4SWlELWpia19VSXhtLV9sMlZoOUNyS3ZhQ3drZ2lISE9DMkRfdjQ?oc=5",
-          "source": "The Indian Express",
-          "thumbnail": "",
-          "meta": "1d ago"
         }
       ]
     },
@@ -311,15 +311,15 @@
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWGltTF9JMkY3U0lZb2ZiZjBpMThEaGFhQVo5VnlyUHBXc2hoMjdnQW1iTUZyZzQyaVpDM2R5TDlEZC1INElBNlNiNXlfVUFPTGJacjdlUklIZnQyX3N5dzBxaTloRW1hU1pvVDBBeUo5RklMY1lPM2lVX2hFM2ZKQ2M4a3ptanJaWHg3RlZBRmZrWnVlWlRna2RoV1JVRkduc0ItYnh0RmwzNEE?oc=5",
           "source": "UNILAD",
           "thumbnail": "",
-          "meta": "just now"
+          "meta": "5h ago"
         },
         {
           "title": "Hermanos Espinoza Celebrates Family, Faith & Duo’s Borderland Roots: ‘We Like to Sing the Truth’",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVGJLRzZISDZCdU1CQ2J4Wl9GV2p1TXV4WlZucUVwSWp6dkFZa3VQNWJtOGl5aFNlSzQtaUJOeDlIUEdTVVFITlltMHltMDN2STd2WXZRQ3Y3RnVVd3BBSi1aZTNTcmgxTHM0NTBxb3lETzJlRzVfNDI0N0NnUmQ3WVlQZEdlTzZyM0xoa0Q0TUhBWHBYVmtCVTYtdWlYck0tVGVKdzRKTW1YaXZw?oc=5",
-          "source": "Billboard",
+          "source": "billboard.com",
           "thumbnail": "",
-          "meta": "20h ago"
+          "meta": "1d ago"
         },
         {
           "title": "Texts To Song Trend",
@@ -327,7 +327,7 @@
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1IM1h6M0dmalQxSDZYd0V2YWF3SHhuT0psQ21ldWdyNXJibUUyZ2R6YmIzTzlWWWpSdWFxbXdqS0o4Y2R4dmg3emwwRW1vYzQxUEVuVEtCUE13WWFUcm1J?oc=5",
           "source": "Know Your Meme",
           "thumbnail": "",
-          "meta": "20h ago"
+          "meta": "1d ago"
         },
         {
           "title": "TikTok's Hallelujah Trend Has Some Christian Creators a Little Annoyed With How It's Used",
@@ -335,21 +335,13 @@
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PTmstc0NBc1BaTk52Ulh1NXlPbzRVNUhBcTBlMHJGQ094bTZIVVRXOGtXQU8tOFhDSFZMTmhSbjc1VTRldkVMMEF4Z1RKRTRuMHJJQldCVE5acjZvWmpkelJqcw?oc=5",
           "source": "Distractify",
           "thumbnail": "",
-          "meta": "22h ago"
+          "meta": "1d ago"
         },
         {
           "title": "Right, here’s what a ‘bird’ means on TikTok since they’re getting dragged in this new trend",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSUlOYlo4Z0RIbTdEWW5lY2xyQ2FfZEZEMXh4UjBPZlVoOUNMejZ5NmJxdDIzZHVuVV9RdzlNMjRvMGZxYmtiQlBWdVF2TE9kTThnZERIOXd1elF0ZFd2cE1mRDhWSE52ZFdIeUZ3WUVaOGFGV1RNcm0ydnJRbDRzSU92TzRabXgxczJ5WUZtUTVzSTktd3EwNXVFRVZGSmlTM2VpQmRrek56ODAxN0pDVTNZNzZoVjQ?oc=5",
           "source": "The Tab",
-          "thumbnail": "",
-          "meta": "22h ago"
-        },
-        {
-          "title": "Blackchully’s Viral Rise",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mbk1Ba19DY2ROc3JnX2FqRGwweHZFZUtaM2pmU0NDMzJtMmtXUU9ERHc1NW9aR3ZteUhRN3ExOWd0N2FjT3VFX0JBelZSWGRFVWx4VktCaXZkb3pFT0NiMEZoYWVlS0xNaDBTZUFxSUs?oc=5",
-          "source": "THISDAYLIVE",
           "thumbnail": "",
           "meta": "1d ago"
         },
@@ -407,7 +399,7 @@
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdTYyRGYxUjVqVWt3YjlpUVh2dFY5VVZCYUZYcTgxME1jdy1jOS1iSDlTVm5aR1RtWHZmSmtjY1BxU1J6VjlyZE9BTDRoeUJhV2YzTFE2cDBoUm5wazBTNkhSS0pzakxWbENjWHJ4WDFyanBNaXBtUUE1aVl4X2QyQmpOMzBlemo1MVhfWG1ZcFRIQzNRM0RmdTVPR3ZMUXZVUThVaGhVcEh4c0Rtekg4cjRCUDlPNTB3djJpRC11ZGkwTDJkelVz?oc=5",
           "source": "AD HOC NEWS",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "Gwen Stefani: The Pop Punk Princess Who Blended Fashion, Music, and Family Life for a New Generation",
@@ -415,7 +407,7 @@
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdmFJbHBXNjdMNEYwLVk0VWhZZzNrbEdfb2FIcFBWQmZEUlJyMWFxMG9vc2lIVHJ0WURHNjNWSmpQXzNXdERkTnRTZV82N0VpMlJLN3lfdTdLanZHNm15X3dHazBQOWpUVUpjYWRsbFU3Q0NqU3owNjJreHdrdDBlelE1cENhM1N2dllVdU1sWVhhZjA2Uk11QlVRejVNNjI3bFRoU21CMm40TC12eXQ2MHp5NnplT0lObExUOVNlYk4tQWwtNVk1RjRR?oc=5",
           "source": "AD HOC NEWS",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "Social Remixing Music Features",
@@ -423,7 +415,7 @@
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYUFFNaU5WMC1Bd3ZHTDhWY29kMUhiZDJTWkdqeFZJRnRleGpMNnF4WTNnaDlPNWRzZVBkV05KN0lhREY1d3FNeGFHYmtJQ1dCdUc1Y0k5Ty1WaWpaN0c5UNIBYEFVX3lxTFBYUFFNaU5WMC1Bd3ZHTDhWY29kMUhiZDJTWkdqeFZJRnRleGpMNnF4WTNnaDlPNWRzZVBkV05KN0lhREY1d3FNeGFHYmtJQ1dCdUc1Y0k5Ty1WaWpaN0c5UA?oc=5",
           "source": "Trend Hunter",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "Why Mariah Carey Remains the Ultimate Queen of Pop and Holiday Magic for North American Fans",
@@ -431,7 +423,7 @@
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYzJCNzdPM1JPM2w4V3hldXhmTjJ4QWRjMDR2UVJxR3E0Z056TU5ldkVFR0plR3YwajVpU29Nd3Qxd2FycWVWb29mMzllSVZmNFFqanl6dzFNRDlnM0tpZmlrd3dadnphSUl2RFpIZ3lpNnFNWlE5MHhUYWM0YW83Tmx1bHptRXFqYzloLXEwVWdNOVhHcDNNcnpydWtRbDdqWFRnMjhVM2lPX2dqWHZkNzlhaUtYRDZSTkdEcm8zQmJiUkhlQ2dtQlp0aw?oc=5",
           "source": "AD HOC NEWS",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "Indie music has been invaded by fake fans and cynical viral campaigns​. Here’s how deep it all goes",
@@ -446,6 +438,14 @@
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRUFkUU1VZDIwamtjM3pjQjktQW1vREhOX09USlVtN3J5ZEVrVi1rNVd6R3Vxcm5iT3B5Y0xTeEVZa3ZlRVVhazlua0NyVDAyemVnTk1CS01EMkx4Q0NIMGFYc1pzaWs1LW1KaS1PWm16M0dZXzFyNDVrSHQzc0NYcXNLTHpqNDF1c2oyUkt3ZHNlejdQMG9R?oc=5",
           "source": "BuzzFeed",
+          "thumbnail": "",
+          "meta": "2d ago"
+        },
+        {
+          "title": "What is the ‘Saxophones Are Getting Louder’ TikTok trend? Everything you need to know",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWENxVzdNUEdWWHdNTS0tWm0zOFpfRVNpOVVZRktwbzhwVGNIUlBHOGUwTXJSR1RsSjNldzhTVWZSWWpYYnB0OTZMUHlVbnZ0ekYzTnp3N3NDYmt1YXpjX2stNXJydUNOWTcySGpqVm1OQ3lEVXRZYWpaUEFMWC1KM3h3WmdQZjJISEsxZlVJZmVzdkxjZWRJMDNCSzJ0aFk4NlFXYlJqdEVFZ3ZUWTE5V3dfM1BEUG0tNzFqdTBWRnc1YWEtejBHRWFyaw?oc=5",
+          "source": "MSN",
           "thumbnail": "",
           "meta": "2d ago"
         }
