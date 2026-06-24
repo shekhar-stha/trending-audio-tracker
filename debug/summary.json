@@ -2,12 +2,12 @@
   "runs": [
     {
       "lens": "Trending in US",
-      "rows": 10
+      "rows": 0
     },
     {
       "lens": "Fastest growing",
-      "rows": 30
+      "rows": 0
     }
   ],
-  "total_rows": 40
+  "total_rows": 0
 }
