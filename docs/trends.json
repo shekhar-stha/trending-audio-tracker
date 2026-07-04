@@ -1,17 +1,25 @@
 {
-  "scraped_at": "2026-07-04T08:50:10.417164+00:00",
+  "scraped_at": "2026-07-04T11:45:35.592682+00:00",
   "sections": [
     {
       "key": "tiktok_formats",
       "label": "TikTok video formats trending",
       "items": [
         {
+          "title": "How a viral TikTok trend is causing severe burns in children",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CdGhMLWxZOUN1MzNvMi1maDVCZjI0dC16THl1ZGg3bk41OXU1TlBoZHRXdldIZG1Td2lnUVU0X0cya1pKcTVhVzhyOFl4WWV6OVdhTFFmWnlpcEg4WG5XdGNhRzExMXQ0ak1CMXJ5ZGdRd29RaldYUXJzWG9KZw?oc=5",
+          "source": "AOL.com",
+          "thumbnail": "",
+          "meta": "2h ago"
+        },
+        {
           "title": "AMAPIANO 2026 TIKTOK TRENDING SONGS",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5Y3IzSzl5MVhjLXdNaF9SUDR6RGJGS09EazY1MkJfSUZoLUV6YTVyd3U2MjJhQ2xCaTJ0aGphVUVoYUFBdjMyNDR0VWRtbzE2OTFWSl8xdFdsTmFuT3R6aHR6VmxiT3dHXzh5QXZtQlVmTXFz?oc=5",
           "source": "Six9ja",
           "thumbnail": "",
-          "meta": "10h ago"
+          "meta": "13h ago"
         },
         {
           "title": "Garissa TikTok Creator Faces Hate Speech Charges Over Viral Video",
@@ -19,7 +27,7 @@
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWXNpbDFNZUNvNU50S2ZESllYM25Wd3YwMS1YOUhMem1JLUtlLXpNcmEwUUc0QlAxMmYyakw0MW1ubFQ0SnBhRWNZMmE3cDg4bWkwV29iclRYY0NselhISHFMYlB2dWZaZ19leUFMaC1qTHgwYlBLQllrVmFmXy1VMElSNnpYMmJ3R0cyV1hxb2dPN0t4dUk4ZHdhUk0tMXpU?oc=5",
           "source": "streamlinefeed.co.ke",
           "thumbnail": "",
-          "meta": "22h ago"
+          "meta": "1d ago"
         },
         {
           "title": "The Vogue Business Beauty Trend Tracker",
@@ -27,21 +35,13 @@
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5",
           "source": "Vogue",
           "thumbnail": "",
-          "meta": "23h ago"
+          "meta": "1d ago"
         },
         {
           "title": "I Created a Week’s Viral AI Videos in 1 Hour with AI—Here’s How",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeW5tZzZEMkc3QndPMnZSUlhYUDZTT2o5cEc5Y1FmeFRxR1F2MVdXNzlYaV9nNC0xajAxQ1A3U19uWDUxZ1ZET3BtbGIwNEsxYmxpRDQ4MGVwakQwQXVUbnpRTnBzWHBDQkhYTjNLcGdkU083UVZWM1hNRVpSeHNjaHhkWW5mVWF1TDdVQ0dTeVhyM2Z3TWRj?oc=5",
           "source": "PC Tech Magazine",
-          "thumbnail": "",
-          "meta": "1d ago"
-        },
-        {
-          "title": "How a viral TikTok trend is causing severe burns in children",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CdGhMLWxZOUN1MzNvMi1maDVCZjI0dC16THl1ZGg3bk41OXU1TlBoZHRXdldIZG1Td2lnUVU0X0cya1pKcTVhVzhyOFl4WWV6OVdhTFFmWnlpcEg4WG5XdGNhRzExMXQ0ak1CMXJ5ZGdRd29RaldYUXJzWG9KZw?oc=5",
-          "source": "AOL.com",
           "thumbnail": "",
           "meta": "1d ago"
         },
@@ -67,7 +67,7 @@
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWEZVY1hzaFFaRkZodDFLYnU3TUctZnJtOXNqNlNPRE1wWnk2M2s3T2ZwbnpOTWlORXdLYmx0dFBCSXBsSzQ2X09iNnhIQ2xmZFdyRWxfaTdrNXVVcVFIUVFZdGJxRlhYZ2JqS1BsbHZvMzVtZVEzUVczYU51bjBfS1FiQmtLY0pCMVc5bDZKZy1OLXdITlh0ck5JMDZPSk16OEFLdzJKTFVDLWJ1emZ5TmVGMGk4Vk5RMTdB?oc=5",
           "source": "London Daily News",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "POV: You told Tyra you almost died in a doctor's office: Jonathan Van Ness pokes fun at America's Next Top Model challenge",
@@ -82,6 +82,14 @@
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPb0VZWW01aF9sMFNPeE9UWnZySF9MeTJTcktjMnNfUWJJa1d2SnU3UFJ5bnpmZ3V2NUlZbFNtTlpUTm5CY0wwaTZ2SFVLd2NaLWJ4NGt2NFFmcjlTTTR4SzhkeEsxclo3dGRmSU10aGxlXzJ0cXhZUzZBMzBULVMtMXFBSWlZdmZlZWpVdk1naw?oc=5",
           "source": "MSN",
+          "thumbnail": "",
+          "meta": "2d ago"
+        },
+        {
+          "title": "Now is not the time to test out the viral 'airport theory'",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV3YtWWRSSVRqVVBGcGIwQjFic1BHRVVremtUdGdHRHlYM05mN1RiV0dUVEh2NndVNzBMWjF1bFJXVWI3bktUejdTTWFMM0xkaW9wZVRjVXVmQy05cmhPSUNwaFhJQnRCUlA4Q0V0LVFXdWF5cGZUZEdHaTkxQUw1Tkdjb19mQkk4WldjbzNRZmI0WTdFWkMwcHRkQmpZMk1aXzRzTDJ3Z1lyV3pBRnVXamVxbFZ2aG0wdzU2ckx6S0JZUFl0ZWhsNUc1Z19YSmg4OWtxN1FnRHJCUDhD?oc=5",
+          "source": "Yahoo Creators",
           "thumbnail": "",
           "meta": "2d ago"
         },
@@ -140,14 +148,6 @@
           "source": "USA Today",
           "thumbnail": "",
           "meta": "3d ago"
-        },
-        {
-          "title": "Spin Joy Games Rides Viral TikTok Trend with Launch of Love Fruit Island Slot",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYjhxVEZfSVNTclZ6RkdKNGRBdnFyaUo5cUVZZ0lsWFlmSTJUcHFral95WVNYV25Ga1piSU1UeXVPa2h6Z2Y5MXdMUmdfZTg5NnNxdGswWTNBUTJuWW5Za0FkODBQbWJTNVg3Q0pWQVZ4eC1VTm5IN1p4MVpsb25zd04zU1lRdXNRYkFOWGlkRmhDbm0ycjEzTC1hRTBfSlhQS053NUF0R2VUNGhhWXFITkZUUmRGN3BfX3BmZ0pSdEgyRVk?oc=5",
-          "source": "Cision News",
-          "thumbnail": "",
-          "meta": "3d ago"
         }
       ]
     },
@@ -156,12 +156,20 @@
       "label": "Instagram Reels formats trending",
       "items": [
         {
+          "title": "Who Is Geni Kamki? ‘India’s Got Latent’ Contestant Whose 134-Million-View Dance Video Left Samay Raina Speechless",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNzhKOGh4M2s4N0phMU5xbGEwS0YzOVVuSU4wYURKVUlxMk8xdjJIMXJMcXNsVnRlNXg2SzZnMzZCeHNaNDhxbEp2MldpTDNaRmRMbDY3Ymo5Sk5FdVJqX1FWX3FaVGdXN2VfbHlaRFF2X29NMUZDbkxVbTBqeTQtcVlvYzBGOHJfVThrdjNDQldWZFRqU2pqTThDbnJBVnhRemtrS3p0MmVyajFOZWJHWXdkbUU0SjdMT1pwZnQwVmxqTEQ4X0N2SlQ1b3ZFb3M?oc=5",
+          "source": "Pragativadi",
+          "thumbnail": "",
+          "meta": "2h ago"
+        },
+        {
           "title": "How Digital Creators Are Building Next Generation of Indian Brands",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRi1LaXVFTUdhS1JLdV81aWpvSjh4TUI4LTI3SmR6ZmpXQnlHNnRQc1J5dmxTcS1weG5KMGNrVFZKb2poS2tKU19EaEthb01ZWGVQN0RJdG1WNGV0dUNYekpJUlpKZ1BIZGhBS3lKY0NPdlFQM2Y5a1pQUHJrc3JRa0FVNERBZHFSYnFGUnk2dF9OTmx3Nm5VaE9MYnFfcm8?oc=5",
           "source": "seepositive.in",
           "thumbnail": "",
-          "meta": "just now"
+          "meta": "3h ago"
         },
         {
           "title": "What Is The AI Prompt Used Behind The Viral Skyscraper Couple Photo Everyone Is Sharing, Check Here",
@@ -169,15 +177,15 @@
           "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZHJ0bjFZNEUwUlFOdkJ0WTJGNTFYVTlyQmVkSXhvNWMyUzFNR05xSjRMbEQ2WFh3NDFadDVzdHkxbmNEdElTbkVXajlIUnlOd2FILTlpbUNDOHBZaW9POW00T2hVOUc2OC1fTVVESTd0b3dfcHVicDlSU2M3dDNReXVqMXRzWEU0aV9IQi16dTR5bklhYUpKejFwVEVOdVlpYjJYS0s2MWllc1paYlY4SHpKQ01SLWVaVEZlREpWZTVGZ01FSEZJWVNSenpudWg3Q2t0OGZqX0htWER0cWwzaXhYUW11STc4OEJrSzZ4cHFXQQ?oc=5",
           "source": "Oneindia",
           "thumbnail": "",
-          "meta": "just now"
+          "meta": "3h ago"
         },
         {
           "title": "Who is Geni Kamki? The content creator from Arunachal Pradesh winning hearts on episode 2 of India’s Got Latent Season 2",
           "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNTEN1bkd5WHFlTnZuRkwyUnVxN1U3RzlxWUVsZGRGZENnYnpmc1dpNHMweVpaM1d3a0psZlh5blNmQ0psUHJwdENtSGpMYi1UNXlxTHVJVVh1OS0wdWh0WUltZ25faWxTZ2EwOWpxT05pTVplVWF0ZGFDOXAwOXBaTkJDUXlzdXZFdENZLTBqUU1qbU5SdHUwZzMtRGFBdU8xNVczcWRFR0JkaVJBNi1Ha0pJSGRPeW1DckhTczhnYk5meVM5bUVQRGdpUFJTbWhmV0JlbGpvdW1HdFlPSENtYWNWbzNHREdvOFZDampjVFlJa2xVVjBadTc1NEVNQ1ZoaFlWeXhrNlRRLU44T0RWc293c9IBkwJBVV95cUxNTEN1bkd5WHFlTnZuRkwyUnVxN1U3RzlxWUVsZGRGZENnYnpmc1dpNHMweVpaM1d3a0psZlh5blNmQ0psUHJwdENtSGpMYi1UNXlxTHVJVVh1OS0wdWh0WUltZ25faWxTZ2EwOWpxT05pTVplVWF0ZGFDOXAwOXBaTkJDUXlzdXZFdENZLTBqUU1qbU5SdHUwZzMtRGFBdU8xNVczcWRFR0JkaVJBNi1Ha0pJSGRPeW1DckhTczhnYk5meVM5bUVQRGdpUFJTbWhmV0JlbGpvdW1HdFlPSENtYWNWbzNHREdvOFZDampjVFlJa2xVVjBadTc1NEVNQ1ZoaFlWeXhrNlRRLU44T0RWc293cw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQMXIzQnJOTjViNjJlTmpUN1ZpWVZ0TlA3b3RuMEY2NU9Lb1J5SE9ISEp1al92alU5akprdkVFZ2JKZ0UwaFlRazNtUnAzWEQxU05IMFZtVWEwUnFjb3N6UE9RU2xDZ1NnZkR0YkFIY2hCOElPTDBhZ0pnbWZSVF9adGEzeFRKNUo4UzE3eHJKUG5PSnFzQ2RualJqdlJGZS05SGpIMzVGN0U5TXJDZDdWYmhtenpZSkFsY0tCbFh1R1pLY05jX1hFRVBZUGxiNGpfeGNIMXNMYjJjdXlPb1dxMzZsOFhZLWxadGJWRHhDRGdpM0VURXNUTzEtWlJ3aHp1R2JDRTRvSFl4cUJFN2fSAZMCQVVfeXFMTUxDdW5HeVhxZU52bkZMMlJ1cTdVN0c5cVlFbGRkRmRDZ2J6ZnNXaTRzMHlaWjNXd2tKbGZYeW5TZkNKbFBycHRDbUhqTGItVDV5cUx1SVVYdTktMHVodFlJbWduX2lsU2dhMDlqcU9OaU1aZVVhdGRhQzlwMDlwWk5CQ1F5c3V2RXRDWS0walFNam1OUnR1MGczLURhQXVPMTVXM3FkRUdCZGlSQTYtR2tKSUhkT3ltQ3JIU3M4Z2JOZnlTOW1FUERnaVBSU21oZldCZWxqb3VtR3RZT0hDbWFjVm8zR0RHbzhWQ2pqY1RZSWtsVVYwWnU3NTRFTUNWaGhZVnl4azZUUS1OOE9EVnNvd3M?oc=5",
           "source": "Indiatimes",
           "thumbnail": "",
-          "meta": "4h ago"
+          "meta": "7h ago"
         },
         {
           "title": "Meet the content creators who exposed Delhi’s ‘Tirri Prank’",
@@ -185,7 +193,7 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFByUlA2RkhCSkZwaTJlVmFvNE1QTE9idDRVX2ltdGtFV0hCTkVYM0JNb3pLcWlGMDB0OVg4T1F1WlUtYTJ4MTRwNlJNSTZVREJrMEdyNDU4NnJoLV9YNDZIMW5aWVkzVVFpTnlMZkZWSlYtcHpy?oc=5",
           "source": "PressReader",
           "thumbnail": "",
-          "meta": "5h ago"
+          "meta": "8h ago"
         },
         {
           "title": "AMAPIANO 2026 TIKTOK TRENDING SONGS",
@@ -193,7 +201,7 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5Y3IzSzl5MVhjLXdNaF9SUDR6RGJGS09EazY1MkJfSUZoLUV6YTVyd3U2MjJhQ2xCaTJ0aGphVUVoYUFBdjMyNDR0VWRtbzE2OTFWSl8xdFdsTmFuT3R6aHR6VmxiT3dHXzh5QXZtQlVmTXFz?oc=5",
           "source": "Six9ja",
           "thumbnail": "",
-          "meta": "10h ago"
+          "meta": "13h ago"
         },
         {
           "title": "Creator platform Influish raises pre-seed round at Rs 25 crore valuation",
@@ -201,7 +209,7 @@
           "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQbXJ0d052bnpoWGdSemQ3a1RDXzBSd3pudHg5bHEwUTlvTks3V2I5LXMtZ2M3c05ZRWpsSkZPdUhNeENjYmcxLTFVT0pfUHQ0WnJlYXVUSS1BbTZKMXY1Uy1HOUZGOHJqeWZnd2lqd0p3ODVDSnE4Ty1WQ1BvRDZiNUJtTEFMNDZZRnJwbXJxaHFVWEcyZzhKdE1VQTFjYnBMeVJNb21LMUptd0czUXd2di1ZU2hZd2cxR0ZDbjgzMXhXNDI3QllKYjRBVHl0dkZSUzBlX1M4VlowdE9pRkRzYnBwUm8yWTRKZENvMVhnWng3TzRoTmV5SF9fNHhCWWw0RjFzVkp2cDN0UHBUQVBac0s5SllmRzJqaElxaG90ZXpiVnZmVnFKNGI4dE9OWTFSNmotdHU3STIwSkpnYlpSMnBmVmNxMGttcERmT2ZwZkdqVUhG?oc=5",
           "source": "MSN",
           "thumbnail": "",
-          "meta": "15h ago"
+          "meta": "18h ago"
         },
         {
           "title": "The Viral Doctor Answering \"Embarrassing\" Questions Millions of Indian Women Are Too Afraid to Ask",
@@ -209,7 +217,7 @@
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdWZKQkJDaW1xMHV6TmVqQXQ1QjR1cTRMVXlRbFBMczhCbk9jZHZud0FFbjBBV2lyeHdLVHBWenNYMjNPTnlYOVZjZWJqel9Lam5TLUpDdTJwSjJqVHBBU0xSZ3BjQlhZRUxTaEh3U2FiWmF2VkNqcER0QnhWclVZSE0ydC1fQkFDdTBORzRZSHJwMkNrcnBKWFFUalFHUQ?oc=5",
           "source": "The Better India",
           "thumbnail": "",
-          "meta": "19h ago"
+          "meta": "22h ago"
         },
         {
           "title": "The MrBeast Blueprint: Why the ‘Clipping Economy’ Is Redefining Creator Growth",
@@ -217,7 +225,7 @@
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTkJLNEtDR1F4M1FUa3RKOEVIdmhTaDdRQ3FOb2swZkhLTVAwcGpvM2xLT1UxRDBpZ0JEMVFvd2VxeTR3VmlvOW5JaGpMbGFpSmlVNnFnMEVwTTI1TjduUEVKUlVSZTROazlXeWFlRXVWc0NwYk1LTXN3d1l6S1V4ZFNJNmpydmZFbThwajExUG5MRFhGYXdQNFVncjhCTU5Ea1VZY1F3S3gwSHRHSTNBbmVaNVNOWDh0akNvclZRem1SZ0Rq?oc=5",
           "source": "inc.com",
           "thumbnail": "",
-          "meta": "19h ago"
+          "meta": "22h ago"
         },
         {
           "title": "Why creators should never depend on one platform for their income",
@@ -225,7 +233,7 @@
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR1pRd29QU0N3RDYzZlJubGlJcW9QZFJoZXpRaHlFQUhTdW5oWGFuTlVXLU5zSTFPMVQxYnJOdkJGVkVicEVCMTlMcXY1N3NJRTVxQkI4cFYyS21RNXJSRlNoczBGQlV6LVF5ZjZsTnBhRFBSTE9mOUlIa1NGTzduMFlmSXI2cW1LeUJTemh2WjRyb2ZDZzN0NVRBRQ?oc=5",
           "source": "theradar.ng",
           "thumbnail": "",
-          "meta": "20h ago"
+          "meta": "23h ago"
         },
         {
           "title": "Shraddha Kapoor, Mrunal Thakur and Janhavi Kapoor fuelled The Inaam trend, but Kartik Aaryan steals the spotlight as he becomes its first male champion",
@@ -233,7 +241,7 @@
           "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQVXVVVHVBZC04ajRJZkxlNml4c2s1R2ZIeXlYa2cyYjkzRTRzOHRCaDRrN194SF9iZ1dZX3BYb3VsVmw5T2ZjX2ZHV01JdWVyNUNRMlVPd29MWVZEZzFacng1UGhpODMxdElGNUo1clZOWjg4Y19tWDBFUXZta3owZVh3bGM0MjR1RlVYMjZ1TWV0bFJfc3llU1hzMGctZS1maVhIRjVNMkl3RjJqQjhmeUJveDU4X3VMVlpXRlMzQkRzaVFJcmpFMlZoNUZvNjY3NFNCdVkyZFdaY3o1YUx4X2RfWXA4V1dlVzhaMXRGWUtjYXh1Zy12YTFkbmt6WGhOZG03Ty1YMDRSREoyaGfSAY4CQVVfeXFMUFV1VVR1QWQtOGo0SWZMZTZpeHNrNUdmSHl5WGtnMmI5M0U0czh0Qmg0azdfeEhfYmdXWV9wWG91bFZsOU9mY19mR1dNSXVlcjVDUTJVT3dvTFlWRGcxWnJ4NVBoaTgzMXRJRjVKNXJWTlo4OGNfbVgwRVF2bWt6MGVYd2xjNDI0dUZVWDI2dU1ldGxSX3N5ZVNYczBnLWUtZmlYSEY1TTJJd0YyakI4ZnlCb3g1OF91TFZaV0ZTM0JEc2lRSXJqRTJWaDVGbzY2NzRTQnVZMmRXWmN6NWFMeF9kX1lwOFdXZVc4WjF0RllLY2F4dWctdmExZG5relhoTmRtN08tWDA0UkRKMmhn?oc=5",
           "source": "Radio and Music",
           "thumbnail": "",
-          "meta": "20h ago"
+          "meta": "23h ago"
         },
         {
           "title": "Fact Check: Sunscreen blocks vitamin D, causes skin cancer? No, dermatologists refute viral claim",
@@ -241,7 +249,7 @@
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPT1ZfbzE0WXVld04yOExSLW8zdHZoTnpSeGhtNFVHWUtVRVlWOERwV0NrWXo5VHlzTHhwYXpzSFZKdVJVRmpXSkFwRkt3ck9jSi1pbTctRUpyMXJiclFWWUcyY052S0xQWTN1VnpyZjVoU0lFR2RCUUhZSDhWb3BzVmZZZU5MZms4LTJtRTZzZUJET3JvQndZVTdNTXNYTlVhN3lTNk5rY0F0bV9mTHdabXdVbDg2dWU5cndqb041dXUyZmI3aWlB?oc=5",
           "source": "NewsMeter",
           "thumbnail": "",
-          "meta": "20h ago"
+          "meta": "23h ago"
         },
         {
           "title": "5 biggest Instagram myths creators still believe in July 2026",
@@ -249,7 +257,7 @@
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLTEyVXhGQ3lZU0paN3p2YkpORTZLb0tsQmJhR1lIVXpISFZTMjg1WkQ1NWxLVkJrcWxZU3l3NV9uQTJxdmZGd0NuWjRsZzNuSWNSOWRIR29ndWxMellCcnQtbTFuQlNkRkU4RlI4aEtKbWVnYWNMNU9abXpQTDRzYWpOcmwtaDQ0NjVxdUl4NWMyYnlNOWdIMWhXMVBSM3E4bVI2dlN2NUVxMGttdUVhONIBtgFBVV95cUxQR0YxLTBlX0xGX0RWSGxqLUlteEs5QTlMSGtldmxxMXBXTmVlbF96VkhsNmFTQ1VWVTVzcFE0UGMwcWl1emlhSVhON1BFbUIzU1FidmJ4aUdFaW00akI5VGt2cHZsdU1paV8zNFFhcDVZdmZtM2FUMnNEbzZOOUM5ODg1Zi00LTRESERTRDBiX1N6LUVyUlZZRTRZYzhPbkZXNDk4OVZxbm9HWU1JNzNRa2VEanl3UQ?oc=5",
           "source": "Zee News",
           "thumbnail": "",
-          "meta": "20h ago"
+          "meta": "23h ago"
         },
         {
           "title": "Shraddha Kapoor, Mrunal Thakur and Janhavi Kapoor fuelled the ‘Inaam’ trend but Kartik Aaryan becomes its first male champion",
@@ -257,7 +265,7 @@
           "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQa2FidWM1NkdKN0JZdHN3VklnQnhac3JVbDlSRDNSX1NlQktNVUhQT1NuOVM0RjJlLWdJZDV6NS1TVXFEVTM3dnhoRkxCanhueXpVMTRIVUg4bUpwSFJHTjB0TjlKTXZjb3FlbDdIUGttcFg1dDgtMTZRTEtGc1ZDTURoOVl3dXpiSWRyaFRSS3FFR1k4SDk2V1RoczFvZThWTmZyY1M5aDctNmx5Rmpkek9feXFJaExMUFJ0Yk5mZTFjWUxDMFI0TGtWTVU5SGpwRXctd1A1UmhoQVE1S3RuLWt1aUFfSmpTWUxUSDhYNGo4My03ME5BY3otbDd3MDJjOFc4QtIBhAJBVV95cUxQa2FidWM1NkdKN0JZdHN3VklnQnhac3JVbDlSRDNSX1NlQktNVUhQT1NuOVM0RjJlLWdJZDV6NS1TVXFEVTM3dnhoRkxCanhueXpVMTRIVUg4bUpwSFJHTjB0TjlKTXZjb3FlbDdIUGttcFg1dDgtMTZRTEtGc1ZDTURoOVl3dXpiSWRyaFRSS3FFR1k4SDk2V1RoczFvZThWTmZyY1M5aDctNmx5Rmpkek9feXFJaExMUFJ0Yk5mZTFjWUxDMFI0TGtWTVU5SGpwRXctd1A1UmhoQVE1S3RuLWt1aUFfSmpTWUxUSDhYNGo4My03ME5BY3otbDd3MDJjOFc4Qg?oc=5",
           "source": "Bollywood Hungama",
           "thumbnail": "",
-          "meta": "22h ago"
+          "meta": "1d ago"
         },
         {
           "title": "I Created a Week’s Viral AI Videos in 1 Hour with AI—Here’s How",
@@ -290,14 +298,6 @@
           "source": "Indiatimes",
           "thumbnail": "",
           "meta": "1d ago"
-        },
-        {
-          "title": "From Instagram Reels To AI Date Planners: How OpenClaw Is Changing Modern Romance",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QMmV4WnpyT2Q4cjRLRjlLYmJScWE1SjhqQnpmMUhScmNWd1lOUmVIbkJBbTdNMUhNYXdlUjRTU3pLbFd0V1F5MHRSa0ozQXRxMVRxOUFxODZGRERJd3IwdThUYzdib1Fq?oc=5",
-          "source": "Bitcoin World",
-          "thumbnail": "",
-          "meta": "1d ago"
         }
       ]
     },
@@ -311,7 +311,7 @@
           "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE14VGRLRmdwRG5nWWpBbGJtcThNdloxdzBHYUNObVNoMV9jZnFJcll2ZXlxZzZfMFFsY01v?oc=5",
           "source": "t.co",
           "thumbnail": "",
-          "meta": "5h ago"
+          "meta": "8h ago"
         },
         {
           "title": "AMAPIANO 2026 TIKTOK TRENDING SONGS",
@@ -319,7 +319,7 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5Y3IzSzl5MVhjLXdNaF9SUDR6RGJGS09EazY1MkJfSUZoLUV6YTVyd3U2MjJhQ2xCaTJ0aGphVUVoYUFBdjMyNDR0VWRtbzE2OTFWSl8xdFdsTmFuT3R6aHR6VmxiT3dHXzh5QXZtQlVmTXFz?oc=5",
           "source": "Six9ja",
           "thumbnail": "",
-          "meta": "10h ago"
+          "meta": "13h ago"
         },
         {
           "title": "Elpidio Valdés Animation Dancing to Cuban Reparto Takes TikTok by Storm: \"I've Seen It All Now\"",
@@ -327,7 +327,7 @@
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HTExTY2hiQW1XUWVWRGFqVWJqTXUzTHgyXzg2SFhEWUpISEIxLWdUWEYyeFBPMm5keDV5aDZxa1BSZG5YajJuNFhtUm9zdWR0X2pwdml5WlI?oc=5",
           "source": "CubaHeadlines",
           "thumbnail": "",
-          "meta": "19h ago"
+          "meta": "22h ago"
         },
         {
           "title": "The animation of Elpidio Valdés dancing is taking TikTok by storm: \"I've seen it all now.\"",
@@ -335,15 +335,7 @@
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdi00QUlJZVd1Z2ZhRjg4b21mVmNYcUE4YWRmeW5oTUwtYklKT2NaMC1fQkpJVU9ZbWkxbzJCVnJlUWIzTEJXeUVzY2dDeVFXNVFhQU5KSnZERTVGcWZMNVh4ZklwbnZIdVRWRG9aa29Rb1NCR2YzY3FORlIxMmtOVmpVMHpMSlRsZG0xTEZvRVZxb0FKSlpnVTludWNROGhLNm5hWDlFSVJhNGJuQzhlR3hTN25WY3c3UFkwSlBEMTc4UQ?oc=5",
           "source": "CiberCuba",
           "thumbnail": "",
-          "meta": "20h ago"
-        },
-        {
-          "title": "Prebunk: Fake U.K. Veterans Fighting For Your Attention -- Information Warfare With Virtual AI Soldiers",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSEpLR19zWlF5VW5PdHhIZnFZS09ZSUkzS3hQb0VGQ2dvdjFTLTh2emF1UGYyZU1jNWFLRnVhWVQweG0yejhOaXRQbU45VFNKQ0IzTXMtNnlHVWptd0JqUWEzV2liTmYybkpsZlFZb2JmYWJuR2IxLXZKSXhoVDZ5Z1JOMkZ6UVhsREVxV0lxS1hkTXhmekZPeU91b2h3alhEVUVYNFJhNXp3ci05UHJzZDRCdGx4RVg0Y1VrMndPbmp1QWtjeFhHbmR6emNXS2RkWjN0dWlVeGxsQ3ZDSFE?oc=5",
-          "source": "leadstories.com",
-          "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "22h ago"
         },
         {
           "title": "Starbucks baristas can now get paid to make TikTok videos",
@@ -407,7 +399,7 @@
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRHgzam42U3JwU1VfSEFWZGZhNFYwYUV0cXRmdVc0cWpBX0dqTnlxOTd6cXE4RW5tSVhQWkdkUlVhc2FUY1l3R04tSjZPOElQaHZNbTY4bDdIS1FPV2Q5a3R3a2lZTTB4aERLVTJBTkFjdi03T3psYi01MUJwXzlPS3Jlc3NpVmhUVGRnS2haSTBUZ3dkQ0Z2eG9JcVI2bjlJTGlVOGRUSzVHcEVQLUQxSlZHODRkU2dLeXFndTVFS1RNU3p3eFpxb2RGaVlHUjg?oc=5",
           "source": "renfrewshire24.co.uk",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "Zara Larsson thanks fans for ‘Lush Life’ TikTok revival at Open’er 2026",
@@ -415,21 +407,13 @@
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbWt1eDZNRm0zOXM0SWZ1UFNiQzV4ek5mTzR5aUtzdDFBRFJaT1JlX3A3ZlhPTmJoS2hLaVhORnNwUXhlNEhoUWR3VWNjY05aUmZtSkpVSzdjMlRiSTAyV3lkaWF4M1dOMVItRjI1WHRDVS1MM1pFVVhtMXI2cXJCMTQydm5DR0FXQVRIeWlDQlgzWW5maDJjUWhtS1AtV0NXaHFBQkJ3?oc=5",
           "source": "wtyefm.com",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "The Wild Things bring viral TikTok ex-partner trend to live London show at Hard Rock Cafe",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWEZVY1hzaFFaRkZodDFLYnU3TUctZnJtOXNqNlNPRE1wWnk2M2s3T2ZwbnpOTWlORXdLYmx0dFBCSXBsSzQ2X09iNnhIQ2xmZFdyRWxfaTdrNXVVcVFIUVFZdGJxRlhYZ2JqS1BsbHZvMzVtZVEzUVczYU51bjBfS1FiQmtLY0pCMVc5bDZKZy1OLXdITlh0ck5JMDZPSk16OEFLdzJKTFVDLWJ1emZ5TmVGMGk4Vk5RMTdB?oc=5",
           "source": "London Daily News",
-          "thumbnail": "",
-          "meta": "1d ago"
-        },
-        {
-          "title": "Best Roblox song IDs in 2026: TikTok, anime, phonk and meme audio codes",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVmVKU1NsVkIyTER6eXR2eEh5aEk1ZHNrNEhoM2dWVTdZUkkwVWlfYjJ2UU4tQ1gwamNkaGQtenhJNVFDRnlZSmhsemlVZ1ltUUlDT3dJWm9UMzRuNzJpVl9qN0xmcldycWdBTGdnSW0yRVRleEJTd1Y3WXRTaFNIZDJvend4YUhMRlJzeG9BaTVfc19QcjU2cGdCd2xxS3FzdUNIb215dHJEZ2FsZ2F3LVFPZWI2MG9Ea0Z0T1RMTXJnM0szRDRmdWt3?oc=5",
-          "source": "MSN",
           "thumbnail": "",
           "meta": "2d ago"
         },
@@ -446,6 +430,22 @@
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeUhnSlp5TmNERTFQeFhGZDd6QlBBaDlzbERCUzBnSjdXNDczT04tTXVHWXBfaW9kVXhQeDUyMjFkN3NKcW1yWVhwX01nSWRGQnlJNE94Q2UxYmVLZk5UbElQSVEtVFVRNFFVM0VCSVVMMlR1N2tpcTRWbXk5WVd5cVFDMDlKUVh1YVpoYWNaR2N1SWNqbTdzbkJ6QU5jTTVRek5qcG9qaVNwMDEzLUhuUndVbDlNMTJIanNydGlWTk5MTlVya0VncVVMTzdsR3NqWnc?oc=5",
           "source": "greekcitytimes.com",
+          "thumbnail": "",
+          "meta": "2d ago"
+        },
+        {
+          "title": "How Much Did Alan Jackson’s Farewell Show Increase Streams for His Catalog?",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaE5WSkY4NU9YTWhJS0M5Qms4UTdDaWI0N194QmJLV1pZNUhPNHVMeHVsc3dpTnc3QkRhbEJ1d1A3VVNDZ05ncDZHVGtTdkZuWUlQaG15WktIc1UxcC1OVGlYQUVrZEJkcDVVWU9wVDd1ckJaWjhWdWtHRmZsUEdEVnhScXBiUUxUcjBxMjlJWUVWeFhzQ0tiX3V2U3ZEczV2WDZvTFh0RQ?oc=5",
+          "source": "Billboard",
+          "thumbnail": "",
+          "meta": "2d ago"
+        },
+        {
+          "title": "What Is The 'Twins At The Carousel Trend'? The Massive Animation Meme Set To Kikuo's Song Explained",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMFoyWkJsQmdzS21KMWhpdE0yYU9BYndkdUpGcFB5VGV4dHpRejlNa1hlTHdaeGNEcHJvQzZSaGFsOEpnbGxGdmJ6ejhhaHY4X1hqMFZfakphN1FjV0dfMU5OZXM1QTlKa08yZENIVDhONmk5ZEhvV3E2aHRsMWdjRlBHR2ZjbTMtaUhzbEJhUW52aU92YzJNV0lVRHZ1c25kQnRjeEZTTWpIa0FWbFpfeUUtRDU0Tk9rMEItV0E5bC1UcnkyX0xfSGFfUGlZMlFPLWhPZDNxVzJXUHBuWDd1TA?oc=5",
+          "source": "Know Your Meme",
           "thumbnail": "",
           "meta": "2d ago"
         }
