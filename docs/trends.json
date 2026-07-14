@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-14T05:09:40.926547+00:00",
+  "scraped_at": "2026-07-14T08:27:51.244399+00:00",
   "sections": [
     {
       "key": "tiktok_formats",
@@ -11,15 +11,15 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5Y3IzSzl5MVhjLXdNaF9SUDR6RGJGS09EazY1MkJfSUZoLUV6YTVyd3U2MjJhQ2xCaTJ0aGphVUVoYUFBdjMyNDR0VWRtbzE2OTFWSl8xdFdsTmFuT3R6aHR6VmxiT3dHXzh5QXZtQlVmTXFz?oc=5",
           "source": "Six9ja",
           "thumbnail": "",
-          "meta": "1h ago"
+          "meta": "4h ago"
         },
         {
-          "title": "Yes Theory and the live event arc after a decade of challenges - ad-hoc",
+          "title": "Yes Theory and the live event arc after a decade of challenges",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWGR2RWt3WmRDVTY1WWxHam1LUW1ZMFBZOW95NUdIMm1yRm1ReXVaRWowUDhqemdsOU5FQXBFcXl1eV9kbERqSGRWT2NlYVZHVmVEUEtodFYxXzhzUHJqemJNeTFOQXlLYk5BTGFHSjByRWJtcGNLcEdzcnczODFPNUtCTHpDRm1sR1FOV3o5cnZQRUZNRVMtVUZrRi0yYUo3a3NUeUtweGZ1ZFdwQWxieGpoZDh5eEstazFkNmlB?oc=5",
-          "source": "ad-hoc-news.de",
+          "source": "Ad Hoc News",
           "thumbnail": "",
-          "meta": "6h ago"
+          "meta": "9h ago"
         },
         {
           "title": "Pop culture moments that defined the 2020s",
@@ -27,7 +27,7 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWlcyeTE3WmxIR2I5Z1N1RkpzUVBOS0N2ZlFwZk1UUVlFUnM4OW5QTVJhSjhqSG00M0hRWUUxTkdwNFkxOUdyd1E3LUs2WllvR1l0Wi1KX1FFbXBlcE1NeEE5MlV1OHlTVDVZRmtYeEVfSXdzaW04YWJ4MXFvTU5teEZzcklXRnJSUWN1QVZPMUFNZw?oc=5",
           "source": "Giant Freakin Robot",
           "thumbnail": "",
-          "meta": "8h ago"
+          "meta": "12h ago"
         },
         {
           "title": "'Crisis friend' is a toxic friendship trend going viral. What is it?",
@@ -35,7 +35,7 @@
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX0N3MjdwS0VxYm1qRS0zMGgxZzZrcDFpV0RvMUZfeEpKVDNaX2NZbHVLSkJkMWp2QlpxZjY2amdwQWlveWdYYmNjU000c3RHd1VoQXlTWWMxSVpQdVkxQTYyUzVCbEpfeExTbnVXdF9fU1BqajJISk42ek5BZW55cnkzOXBDelh3X2R4Q2sxM1ZTU09nNlpqNXhJT0ZBLWNwRUdmYWZtTHVOTWFrSlYyN2ZOeTZVajYz?oc=5",
           "source": "USA Today",
           "thumbnail": "",
-          "meta": "17h ago"
+          "meta": "20h ago"
         },
         {
           "title": "Meet Maxwell McCracken: The Vintage Suited TikTok Star Conquering Birmingham",
@@ -43,7 +43,7 @@
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcG5nRHJoNjN6WGZjekFPQmd2eHBzOThPNDlmLUpQQjFtVURkYlJXdGFIWVdNbEZQeVFYZEpraHZKWVFYNnpyampDV1MxWEFON0VMN0lVNHFUTGtjTDQ2TFQ2Z0ZtV0FxZDlIWW5IZkxvdHotRktVNTAwVGZIRVF2RUtYcGY4ck02OFFFNWlEN2pCLVFfSXdFTE94QWRFa2F5cGhaYjJfcVdNSFRUdkE?oc=5",
           "source": "streamlinefeed.co.ke",
           "thumbnail": "",
-          "meta": "23h ago"
+          "meta": "1d ago"
         },
         {
           "title": "Viral Toy Trend Is Sending New York Children To Hospitals",
@@ -67,7 +67,7 @@
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40SDdLWnVXcEV6SDUybVlEWjV5TVZtc1NsVjJsaG0tdm5BQXNscmpBLUE5eXljNDBRWUR4SDV5RldmMHRwQi1RMExRaGVxSUotckNFQnFxN2YxUzNkU2hydExiX0ZsOEFr0gFuQVVfeXFMUDFGVlgwYXVvMzhYTWNWWmdYT2pCWkZSUkFaLUpTeU8wN3p6dmJLWDluVWZ3T1d5clg3Z3dndzA2dlBwU2dlbGZoeUxQT2VHZ19SNk5RbnBNbnZ5dGZ1WGNMcHlsWXVyQmRuMXVSTVE?oc=5",
           "source": "mustsharenews.com",
           "thumbnail": "",
-          "meta": "2d ago"
+          "meta": "3d ago"
         },
         {
           "title": "Squishy toy TikTok trend causing burns in children, experts warn",
@@ -118,6 +118,14 @@
           "meta": "3d ago"
         },
         {
+          "title": "Dalgona coffee, baked feta pasta: Which forgotten TikTok trends still hold up?",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaG9xa00tNHBHQUx1Zi1QczVZZm5MOWU0UDd5LWNLTFhwbnVkbnhyb1pyRjJmb2tWQnlDMHhsa296XzZJenUwRTU2UTF2aG43eU5YLWpCVGdNZjQ2ZnpaZDRrYTF0enk5bF84aWd5bGlZNUlQM3pNMEx5OGNsNE02YXpGeGdkeVVxS1R0MlY3R21Cc0ZLX1VPZ21RQUZmOTI3MWgzM3haMUlMZENCM0xobjhQWjJ5dGVjbmZRVVRCVnI3anhYUVNuN1lvc01RN3c?oc=5",
+          "source": "MSN",
+          "thumbnail": "",
+          "meta": "3d ago"
+        },
+        {
           "title": "SA firefighters join 'Mopepe' dance challenge, leaving social media impressed",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQYVBzV1RYRkdadFdtN1dmdHJQVFhFVjJxLTBWNzdtaEl6dVVuWHpKSmRNOVVRQ3I3Xzg5ZllNWE1hTW5aamlTTkxGUmlxWmFpM1NxZUxRUVl5MS1EeFE3SU9JaDZiWGxJSUFuTXhsZ2h3Nm9oT2hVeHhCRk5aM29ibzZTTEc3SWJZaFJESzNxYUVEU3JCWlhIaE9rcUlmNG90TUNDQy00b09DV1g4Q3diWXAxc3FIQWVwaFRvcGg3M05faFBmZnZEQ2FfaDdKbE9VTnRqYnlVclVFanIzOTFDYmNRVGE5ZGxmTlVWT3A4TGVOT2dEWkRHTWxIRlU3WjZHYm1mOFJXYnpKaWdaYkZxQkZlZ0FFMDhkVGlUcmFkMmdDYTBZZDdIUVRpWkVPNDQ0N1ppVFFJTXNrQmpGMXRyckMtVWc4a3Jtc21OU3ZTWG5RcjFMSVE?oc=5",
@@ -140,14 +148,6 @@
           "source": "NewsGram",
           "thumbnail": "",
           "meta": "4d ago"
-        },
-        {
-          "title": "The Vogue Business TikTok Trend Tracker",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5",
-          "source": "Vogue",
-          "thumbnail": "",
-          "meta": "5d ago"
         }
       ]
     },
@@ -156,12 +156,12 @@
       "label": "Instagram Reels formats trending",
       "items": [
         {
-          "title": "Brad Mondo and the live power of his hair transformations - ad-hoc",
+          "title": "Brad Mondo and the live power of his hair transformations",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdWxuV0ZfNXlYWDV1eUhxX2N4UzNoZ1pVSG9IWjBPMmxUYlMzdnljSFM5SUJId1hFRnJXYVRONklremd3Nk5xOEhENkdka1YxeE1QbXFyWXRnRTlHakF3TTdaUlJaZm0weHg2Q25MNjBKRFVQWjI3TFpUcnZXVEc5VUt5VnBZa1J5MVJXYnlwd3llcUxVTWpveGwxMlNoc19ab2lSQ1hoRVY5QVczOGJXOEdObjJrMVU?oc=5",
-          "source": "ad-hoc-news.de",
+          "source": "Ad Hoc News",
           "thumbnail": "",
-          "meta": "6h ago"
+          "meta": "9h ago"
         },
         {
           "title": "What's Up With The 'Netflix Documentary' Meme? The Viral 'Preparing For My Netflix Doc' Trend Explained",
@@ -169,7 +169,7 @@
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZDRIdXl5VDBVOE52UEdidS1zNG55WTJZQmltc1BaMTVWX1NOYk12dmlDdjJWNFVKTDJxRld1Q05qdzM2aTB6blgxa01lb0syTjkybmYxc1piMkNYRFN2a2VfMk9LdGU2aXBYSnFqSmlTX2s1d1JiMEFZM2Z0dXVnSnhSdzBuQWhFVk5HYjdwcjBLelpYWmE4SEZ4aGQ?oc=5",
           "source": "Yahoo",
           "thumbnail": "",
-          "meta": "9h ago"
+          "meta": "12h ago"
         },
         {
           "title": "What Is The 'Huss Valley' Meme? The Meaning Of The Viral 'Daniel LaBelle' Running Memes Explained",
@@ -177,7 +177,7 @@
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN04xN2g0MGY0UkM0OWd1cDFhbjVZbDViazZlX3BWZF9wUk8xdDRmMHdMc0FpNDZ4YVdtWnJETklrMnBJQV9FaGFpUTlfdS1GVXUxWmJGT2gwNm1abXJLM3F5OGJuZXRJWTZmaHhFWWlmVGZ2TVgxOThFTUpiN2swMzVjYmtaU29CUzQwckVzcw?oc=5",
           "source": "Yahoo",
           "thumbnail": "",
-          "meta": "12h ago"
+          "meta": "15h ago"
         },
         {
           "title": "Reality Behind 17 Year Old Influencer Azan’s Nikah",
@@ -185,7 +185,7 @@
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5yejkxSU5aOUJpZFNLR2RkUlBwVXAxVFpoc05JRTlBZ2lzcElDV1RPbjkyOW8yLW1Ld2lhTHJ3aWxRZmRqUkhZRW5nT0pPR0pYc0lFb01GNFpPRTYyT1RWT0JlZ2NTOHBWTUthWkQxQUFZZlRKc1VDS1Fn?oc=5",
           "source": "Reviewit.pk",
           "thumbnail": "",
-          "meta": "12h ago"
+          "meta": "15h ago"
         },
         {
           "title": "Meta Wants Every Reel to Become a Storefront",
@@ -193,7 +193,7 @@
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Ja05CNUc3NEQ2MkZCQ3VmcDU5dXNDdnNFOVlrY2xNMnQyekVLbzE4bVJBUEpHMTVQU05FSXpkQ053U3QxSkNKNmVVV1k3ZTZvWHJNQVZIbXFpdzNqQ2RFU2dxU2JqVHQ4RVEzdlBWVnZUWE56T2ZpUTMyQ20?oc=5",
           "source": "Influencer Marketing Hub",
           "thumbnail": "",
-          "meta": "13h ago"
+          "meta": "16h ago"
         },
         {
           "title": "Meta Disables New Muse AI Image Generator After Backlash From CAA and SAG-AFTRA Over Consent Privacy",
@@ -201,7 +201,7 @@
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE14WjlCMl9xTGIwa21VOUozQmgzMEhoUWg2bjZrN2RQb0JzWGdiUlBWNnNnWlQzT0h4T3JCN2pxN2dIZllObF9SVFJtbE5HaDB6NnFob1Q0WWQ3YnREMkpJdWNKa1JmQi1RT0pteXQxU1ZmLUNmTV9Ma2p5dlItQQ?oc=5",
           "source": "International Business Times Australia",
           "thumbnail": "",
-          "meta": "14h ago"
+          "meta": "17h ago"
         },
         {
           "title": "The 10 Fastest-Growing Canadian Instagram Accounts Of June 2026",
@@ -209,7 +209,7 @@
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM1Q2aE4tZ1NycE80VkYyRTNLQzRwZDQ2d2czZ21KXzNXVzlzUHgwMEJsLURzVnAxcnpOZU84RHBjdUppQ3hzbkJVOGRnLS0yTkpqVTY5eEI1UHVBUUZrb1dURkFwSVN3UEctQ0NSWm5hNElzMTYwQTRvZmRXaGJ3b1JaTEVxbEtUaEhXSzBXZS1HNjhualppejJ3?oc=5",
           "source": "Net Influencer",
           "thumbnail": "",
-          "meta": "15h ago"
+          "meta": "18h ago"
         },
         {
           "title": "How Creators Are Scaling Instagram, YouTube and TikTok Faster in 2026",
@@ -217,7 +217,7 @@
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLVdCb1VKWWlmM2g3Z0d3MHFMeFpCM1hDTWtGbGtpbGlVV2VnaWFmRC1IUWUxbzY5aGxnQ0piWnJPUjZBa2ZoUlBNVHZvR0JsMUxiLUxtN3NTRnFGZG5ZNzJfVWN4TG5wOENfeGdwRVBMUnlYcDNPbzhTc3FZUnZ5ci04Skd6N3RiQ0xHcGg4WXczMURwU1U3Ml9XVktDakJXOU1XZ0NXMDBReXhZNDJEdE1UaTlyR0ZQUVNtZUtoeFhPbTRWdXQyV1E0cS1WTEh1QllMZGFrNU5aT1nSAdsBQVVfeXFMTy1XQm9VSllpZjNoN2dHdzBxTHhaQjNYQ01rRmxraWxpVVdlZ2lhZkQtSFFlMW82OWhsZ0NKYlpyT1I2QWtmaFJQTVR2b0dCbDFMYi1MbTdzU0ZxRmRuWTcyX1VjeExucDhDX3hncEVQTFJ5WHAzT284U3NxWVJ2eXItOEpHejd0YkNMR3BoOFl3MzFEcFNVNzJfV1ZLQ2pCVzlNV2dDVzAwUXl4WTQyRHRNVGk5ckdGUFFTbWVLaHhYT200VnV0MldRNHEtVkxIdUJZTGRhazVOWk9Z?oc=5",
           "source": "The Manila Times",
           "thumbnail": "",
-          "meta": "20h ago"
+          "meta": "23h ago"
         },
         {
           "title": "Basinga Balaalu Song Shaking YouTube: Viral Video",
@@ -225,7 +225,7 @@
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZkNoeGNZbVc4V2Y5aEZGSG15STIwX3lnOEkzQnFpeUV6M2NtcWtXb2FCVnh2dThNdVRldy0tRnhYZmxRU1JSTFdWaFU2T0lUUFlZYlNCZXlKM19Xb2JLdWtqTU12VFFkSkVfRW9fblRrVjFHaTZhaC1jUWEyRXoySnZJN1dXZG1VLU93aUdmSjRZMFM3aDFyWWZ3R2x0UXZlTVBr0gGmAUFVX3lxTE9EUWpYZnR3R0ZmcFpWVlVvdjNhbWwyRVNRcnVVTUpFRjhQMVhINU1mR1NuZHh5cGtveWp5dW5DdFNEbjZ3UzQ5MUNSWGhXUXB4MVJXY1VJTWFhRFNPSVJfSkVNVnRvRThaeWE5SFN3NEEwaWxVT3hGdEpCZTctMmI5eHZYaVNwbGJWaDJkUWhnZTVfVUd6eV9FWTc1T2RVbDYxWUZ6eHc?oc=5",
           "source": "Sakshi Post",
           "thumbnail": "",
-          "meta": "21h ago"
+          "meta": "1d ago"
         },
         {
           "title": "Instagram's 2-Billion-User Plateau, Meta's AI Pivot — Is the App You Open 50 Times a Day Quietly Becoming Something Else?",
@@ -233,7 +233,7 @@
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSUJmMGVrbmZ4Y0MzVWFDOXFnZkVkQ3lOdFFsemNWSmxleXlKVHdueWx1cW9meXBFSklnZnJaLTdjN1dlaHA5N1hPSU5GVjcyS25uOUpuNjlGajFQYTNiSVJiQlAxQ3d5Vlo3NUhXTWgyUlczNGZkam5DZU9DVzhrdzNyR0hyNmpmWnQwd0Q0OHZNcmRHeXMwcFl3?oc=5",
           "source": "indiaherald.com",
           "thumbnail": "",
-          "meta": "23h ago"
+          "meta": "1d ago"
         },
         {
           "title": "No movie, no big music label… this AI-created song has the internet buzzing",
@@ -306,12 +306,28 @@
       "label": "Viral sounds & songs in content",
       "items": [
         {
+          "title": "From akala to crocolotion: The story behind King Mamba’s viral rise across social media",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMFl1SHgxdlpOdzRqb0JDTVNucVk1U252a1RvRUxnWGc2N01RMkhmbkJtR2h4OXZfTzNwdVJ2aXVFZElBa2FfOGYtNHdFT21fdVBPcUQ3XzJGWi1RV3dRSldvb2FlTUxVVGRIQVBFOG4xMmlUQ1RQZmVNMWtPY3h2bTZfSXRmZjJwU1A5akh2WTNZY3lTUWpqdVdubE9tNElaSUNLMExtTWwwQmQ1eDVWVkZXUDlVWlU4QVFaRXFNMG1wSDNNZmlSTQ?oc=5",
+          "source": "K24 Digital",
+          "thumbnail": "",
+          "meta": "4h ago"
+        },
+        {
+          "title": "AMAPIANO 2026 TIKTOK TRENDING SONGS",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5Y3IzSzl5MVhjLXdNaF9SUDR6RGJGS09EazY1MkJfSUZoLUV6YTVyd3U2MjJhQ2xCaTJ0aGphVUVoYUFBdjMyNDR0VWRtbzE2OTFWSl8xdFdsTmFuT3R6aHR6VmxiT3dHXzh5QXZtQlVmTXFz?oc=5",
+          "source": "Six9ja",
+          "thumbnail": "",
+          "meta": "4h ago"
+        },
+        {
           "title": "HYBE Idol Sparks Debate After Viral TikTok Recreation Draws Criticism",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFM0eC1ocEFoaDd2QlRyZ2tzUVBreFBxOEtiR3dsdy1HNVpSV1ZaVTVyeWh1dnd0MVF5by1rVTNwZTQ2VXNlYkg4OGJsS2dHS3dWUjFuVmlUejB3ODlUVGw0bUJnR1ZvdUdjVjBKaWlXTlp5bF8yNG9VMWVnWlNZNV9sNjFtZkxqQktWbEF2eFBXOUJ2?oc=5",
           "source": "KbizoOm",
           "thumbnail": "",
-          "meta": "3h ago"
+          "meta": "6h ago"
         },
         {
           "title": "What's Up With The 'Netflix Documentary' Meme? The Viral 'Preparing For My Netflix Doc' Trend Explained",
@@ -319,7 +335,7 @@
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZDRIdXl5VDBVOE52UEdidS1zNG55WTJZQmltc1BaMTVWX1NOYk12dmlDdjJWNFVKTDJxRld1Q05qdzM2aTB6blgxa01lb0syTjkybmYxc1piMkNYRFN2a2VfMk9LdGU2aXBYSnFqSmlTX2s1d1JiMEFZM2Z0dXVnSnhSdzBuQWhFVk5HYjdwcjBLelpYWmE4SEZ4aGQ?oc=5",
           "source": "Yahoo",
           "thumbnail": "",
-          "meta": "9h ago"
+          "meta": "12h ago"
         },
         {
           "title": "Cream of Wheat is going viral as grocery prices stay high",
@@ -327,29 +343,13 @@
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQamFDXzhBcjlWZ0ZfOC16SWdhUVFzU2lQNWZhT3h2c0VvamF4eDdEZEY3bDhJMnNkZ2RnVW1EeEd6VEkxS3ZZeUxraXh1WDJTOFJiSHNWMURVSHdFM0hzVlIyRjQweTlZRHN2OE1JYXB6TzhaWG5ZRk9JQ1l0ZXk3aA?oc=5",
           "source": "Mashable",
           "thumbnail": "",
-          "meta": "9h ago"
+          "meta": "12h ago"
         },
         {
           "title": "Preparing For My Netflix Documentary",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9OaG05elVVbTlURmN4NVdTNzJSM2JsRjk1aHdzS1ZFMUdnNmx1ZnlITUJmWkpER0dRRU00QUVKSWxGU1JHQ2YxSVpQXzBad2hQekpvalBhazU2Q3VYWTJYckFxYkM0bG1YQ0t2S2tOQ1FTenFnamc?oc=5",
           "source": "Know Your Meme",
-          "thumbnail": "",
-          "meta": "11h ago"
-        },
-        {
-          "title": "\"Plot Twist\": Mzansi falls in love with a Ghanaian diss track",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbEVCN1ZTcFpqVlhSUEhmNTVnNnhHdFRxWXhDcEpxYzk2XzlOQ2NxakZrTXVRaEJFSnlFdllsc19BeVpveDdBbTBrQnVCNEFuN2VrZVZPbzBoMnFxMlRzeVd6aHVjWWRyY3Z1Tjk4dnBYYjE1Y2dDMnR4YUhNMTB6TTlSS0ttU01xV1pBVnNubGNBVjF5RnVNSlQzZV9fRV8xbHdhN2lXRmt0MkFGaWRaM29n?oc=5",
-          "source": "Briefly News",
-          "thumbnail": "",
-          "meta": "14h ago"
-        },
-        {
-          "title": "AMAPIANO 2026 TIKTOK TRENDING SONGS",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5Y3IzSzl5MVhjLXdNaF9SUDR6RGJGS09EazY1MkJfSUZoLUV6YTVyd3U2MjJhQ2xCaTJ0aGphVUVoYUFBdjMyNDR0VWRtbzE2OTFWSl8xdFdsTmFuT3R6aHR6VmxiT3dHXzh5QXZtQlVmTXFz?oc=5",
-          "source": "Six9ja",
           "thumbnail": "",
           "meta": "15h ago"
         },
@@ -359,7 +359,7 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84WFpBdExocHQyU0JKanRnQmMwdzBBbEZjbFFrUUtkVGNkR2VNR2x0RURPcnlucnVxcm5kNk85al93WmFMRGVobmExQ2thaTVSUkZUaktwNVBaV1ljQlRUUDN1Y3BmUEJVUEtzVDJITnpvXzNKLVJqWUF0aW5teWs?oc=5",
           "source": "Net Influencer",
           "thumbnail": "",
-          "meta": "18h ago"
+          "meta": "21h ago"
         },
         {
           "title": "Music influencers are getting paid to promote songs — and they're not telling you",
@@ -367,7 +367,7 @@
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcWVXQ2VSY3VYLWxFeHZSQmRLRkZwQ0xEVC02VEh0S3BnaW0tREpVMGthZUVURTVOcGR1TnhMQ3ozcjQzUTZ0RUxQdEhCNHM1MHREYkNpRzVlRk5ELXNXQnFJdzBkb0RkMExnQWU1VE5ocXE4NlBoLTdCSDZpY3hrckFaQQ?oc=5",
           "source": "NPR",
           "thumbnail": "",
-          "meta": "20h ago"
+          "meta": "23h ago"
         },
         {
           "title": "Why is everyone looking up? Viral 'meteor' video has the internet guessing",
@@ -376,14 +376,6 @@
           "source": "Philstar.com",
           "thumbnail": "",
           "meta": "1d ago"
-        },
-        {
-          "title": "Bella Poarch and the format range behind her viral success - ad-hoc",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ0MxSTc0dGJPNjlwOVFSdzVvel8tNWR2UDNGS0lnYW1qTHI5ZjlqalJkaVB2U0dqdms5SzljeUk3dTNzdmJMSUVFazM5TjEwR1lpNXN1X2g4OHpmRnB2cWZDV0RxLU1uMnJoWHZlbkQ4V1VwTmlXNldMMEd5LW9WS0RDSDFtRVNiVVpnaTR6TlRGM2xTejlFRDBxVGlPcm9ZVU83bHpyaTJJMng2SC1fTFJkR243dFJ5?oc=5",
-          "source": "ad-hoc-news.de",
-          "thumbnail": "",
-          "meta": "2d ago"
         },
         {
           "title": "Pitbull sets bald cap world record at BST Hyde Park",
@@ -446,6 +438,14 @@
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUDBnZXd4d000X1puWHpTU3dXekdnRUNSakFtM2pMbE81LS1IT1FCX0NJRGJ0OU85eTdhbGg5b3FCOVUzYzBLU3E2MDNsa2FKRksxQzZoaDRPM1JHdXltSWFRaDlFcHBaSHFDck9nRFB0TEQ2T0NOdm1BRDltaGRtcjNaX3Jmc0xhQVM4VlpJRVZVaVVEZ3RncHowT3ZwcFhPdHc?oc=5",
           "source": "Shine My Crown",
+          "thumbnail": "",
+          "meta": "3d ago"
+        },
+        {
+          "title": "How Old Is Tyler Vitelli — and Why Gen Z Can’t Stop Watching Him",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hTURXVy1zVlBXOTd2Z2JtX1ZxZ204U2FZNGxJLVFiTUN2ZjhNVXBYVVdwOVFMS0t5M3B2OEM2bER5MjhyYllNcUZ5VDFEbm53ckh1ejU5SUtaQQ?oc=5",
+          "source": "gaukurinn.is",
           "thumbnail": "",
           "meta": "3d ago"
         }
