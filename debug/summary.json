@@ -6,6 +6,10 @@
     },
     {
       "lens": "Fastest growing",
+      "error": "The read operation timed out"
+    },
+    {
+      "lens": "Fastest growing",
       "rows": 0
     }
   ],
