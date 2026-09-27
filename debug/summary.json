@@ -2,15 +2,7 @@
   "runs": [
     {
       "lens": "Trending in US",
-      "error": "HTTP Error 525: <none>"
-    },
-    {
-      "lens": "Trending in US",
       "rows": 0
-    },
-    {
-      "lens": "Fastest growing",
-      "error": "The read operation timed out"
     },
     {
       "lens": "Fastest growing",
