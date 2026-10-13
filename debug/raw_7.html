@@ -145,30 +145,68 @@
 
 
 <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}[wire\:cloak] {display: none !important;}dialog#livewire-error::backdrop {background-color: rgba(0, 0, 0, .6);}</style>
-<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
-
-
 <script type="text/javascript">
-    sellerObject = {"token":"live_df83ad9c7dd633420cf692895be","eventCallback":"paddleEventCallback"};
-    sellerObject.eventCallback = function paddleEventCallback(data) {
+    window.loadPaddle = function () {
+        if (window.paddleReady) return window.paddleReady;
+        window.paddleReady = new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            let timeout;
+            const fail = () => {
+                clearTimeout(timeout);
+                script.onload = script.onerror = null;
+                script.remove();
+                window.paddleReady = null;
+                reject(new Error('Unable to load secure payment. Please refresh and try again.'));
+            };
+            script.src = 'https://cdn.paddle.com/paddle/v2/paddle.js';
+            script.async = true;
+            script.onerror = fail;
+            script.onload = function () {
+                clearTimeout(timeout);
+                try {
+                    
+                    const sellerObject = {"token":"live_df83ad9c7dd633420cf692895be","eventCallback":"paddleEventCallback"};
+                    sellerObject.eventCallback = function paddleEventCallback(data) {
 
-        
-        switch (data.name) {
-            case "checkout.discount.applied":
-            case "checkout.discount.removed":
-            case "checkout.customer.updated":
-            case "checkout.loaded":
-                let checkoutData = {
-                    items: data.data.items,
-                    totals: data.data.totals,
-                    recurring_totals: data.data.recurring_totals ?? {},
-                    currency: data.data.currency_code,
-                }
-                window.Livewire.dispatch('update-order-summary', [checkoutData]);
-                break;
+                        
+                        switch (data.name) {
+                            case "checkout.discount.applied":
+                            case "checkout.discount.removed":
+                            case "checkout.customer.updated":
+                            case "checkout.loaded":
+                                let checkoutData = {
+                                    items: data.data.items,
+                                    totals: data.data.totals,
+                                    recurring_totals: data.data.recurring_totals ?? {},
+                                    currency: data.data.currency_code,
+                                }
+                                window.Livewire.dispatch('update-order-summary', [checkoutData]);
+                                break;
+                        }
+                    }
+                    Paddle.Initialize(sellerObject);
+                    resolve(window.Paddle);
+                } catch (_) { fail(); }
+            };
+            const start = () => {
+                timeout = setTimeout(fail, 15000);
+                document.head.appendChild(script);
+            };
+            if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true });
+            else start();
+        });
+        return window.paddleReady;
+    };
+
+    // Provider payment/recovery links request billing functionality explicitly.
+    // Ordinary page visits and campaign parameters never initialize Paddle.
+    (() => {
+        const query = new URLSearchParams(window.location.search);
+        if (/^txn_[a-z0-9]{26}$/.test(query.get('_ptxn') || '')
+            || query.get('__pw') || query.get('__pw_iic')) {
+            window.loadPaddle().catch(() => window.alert('Unable to open payment management. Please refresh and try again.'));
         }
-    }
-    Paddle.Initialize(sellerObject);
+    })();
 </script>
     <meta name="google-adsense-account" content="ca-pub-8416999256256451">
 
@@ -217,7 +255,7 @@
         </div>
     </div>
 </header>
-                <div wire:snapshot="{&quot;data&quot;:{&quot;isProCustomer&quot;:false,&quot;isBusinessCustomer&quot;:false,&quot;activeDropdown&quot;:null,&quot;hidden&quot;:false},&quot;memo&quot;:{&quot;id&quot;:&quot;DYJPPozTgkFwFAS6jo84&quot;,&quot;name&quot;:&quot;mega-menu&quot;,&quot;path&quot;:&quot;trending\/US&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;0b555b6e45cc6453fff3cc89a5ab59eccb107a101f2580e85080abd485a20e9e&quot;}" wire:effects="[]" wire:id="DYJPPozTgkFwFAS6jo84"
+                <div wire:snapshot="{&quot;data&quot;:{&quot;isProCustomer&quot;:false,&quot;isBusinessCustomer&quot;:false,&quot;activeDropdown&quot;:null,&quot;hidden&quot;:false},&quot;memo&quot;:{&quot;id&quot;:&quot;pErn6vNCDz59JtfXg1cR&quot;,&quot;name&quot;:&quot;mega-menu&quot;,&quot;path&quot;:&quot;trending\/US&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;7f55757c447df89a66806cc496328338f1147ce9b13bc47b1c15d62047a23dce&quot;}" wire:effects="[]" wire:id="pErn6vNCDz59JtfXg1cR"
     x-data="{
         activeDropdown: null,
         drawerOpen: false,
@@ -3052,7 +3090,7 @@
     window.tkc = window.tkc || {};
         window.plausible = window.plausible || function () {};
 </script>
-<script  data-navigate-once="true">window.livewireScriptConfig = {"csrf":"S7K0GYuDZONj21yb7KhHPK40GZEI4tiSRbVcLPIO","uri":"\/livewire\/update","progressBar":"","nonce":""};</script>
+<script  data-navigate-once="true">window.livewireScriptConfig = {"csrf":"HJHfkO165r9OgjnW9ZOcQ9W3emNbwuERGSV9aW3x","uri":"\/livewire\/update","progressBar":"","nonce":""};</script>
 
 
 </html>
