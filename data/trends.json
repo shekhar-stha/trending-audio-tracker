@@ -1,17 +1,25 @@
 {
-  "scraped_at": "2026-10-16T00:24:13.112875+00:00",
+  "scraped_at": "2026-10-16T07:08:39.249881+00:00",
   "sections": [
     {
       "key": "tiktok_formats",
       "label": "TikTok video formats trending",
       "items": [
         {
+          "title": "This TikTokker jumps on a trampoline every night. Has she figured out the secret to happiness?",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15UW40OUxwcXZhblUxc0VmSkJEQUNLS1R1ODZRZnBKSHY0MlU3N0pQY3JNbFFqRF9nSDF1bF9TdWxPYnVGTXc0NF9OUkxCTnVGOURGdkQ4bHMzZGlBa0RVNEN5UUNOLXN3YW1TM0lPc1FKd0FBX3NnTEZLZHJzUQ?oc=5",
+          "source": "Mashable",
+          "thumbnail": "",
+          "meta": "10h ago"
+        },
+        {
           "title": "South Park Satirizes Viral ‘Aura Points’ Trend in Midseason Return",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUXZRZWFlUkN3eDlXSkNtZ0phWnZZQ1llNndTTzg1RHZYS0RhUy1GeHMweV9TNW96RGNoQ3JWVUV3aVpuODFzS3c1eVd3R3N5QXJ0N1pPQ2FRbUk4eWFCVjVUWElveThYT25CSTJKRE9nRXhwUmpfN2c3U3FhSDVRcnVlWHhkZw?oc=5",
           "source": "The Bulletin Time",
           "thumbnail": "",
-          "meta": "17h ago"
+          "meta": "1d ago"
         },
         {
           "title": "How Gen Z Watches TV on Socials: Why Vertical Microseries Are Replacing Traditional Streaming",
@@ -19,21 +27,21 @@
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZHdtdW9ScnRIczhxWDQwS3JXRW5QOWpqTHAybWZEQWpraF82NmVKLUp1Q1cwRDRlOXV0TnJnMlZYQnowQ1JlYi1PZXZOTXctRER3T0tMWVVyVHlrdzFWdkRsemRmbGlTVDdiZFlORXdoWFZFOVl6TEFPV2ExR0NCSG1QaTlQQmQtcEJQVEFsdjgxc2ZBWWtqUEt6TDFnc1U5T0c5UlZYdzVMMy1TVzhnWUc0dUo4Q285RzQ1dlJ2cmhvNUhmYTZhTW1MQV8?oc=5",
           "source": "InsightTrendsWorld",
           "thumbnail": "",
-          "meta": "18h ago"
+          "meta": "1d ago"
+        },
+        {
+          "title": "Fake Hotel Challenge Videos Flood TikTok: Guests Are Calling Properties for Prizes That Don't Exist",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdmhnbTJxR2FIeG5jU0E5bHNtTHdCWkVUWkNQR0hmOUNCcEQwMHNlVHJyLWY1TWpIRjZER1lQVHZnVnRiUVJrXzd5VE1vc09aTFBWeDhBaDZBX3lfczU1OWYxN0JabWNHTV9zaTY0WTJLc0lNc3VsNzRmQjhvSUd2dGkybWZNVDd2cjhvbm5IdGhsM1VncDNIWHZUbUxWX0dDZHg1aGZyOXJiWHdnQWRJSWNBZ3o0aHF0eXFOWFRDcWt0VGhiSkFhRmNYWGlOeDVCSVk2YkhSRWJxUGFXcVlxM0c5b2JjUzQ?oc=5",
+          "source": "Travelers Today",
+          "thumbnail": "",
+          "meta": "1d ago"
         },
         {
           "title": "Druski Is Bringing Creator-Native Comedy To Saturday Night Live",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZTBpc3BlNGZsS0E2Z3pfb0NndHdzbU50cktZUWtGVy1hczVVX1FzZmRLR29hTVF3M0ljb1F3cW1oZVFmX1JHT09TVFRseVVwYUxfNWRJaWZLU0NkMWVMNE1uanRpS0xYNzE3dGxGUzZxemN1SG9DRm0zWmhIUDM3VkNVcDluQQ?oc=5",
           "source": "WeRSM",
-          "thumbnail": "",
-          "meta": "23h ago"
-        },
-        {
-          "title": "This TikTokker jumps on a trampoline every night. Has she figured out the secret to happiness?",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15UW40OUxwcXZhblUxc0VmSkJEQUNLS1R1ODZRZnBKSHY0MlU3N0pQY3JNbFFqRF9nSDF1bF9TdWxPYnVGTXc0NF9OUkxCTnVGOURGdkQ4bHMzZGlBa0RVNEN5UUNOLXN3YW1TM0lPc1FKd0FBX3NnTEZLZHJzUQ?oc=5",
-          "source": "Mashable",
           "thumbnail": "",
           "meta": "1d ago"
         },
@@ -59,7 +67,7 @@
           "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPZWQzZ0ZDX0ZyTXdxT19hczRLdi1vWmFOa3FKT2gzX29sQzlRblQ1WTVkZ2VpOFV5dXFZNDc4S2RrbjYzT1NxekxhaE5fcFdsbUsyQTYtc25vb01VRGh6bU9fYk1nc0tkNFJWaDNiNGdnMEFQQ3RQazZpdGhtamJOQjVUM0pOVEY3ZkNvbFV6VmNoQjhwMWhoOWRseWZaR2VMUGlmV3dxM0RIY0llOEl3UlV0bFNPSEtPN1Ayc2daRG1uSE9SUVM4eFNoSWgxYmgwNlFGcTA0RnNXUDVkaDBUNm1aRUczMFB3TVE0NTdWcUFFUGxWWjc3NldoZXhJT3J5N1R3ZUJLYXRjRnJsbEFCWS16aGNnNkRkaDYwaF92TFpPZEtHRWNOYjQ5ZEptUWRmWGNZ0gG4AkFVX3lxTE55N2YxZGxsX2dMZjdOMnIwbzNvOU05UkdDUzdPM0pSbFFNdmQ0dVlQQ1FMYUt3eFpYczNkQ0NlMWg4SG00VlVZQVZ1cUpIajdjcHhDTHlOUHlUZGh4c19FN3JPVE40VnNxR3RhU05kR1o0VnRlRXNoX0VlNndSdVgybjJiSXZYbklxQTlGRXJzLTlkam1nWTktN21MWUlHUzBSMGVZVkZCWUN6blpKb1FLbmE3Qnd3dHdHRDFWVE03dVVGLS1ybUVRZThQVlpUVG1zdF8zNkNlVGFHX1ZJazlXakk3MkdnaGtJQ0JmS0hRaVBCZ2psWXdqemNrR2p1YjVjM0hMOG9MSnZkVnZiNXVqS29vNVk2N1VwczNKQU5CSUxVRHhMMFp1QTNtOE1CVWxiM3dyN2hVTQ?oc=5",
           "source": "News24",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "Instagram’s ChatGPT ’80s Photo Trend Goes Viral: Here’s All the Prompts to Try",
@@ -99,7 +107,7 @@
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbEJkaHFvODhNSHQyMlR5ejhFN1NBQnJVOXZPRUVnNUI1WmZzeTIwdi1STjhLaWhpXzhaRG1jUGhzZmpTX1U4ZWZsMHRzX0d2djZzZEpicGplTWtUOER3MEV6bUVPMVJNMU1fcE9USWVtdVF6TnRGLXNvekZUQW1oLUdhbkVldXphZ3EwZUp4alRmaGFOUnhSYVdTYU9CVHFBQjI2OUxWU29NXzA?oc=5",
           "source": "Dexerto",
           "thumbnail": "",
-          "meta": "2d ago"
+          "meta": "3d ago"
         },
         {
           "title": "What is a ‘boy mom’? TikTok trend sparks controversy",
@@ -107,7 +115,7 @@
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTV9aOERadUMtcW1kQVJISmMyNElJbWJwSHBWdndVU2JFdVJiR2tJLUhySFc5amhRWFQ1cTNPalZ0UlNEQmJ6UEJKV1ZmSjBCbVN4YVVTSmJwVmVzWFpzVlhRcndGZEhxaUFPLVVfcFFCUnRlaFZpWkU4Y2Z2a25PWWZ4WGVHWWc3c3NidF9OeWJaUjZyUm9BNFNHSXk5YWxkckFIWWRSdWswYmRrcFE?oc=5",
           "source": "Dexerto",
           "thumbnail": "",
-          "meta": "2d ago"
+          "meta": "3d ago"
         },
         {
           "title": "\"With our unpaid TikTok\": SA-built app promises more for creators",
@@ -115,21 +123,13 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONjVMUGhyTG4wRHNVdDVqTG1EYVB2NGpqY05sRjQxNk00OHYxR0JvYjhZdlpvcFgzUEsyeG5wMnVhTVZWQXJDVHljNG5qVWJtcUMwWDdTUUVCTmU1eXIwXzA1TTByUEdwa0E0dDZqR1JDZmk4eklleUVGT0tLTnk3X0NwV1owTmFBYUk3NURBcjY5dw?oc=5",
           "source": "Briefly News",
           "thumbnail": "",
-          "meta": "2d ago"
+          "meta": "3d ago"
         },
         {
           "title": "TIKTOK DANCE CHALLENGES: WHO BENEFITS WHEN A SONG GOES VIRAL?",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0tjMGZ4UVg5UUdmS3BrcEZTZEVfT0dZUU4zMWwxS244VVhSSTZqdG95R2pBUktLaE1XVUlvRWltbk02SkJhYzhNMl9McXlVaDBUdW1RQkl2c2FtNnpSeUtVRGlHYWFKTVBYTkthdXZCOEhtNThfU2RrbzBsdXU2emxqaFhHcy1BcFQ2TFZGTEFhWFJ6N0E?oc=5",
           "source": "Herald.co.zw",
-          "thumbnail": "",
-          "meta": "3d ago"
-        },
-        {
-          "title": "What is TikTok’s viral ‘upside-down smile’ trend?",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaHBoUDN5d2JoVDFZVFktcl9PR18zaXoxbVpwdk9VdTNCc19SQWhSX1NOUll5eUt6Yy1pTFpQenJkU3g3T205QkpsNENNMjY0NUZzUHVFeDJGRXRVSy1FSlJ3YmdiSXlhZlRqRmwyc3JMYjYxdnF3SjdQMzR6M195cTF6ZUdUTkZ0eTc4WDF3?oc=5",
-          "source": "Dexerto",
           "thumbnail": "",
           "meta": "3d ago"
         },
@@ -147,7 +147,7 @@
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOTJnM0VPa19DTG1YX1JQbTVXcTUyOGxwTVdUYzl2TFdrV2RuX3loOS1nQ1FtRkczOThQaUd5UzVKNk5OQ3I1d1BUd0lpcFhiU09zU3NOcFQyeDI0R0ZqUmpfYjBSc1dPVkhXSHNFVHZpZUtxMEZwd2lTRTdkaVZ4Snl0NEVWRVlsZ0hpTllKTVRzMVBMdE1kM2FkY1RNSkFn?oc=5",
           "source": "Dexerto",
           "thumbnail": "",
-          "meta": "3d ago"
+          "meta": "4d ago"
         }
       ]
     },
@@ -156,12 +156,44 @@
       "label": "Instagram Reels formats trending",
       "items": [
         {
+          "title": "75-Year-Old Man to Marry 30-Year-Old Woman in Uttar Pradesh",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcGUxM1pnSEpFSWZEMEhGMFN5dVA2MEl6aHNlVmw3VXlYTkN5UHRxd2pNZHB1N05DTnMxVklmT3NlNlVZaXQzZTAxelFzSXBKNXVOMWJxZW41dDFrak9VOS1XTldQeFJxNHI4YUtpMlc2ZG9jM1Y1aDNTN0MwWVM0YkNvWFBPNnQzd1Z1aXBMNGhsU1U5c2o2cnN0NERrSXFlUWw00gGjAUFVX3lxTE9wZTEzWmdISkVJZkQwSEYwU3l1UDYwSXpoc2VWbDdVeVhOQ3lQdHF3ak1kcHU3TkNOczFWSWZPc2U2VVlpdDNlMDF6UXNJcEo1dU4xYnFlbjV0MWtqT1U5LVdOV1B4UnE0cjhhS2kyVzZkb2MzVjVoM1M3QzBZUzRiQ29YUE82dDN3VnVpcEw0aGxTVTlzajZyc3Q0RGtJcWVRbDQ?oc=5",
+          "source": "TeluguBulletin.com",
+          "thumbnail": "",
+          "meta": "1h ago"
+        },
+        {
+          "title": "I know I am healthy: Gurugrammer responds to trolls over viral 9 to 5 office eating Reels | Hindustan Times",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNTmttQnVMYy1kWjlIUUZlVFJjazUtS3ltTHNaYmRfOXVnTVFlUEd2Y0FJZTNlUmYxQjhXcHV2cnl3aDZPSy10NFJLVnBBUC1GS094bFFlaE94Tzl3WnMyUm9aaDlUTmFVUVQtbXctbXowa0ItNGNHZ0ZjcmpQRXFSbnJiR1lBMTBaQkdDMFZpVGhWQzJxVk5KUTVxR053WHpZbFJzVThvc21MaVNicm1sUlVwR3g1c3lXWndjYTJwYnBnUzJJeXpSSmZ0NXkxenhaZDg4ckszUVVWRjhZa0wzb0h6TEZQYUNHcEQ2ZElENHVpa2dDMGRoMEpMQkUwd9IBgwJBVV95cUxPT0dXUWp1ZkVzWm5wNUFIY2tVbldEYjc4VnVtNzhvWXNJT0V5WFdJVl91b3VxRGVhelhiRS03cWszb0wxbncyeHcxYW9MMnZfSmk0X3BabDZoUXNpdlhwTEpQbV80VFNYQThlaG5GS3BHZ1hIcGswX2pjVDFPWG1tRHh4WUJpSUpZMTltY2xzUVpQOXBwcEFrTmtuZWU1WkhWMnMzaVpxSWhZcFBVZF9JOWowdk8tZEhDRDNrVk5uaTltdm9jQXJqSktncHdaYTlGWndRZW1mOHE1NUd2Z0dfZ3ZYXzJsbWxtRHdTR0xmaV9pbVpPRE9qVkNwWEg5OUJCZmQ4?oc=5",
+          "source": "Hindustan Times",
+          "thumbnail": "",
+          "meta": "1h ago"
+        },
+        {
+          "title": "Meta Adds Audio Links and Reference Reels to Edits and Instagram",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMEtDb3hPZGRwaGtibXNvZTlZWTh3VWdHQ0tYNTljWFRnMTJSbEM0T2p6anFja2h2Y1NUbmV0Rl95SjJVcTFJRlZDcGRPSGw4RWhUOWJSVEsxVGVTQnc1RDNwYXczeUpSYWhCSmMxRlRQdlBpOWZwdTVCeXprT1dkWjlhd0pMdw?oc=5",
+          "source": "TechJuice",
+          "thumbnail": "",
+          "meta": "2h ago"
+        },
+        {
+          "title": "Instagram has a new trick for recreating viral Reels without having to memorizing them",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNXRQakdGTGZxRHlVQ2c5Mm40Wlp5djNkcHRzRVFxaFUtbHpZT1NIT25TR09WQzN6UTFFVnlJYlRyd041czNvOC04Vm9XcGlMakZ3N05NTURfaWxsU2RsQU1zN3BSZlQyeWhnNzIxdHg1aTBjbC14RHJPcHlSVkRHRlVqajcwVUktdFg3S0xjazdtbnBIeTl4cEZ5aVk0ZF9jVU9jOF85QWZ1VC1naGdOc0ptZEFQRHJVSGZ3czUyRQ?oc=5",
+          "source": "Digital Trends",
+          "thumbnail": "",
+          "meta": "7h ago"
+        },
+        {
           "title": "Call Me Ugly I Own Your Dream Man Watch for Free: The Viral Phrase Explained",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CeDNtdkRMTUkxc3lhUEdHdGZZSEhpdWF3dk5qOC14LTVURndRbkRYWW5QUmtoSEtXNEFDUU91alpJOTItdFZ3dXVlZ002WlZPR09iVkQxd3VYYjhX?oc=5",
           "source": "白鲸出海",
           "thumbnail": "",
-          "meta": "8h ago"
+          "meta": "15h ago"
         },
         {
           "title": "Bihar has entered the chat: AI Bhojpuri song targeting CEC Gyanesh Kumar goes viral",
@@ -169,7 +201,7 @@
           "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQOGxHclA2NkdrcXlma0k0cFNxNGdEV1JyWFhpVktuR005bDZTbFRqY3pyeTMzNWt5dHBJTXJGMElNMEk0TmVlOU5zem9QczFEbjFDNXdyYkU4dDUtbGRIaUpXVElpVFprQVhZTWtuc3J1OGRGZnhwQTJIQVpoNUwyVjFxb1RnbEJkMjhFdEhaT1gwTzZubjZibm9zN0hGT3JTTVRQcjN6MFJUTFAwWHFoSE4wSzNnMFVydmZPV1diS2xrOGFieWRvZHRMeDBBME4xeGJOSmtmXy1uVVpoOHhnblpfQU43dnA2VjNCXzluLUNwbDlLWWROdDNCZnA5aXRuMlhJVnJuMnBEN2lWMjZZ0gGPAkFVX3lxTFA4bEdyUDY2R2txeWZrSTRwU3E0Z0RXUnJYWGlWS25HTTlsNlNsVGpjenJ5MzM1a3l0cElNckYwSU0wSTROZWU5TnN6b1BzMURuMUM1d3JiRTh0NS1sZEhpSldUSWlUWmtBWFlNa25zcnU4ZEZmeHBBMkhBWmg1TDJWMXFvVGdsQmQyOEV0SFpPWDBPNm5uNmJub3M3SEZPclNNVFByM3owUlRMUDBYcWhITjBLM2cwVXJ2Zk9XV2JLbGs4YWJ5ZG9kdEx4MEEwTjF4Yk5Ka2ZfLW5VWmg4eGduWl9BTjd2cDZWM0JfOW4tQ3BsOUtZZE50M0JmcDlpdG4yWElWcm4ycEQ3aVYyNlk?oc=5",
           "source": "India Today",
           "thumbnail": "",
-          "meta": "15h ago"
+          "meta": "21h ago"
         },
         {
           "title": "In Kohima, making Tenyidie ‘trend’",
@@ -177,7 +209,7 @@
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZNVJBOVFEYzE3YUNWempCTGpVM29UOUY0andsa05QbUxiM1l1MTNaRzlyOFR5UEFUT1VhcW8yU0dKYUtHTzN3UGpEMndmZHEtMGNzZENaRlZMNWdTMWtqazlvX0c4X1ZqMlJ0dERsbXFOSnFWaElr?oc=5",
           "source": "People's Archive of Rural India",
           "thumbnail": "",
-          "meta": "17h ago"
+          "meta": "1d ago"
         },
         {
           "title": "How Gen Z Watches TV on Socials: Why Vertical Microseries Are Replacing Traditional Streaming",
@@ -185,7 +217,7 @@
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZHdtdW9ScnRIczhxWDQwS3JXRW5QOWpqTHAybWZEQWpraF82NmVKLUp1Q1cwRDRlOXV0TnJnMlZYQnowQ1JlYi1PZXZOTXctRER3T0tMWVVyVHlrdzFWdkRsemRmbGlTVDdiZFlORXdoWFZFOVl6TEFPV2ExR0NCSG1QaTlQQmQtcEJQVEFsdjgxc2ZBWWtqUEt6TDFnc1U5T0c5UlZYdzVMMy1TVzhnWUc0dUo4Q285RzQ1dlJ2cmhvNUhmYTZhTW1MQV8?oc=5",
           "source": "InsightTrendsWorld",
           "thumbnail": "",
-          "meta": "18h ago"
+          "meta": "1d ago"
         },
         {
           "title": "What Is The 'Boo Trend' On TikTok? The Origin Of The Viral Trend And Prank Explained",
@@ -225,7 +257,7 @@
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUURRcDJLQjdCZ3RFeHgzbTNsVnByYmM0T25WM0RNWTFGQ2xMbGJQM3NFSjRFeE9KNEFiQzRVOTdWZE5RZUpiRjJ3SXE4OFd0X202WDhFYnRQMVpnRkh3bE82S0RBZnVVVnZZZXNzYVAzS013ekJkdUpRRWlnQmdlTER1YVJuX2ljRGN2bXh1SDFqYmVyZ2ZIY245TjhBZnRoY0Zqb0JCVjZZXy15clhlQWVCcmtSVXRR?oc=5",
           "source": "Exchange4Media",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "She Quit Her Rs 60,000 Job To Create Content, Earns Rs 1.12 Lakh With 14K Followers",
@@ -233,7 +265,7 @@
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSUZVY3l6dmlWbVlMeFF3SHhHRllROVI2d09EdFpjclNhUUxNVWNTVUlmQ1N5VlowamdnUjh1RzJweEc5aFpYMkJYM19IdldFTDVxcjBWUlQybW5tRWtJQ3phMC1mZlZ4bUxlclk1NEdkVlJFSUZGMlJHdl96a1U2RFVaRXdxbEwtMDJXclFPR3R2UmN6elo1SmkycFNjbDQyV25Eek5zWldWTkxndVdtS2FsNThUa1B2amR2eDVJWHl6aHFzQ2xFNWRlcXBZVVFfbDRj0gHTAUFVX3lxTE5JRlVjeXp2aVZtWUx4UXdIeEdGWVE5UjZ3T0R0WmNyU2FRTE1VY1NVSWZDU3lWWjBqZ2dSOHVHMnB4RzloWlgyQlgzX0h2V0VMNXFyMFZSVDJtbm1Fa0lDemEwLWZmVnhtTGVyWTU0R2RWUkVJRkYyUkd2X3prVTZEVVpFd3FsTC0wMldyUU9HdHZSY3p6WjVKaTJwU2NsNDJXbkR6TnNaV1ZOTGd1V21LYWw1OFRrUHZqZHZ4NUlYeXpocXNDbEU1ZGVxcFlVUV9sNGM?oc=5",
           "source": "NDTV Profit",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "Instagram’s ChatGPT ’80s Photo Trend Goes Viral: Here’s All the Prompts to Try",
@@ -260,42 +292,10 @@
           "meta": "2d ago"
         },
         {
-          "title": "World Cup fans came for soccer. They left talking about an America they never expected.",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNC0xcmp3T3MxTHJGMjBVXzJlNGc1Ump2dHRYNjdKS2o5RlItNmRldUNPTTZ0VHZhckJMaXlDejUwUGpNc1hQaFVtU2toeVdENkxuR05kZy00QkNISEViS19GY0EzVERBUGpkNDhHRjNiSEx5MjJ4Vi1YUk5SOGpsSzlKN0Zkb21mMjFVZHE2eW1lUjdpUG5GMTBQQWstZVEtOXVIZURmR0FRTDZMZG1fUDFoY21yMHVkbkdqejZJZlZkUWN4ZUptNGktamNPc1kxVENBRDl0UTQxSkk?oc=5",
-          "source": "Yahoo Creators",
-          "thumbnail": "",
-          "meta": "2d ago"
-        },
-        {
           "title": "Hillary Clinton to Co-host New Podcast for James Murdoch-Owned Vox Media",
           "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMHRkUWZMdFBtalpjYWlZR1FjVWlvVXRJQXJmMHU3cnJCZHUwbFlFbEZnRXhUWWtVS1dyeHNVeTNrYXlJRE1RRFNNTjhTRzcxd2E5Q0Y3Q19JTE5wT0p5c2xSQjY4aU5SS1VscnZJLVdkLTFBcUkwVFpueWxSS01XdEg4S0tsbjJRUktWU3hiV29kVXlvS1hwbFA3ODJkOTN1ZnpGZ2FIWDFGZWNOZF9kbWZzNWpyM3NK?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaUlBcTFGdkE2MHhZbWVZaDhSc205SzNRc1pZY2lHbW5lQjdqUHptWDVPekczRXdpYVdaOUk3WEJSZS1FdGQzazR3VnJBU0o4U3dadWVoc1Z0QXhXVWV2T0xHS0dTMjZ5aWhkR2c5T0hIZXgxWWVhLW1qSFNISG5NaFhYazcwRmNpR1kyYnFEaEd5TU5wR1h3MFdvWlJJcTRDb3d0eUE2WGc4R2RTQ0F2TGZjbnVnbkNIRFRGRXJuRQ?oc=5",
           "source": "Netflix Junkie",
-          "thumbnail": "",
-          "meta": "2d ago"
-        },
-        {
-          "title": "The Creator of ‘Smutstep’ Wants You to ‘Let Your Freak Flag Fly’",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xeE1LREJqYUVqRVBXSnM2RFdWSFd1X0dabFFQZTVsVndtYXM0SDRBZWxseTJUTXBCaWxGend6X1ZLMVNLbmVWcmRaQ2QxTkxuc1NGQ1lheFo3WFVjalhyRGlfdTliRXNSZ3dhUmV3YV9SREU?oc=5",
-          "source": "404 Media",
-          "thumbnail": "",
-          "meta": "2d ago"
-        },
-        {
-          "title": "Virat Kohli Makes LinkedIn Debut: Inside His Move From Brand Endorsement to Co-Founder of one8world",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONlFZbTgxeEUwaVB5RTVpQW85U1hfYXd5MDFNa2l5Rm9tX0pOYzRkQzhqRzd6em93XzE0WmprTXllcWRKTWZ6R3VNLWM5eFFGNGlvbjVFOXZCNXdnSUpzMzVBTW42X0dUMFpiS3kzWGhFSVRMRFRKUFRZbDd4dFc4eV9VbmhPazNOb1ZsYnEzbGNLakx4eDZvV0RvcTFXT2NQOUZ0VEYyZllBN25La2VXMWtRWmhOU3FvU2FxbWtVZXJkN0tjM0tBYV8xdW9oZ2lEbUpvUk14Z1Q1bnR4Mm00TlktQzRWRFNrTWJMNzM3NDZfUWpqcHNRZ05mMHbSAfwBQVVfeXFMTjZRWW04MXhFMGlQeUU1aUFvOVNYX2F3eTAxTWtpeUZvbV9KTmM0ZEM4akc3enpvd18xNFpqa015ZXFkSk1mekd1TS1jOXhRRjRpb241RTl2QjV3Z0lKczM1QU1uNl9HVDBaYkt5M1hoRUlUTERUSlBUWWw3eHRXOHlfVW5oT2szTm9WbGJxM2xjS2pMeHg2b1dEb3ExV09jUDlGdFRGMmZZQTduS2tlVzFrUVpoTlNxb1NhcW1rVWVyZDdLYzNLQWFfMXVvaGdpRG1Kb1JNeGdUNW50eDJtNE5ZLUM0VkRTa01iTDczNzQ2X1FqanBzUWdOZjB2?oc=5",
-          "source": "The Sunday Guardian",
-          "thumbnail": "",
-          "meta": "2d ago"
-        },
-        {
-          "title": "Best Sites to Buy Instagram Followers, Likes and Views in UK",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9oYzRPX25XQXg3SWpJbzlIZGY3XzdWSGpoSmhHQ2J1YVprNGFZVFl1MllNT0ZOcVhZeG1Dd0hTclZDSXM0MnAwcC1Ob3BWeC1NbU1heFFYa2RUYzZBVGZHbEpfUGtzbnNhSE5qQzFzYUtERW5ZVm1KRm5ib2NYUQ?oc=5",
-          "source": "Business Matters",
           "thumbnail": "",
           "meta": "2d ago"
         }
@@ -306,12 +306,28 @@
       "label": "Viral sounds & songs in content",
       "items": [
         {
+          "title": "Stella Lefty Crafted a Viral Hit. Some Thought It Sounded Familiar.",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSzdjQnREQ1hXWV85WlhUWnJFTW1Dc3MtQU12NnZ5SXItUkpZU3VZcnFmZ2stU0FDSXpnRnBOcEgzc0tYbV9GTnk3UjF3TlBCZDZZUndFMG5pODdySUtUU2VWOERqbjJrcDl3ek81TXNISC1SRkItVVVkOXNYWU01bnBaVkFiVnY4RUE?oc=5",
+          "source": "The New York Times",
+          "thumbnail": "",
+          "meta": "just now"
+        },
+        {
+          "title": "Watch Madonna Channel Her Inner-‘Nicole Kidman’ With Adela’s Viral Hit in New TikTok",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLVRZUEpVVmo4aG50SGNPZGgza19GUzF0aUZRajVMLXFVQWdSWUVsLVJjU2pqTVB1TGJTREM1V1FxU3A4QXdWY2lhdFBrcWtOcF9TOHhIamFUMkF2Ul9fZy1BSWE3bkxKUGRkYmtwaGZEOHFtS3k0N21KWnkzclJXUXFDSzU1c2lIc2c4TXhkVUwyZw?oc=5",
+          "source": "Billboard",
+          "thumbnail": "",
+          "meta": "6h ago"
+        },
+        {
           "title": "Madonna Makes Sure Her T**s Are Sittin' Right In Nicole Kidman Video -- WATCH!",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONzRjQkI5TTZmTW5rbzlJc3E5UHo5cDNIeE9ueXZrTkpFV2szaFVJUkotR2hkaTVoNkdwcGhnVWhfS0Y5MldMcHB5NUwzODlibURvVy1IV0d2a0dTak91YndsSm1YekxvMHZjUDlsNlphcnBYMkE4UHVlV09mSW9nddIBhgFBVV95cUxOZDQxa29KV1lLWEdiMkl3U1RoS1dWU0pXcDAzbXA2RkJVS3dUSnJaOFJ0dnlCczVWcU9kNzBQMTl4aUNvTGJ0RUdTQTkzYlJSZC1hRmJXWVVyVkh5Yl9VSXVmZWp3MDl2NXE1MzR4RW9MVEJXUktMN3NFSTh3SWc0dUx6UWc3QQ?oc=5",
           "source": "Perez Hilton",
           "thumbnail": "",
-          "meta": "1h ago"
+          "meta": "8h ago"
         },
         {
           "title": "Tom Welling Joins TikTok After Viral Hotel Photo, Mocks His Accident with Haley Kalil’s Help",
@@ -319,15 +335,23 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EdlRWM1AwWlB5M0tlWllkN0dkaGpTVXp2WUtRRUQ4Vl95d1Vra2VkSkt3T29zLUVqRXFPeWw3S0R3UzNJXzlZR1huSFJjODVSMzBhcUIxXzdDbXczZHBpY0FHX3R0aUVEU3c?oc=5",
           "source": "IMDb",
           "thumbnail": "",
-          "meta": "3h ago"
+          "meta": "9h ago"
         },
         {
-          "title": "Stella Lefty Crafted a Viral Hit. Some Thought It Sounded Familiar.",
+          "title": "This TikTokker jumps on a trampoline every night. Has she figured out the secret to happiness?",
           "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSzdjQnREQ1hXWV85WlhUWnJFTW1Dc3MtQU12NnZ5SXItUkpZU3VZcnFmZ2stU0FDSXpnRnBOcEgzc0tYbV9GTnk3UjF3TlBCZDZZUndFMG5pODdySUtUU2VWOERqbjJrcDl3ek81TXNISC1SRkItVVVkOXNYWU01bnBaVkFiVnY4RUE?oc=5",
-          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15UW40OUxwcXZhblUxc0VmSkJEQUNLS1R1ODZRZnBKSHY0MlU3N0pQY3JNbFFqRF9nSDF1bF9TdWxPYnVGTXc0NF9OUkxCTnVGOURGdkQ4bHMzZGlBa0RVNEN5UUNOLXN3YW1TM0lPc1FKd0FBX3NnTEZLZHJzUQ?oc=5",
+          "source": "Mashable",
           "thumbnail": "",
-          "meta": "7h ago"
+          "meta": "10h ago"
+        },
+        {
+          "title": "What's that 'Milwaukee Brewers' song? All about Foenem's viral hit",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNTFPMjlRLWJ1MHE5SXpNVjlLTzR4cVNMcFUtZndxTzE0Z2d3LXRNdHpkQTNsU0YtVkRFWE8xenNNTEZXS0pabFZ3Wm42WFlpQm1HZmlaWXJ4NUtoZW9WZ21kMFI5YnZaVW00Y1lNUEJwdlI3dExiYTFtVS1zRmsyWGlBVTEybDBLSlZLUWdn?oc=5",
+          "source": "Yahoo Sports",
+          "thumbnail": "",
+          "meta": "10h ago"
         },
         {
           "title": "Video: Cut THE PHANTOM OF THE OPERA Song 'Box Five' Goes Viral on Social Media",
@@ -335,7 +359,7 @@
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTXlia0wwcVJyWGNQREJfX0lhQ1FOOEwyRWhCMTlFYmF0anQ5SWloQkZvY3ZTT2dKV2w0VmY2WXZBNmpBLWJrbzlyMUk0a3FPZFQ3aUJlNkhhUzh6MWw5TXVsZENySzBOUl9scDJ1SmUxamk4aWVxcmluRE5iYjdYd252Q3RVeS1qc09aRGdVUURvLVRDTUVMQ19pWmx6Zk4zZkt6Q2JVMEl3SVJtTlQ0My1qTmZVcUFlSlhtYWEzOA?oc=5",
           "source": "BroadwayWorld",
           "thumbnail": "",
-          "meta": "8h ago"
+          "meta": "14h ago"
         },
         {
           "title": "Welsh singer reaches UK chart heights as former teacher shares memories from school",
@@ -343,7 +367,7 @@
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcG1KcE1zWGdJM0VTci15Snl0c3pBV2lURVU1Y2VOTUxLaVd6TWx0Znh6VmxpVHFmYkpHT25WeWs3OXZTc1p2WXd6azhySUVUY2V3ZFJsUVhza2YzcVVVUWdWeUc4S2xaeUZybkRQTkRDYW9tbi1QbFhsUHBYNzFvUzdVbEZJNFg2OUdnYjRCYWVvVXBFNmN6VVhDU2xYMGQ5bkZRak5qNkQxcUVQNVhEQUQtUQ?oc=5",
           "source": "Nation.Cymru",
           "thumbnail": "",
-          "meta": "16h ago"
+          "meta": "22h ago"
         },
         {
           "title": "Straffitti Teams Up With Rising Underground Artist Octobersrich on New Single “Window”",
@@ -351,7 +375,15 @@
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOEFuWm16eGhfazg1cEN2c2hpd3ZuN2F2X3NqemZseDk2cTNlUF9kX01UazN4VzdUcEJkWG51NUZ6aHBITVFyaVRtQW5VdnZfOERNYlRxei1GOG1maW94b25zRHNZZjJIazRpS3ZwdGtEdkdYWkY1SzlBNWZnTk9pQkMtQlNoU3VWcTZBLUZpMkJzYVJKOTMwZm81b0RBWkZyd3lHQ25FODJFeGRqWWx0dDU0RW9lbXNxc3d6WURCWm0?oc=5",
           "source": "Hype Magazine",
           "thumbnail": "",
-          "meta": "17h ago"
+          "meta": "23h ago"
+        },
+        {
+          "title": "Costco is now selling a 27-pound bucket of macaroni and cheese",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSjVjZE94LWZ2d25WdHJEalY5Y19EUXRRaFI1Z1BDOGVhLWpnbzdhVzMzX2tTekNMQ1l4ZUVIdUNQOXViMXN3T21MQXF4UDFDUy1hYWR1Z0ZBdDVZeC1BVDVZdENuZUJaVjZhQUVoRXJrMzUwMmhDZVNYaUhyUllUdkNCemFyV1ZIVHg5WnZ2N0YwUllnR3VUR1AyT1UxbHo1a0VjRVUzRlpJaTJ1QmNtbzlpUmNMS1Niald5dDVmZ0ZNT2RXaW1BbHdybEI0T3l1SW05WC1YUHppQ1pXaXRDd3IxYmlfUUwtVnZBeXczMUY?oc=5",
+          "source": "Mashable",
+          "thumbnail": "",
+          "meta": "1d ago"
         },
         {
           "title": "Rauw Alejandro and Camilo’s ‘Tattoo (Remix)’ Enters YouTube’s Billion Views Club - K",
@@ -359,21 +391,13 @@
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQkR1NXNkLTNXNjFDT3BsZl9OcU1ZV1pydTR2YzVlQ29xaWxSWmRnal9vTTc3UEJDdnlCQlZCdXlxUGdXQVlXRENWNkRRQWx1N3o0aEVzcnV6TDBKdDRWZHdJMUlNb3dkZjVaTVFxb0RSaTd2d2pkTzlzRzBMWEFLVDVIaXl0V2lhRmlJQXBCRjQ2N2kxcHIyUEpYZjhwd3lDM3VjU1NvdlgteWc?oc=5",
           "source": "K-Jewel 99.3 FM",
           "thumbnail": "",
-          "meta": "20h ago"
+          "meta": "1d ago"
         },
         {
           "title": "Prank Gone Too Far? James Charles Left Stunned as Fan Asks Him to Sign His 2021 Apology Video Thumbnail",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR3pCZksyekRDOHQxQm9taWVqV0ZZNjNwNTBQN21BNG11clcxWGtaSlRMLVpIeEZtVHk1VTlsWFNSbEh0d2d1UnE3WkNFaTBVbHlqOVFvUXRRNUdzSXVlQTY2TXEteHpzc2xXLXRjeGRHWEhvUHRUSU50SU42VnYtMTVsY1pJNGcxX1dj?oc=5",
           "source": "Fashion Times UK",
-          "thumbnail": "",
-          "meta": "23h ago"
-        },
-        {
-          "title": "This TikTokker jumps on a trampoline every night. Has she figured out the secret to happiness?",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15UW40OUxwcXZhblUxc0VmSkJEQUNLS1R1ODZRZnBKSHY0MlU3N0pQY3JNbFFqRF9nSDF1bF9TdWxPYnVGTXc0NF9OUkxCTnVGOURGdkQ4bHMzZGlBa0RVNEN5UUNOLXN3YW1TM0lPc1FKd0FBX3NnTEZLZHJzUQ?oc=5",
-          "source": "Mashable",
           "thumbnail": "",
           "meta": "1d ago"
         },
@@ -382,6 +406,14 @@
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS05hRVpNT2pXelByYm9tM2lydDJjN0I4UlZDV0M3Wmk5MWtLWE9acGtIVV9pQ09nS3R3ai1QempUSUh6ZXZNMC1DZjBiNHJKV0U4YUJJVEcxR19IeU13RUl2UTNEYnNJZnhCQWxjVExzZnh2dGtKclgyMGdNWk1iT0I5QTZpcHR0Vm9qSzE2T2NzSHlJV0x3ZXlqcXFkTFgxVDN3WUlpc0tteDlmWmc?oc=5",
           "source": "Billboard",
+          "thumbnail": "",
+          "meta": "1d ago"
+        },
+        {
+          "title": "Why influencers are changing how Kenyans discover music",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUUh1c0dWSlIwUDFLaDJ5X0Qzd08tMFkyYWY4VXRtZWEyZnV5ZmxjRUlORnFzWDVQemRLQ0lFMVZfcnN2QzAzbjFSOGtwVFZ4UnJpV3llMjZxNkliX3VlVk5IVUpxUHN6NjJBTWV6X25ZbEdJYjh6RXNVN2drOWx6bUhkbW8wREtmRlRjWktVTEctdms?oc=5",
+          "source": "K24 Digital",
           "thumbnail": "",
           "meta": "1d ago"
         },
@@ -414,38 +446,6 @@
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wMl9PNWxrZGVsX2VVSzdyV2o3VXRiMHRlM3VlYlBNTElUaVZZcC14c0lqSTlIQ0xzMG56b09icmwwQUVIdDhBMVN3bzEwZG1rdzZmMnh1ZUdEOUp0b3lhcnI2VFdBUDJpRHc?oc=5",
           "source": "ED Times",
-          "thumbnail": "",
-          "meta": "2d ago"
-        },
-        {
-          "title": "Viral Comic Druski to Make ‘SNL’ History as First Digital Creator Host",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZmxYVHk3WEE0U2l2WUg1Y0tZTnBLaWNnRXNWSjJPZEdzbkNueXYtc0hLYmtaSHpIOFdJZFlXV1Y1dHYzaWladEhqTjRKWm9tSFVsYTRjZ21zcHRwVG1oNHB2aGFyb29yeTJMcHJrWWpMVWYyUHI4V19MNlFCMHdUaVdVUXdZNFhIaEVzclJGLU14MlIz?oc=5",
-          "source": "Yahoo",
-          "thumbnail": "",
-          "meta": "2d ago"
-        },
-        {
-          "title": "After Going Viral for Loving 'Doing Nothing,' Cristian Castro Is Busier Than Ever With a Billboard Honor and Tour",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVnhWYWRqbUJDSVhaVnNaWVVxWEVRMkdXbHRvUk1yNUUxbVRISWZFdURVTXNFaGtzX2JZSFp5S09NbUZkR1pCeFRzXzIzUmxaRjBYTHRrZHBfaE9xT2dqNUtqZUZZMFdhLWZDZjdhOWtyaVRTc1J1dGpPSzNtbHJpLThsZ1VPcldZeFMtcnpib3phbW1EQ250RjgtSlk2Q0pDcXhJVndzYndiYjZhZGRPSElhWU9oenZtTXNHTmNDTXBGZkpQTXRvaU1wVG16S2kzUHc?oc=5",
-          "source": "inkl",
-          "thumbnail": "",
-          "meta": "2d ago"
-        },
-        {
-          "title": "JENNIE Becomes First K-Pop Artist to Spend 20 Weeks in the Hot 100 Top 10",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSTm9YX24zV2VqZjdIM0F4SjJwWlRJaGFzRDlVQkZNbkktVlZxdVZKdjRzdUZKSmFuNHR3dWVQMVAzc2p4R0tOc1FVcldNYkZPR2ZtWG9WWVFfYVZhNHM3c19TdVEtaTdTSVkxZEZNdDlTZVdzTzNkaQ?oc=5",
-          "source": "InMusic Blog",
-          "thumbnail": "",
-          "meta": "2d ago"
-        },
-        {
-          "title": "Shirtless – Kikubye Akawuzi Kiwunya Enjaga (Warden Kartel)",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaTJzYTVXR05Qbl9oTHdJRndPLWpOTjdvTEhrMkpzQ1FzelNpZ0dMTzY2TW9VMktsSlY5TEhVZlFFUW96X2pJME1mSmRpdmtQbHdSUWF1TnlqTkViV1Q0YlhvOWNZQjZ0R0hJN0lURnVodnB2bHM3ZWZSWXZHcXFuMEx3cEZNcnNhalRz?oc=5",
-          "source": "Voxtrendy",
           "thumbnail": "",
           "meta": "2d ago"
         }
