@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-17T20:35:35.553474+00:00",
+  "scraped_at": "2026-10-18T00:02:21.844966+00:00",
   "sections": [
     {
       "key": "tiktok_formats",
@@ -38,14 +38,6 @@
           "meta": "2d ago"
         },
         {
-          "title": "How Gen Z Watches TV on Socials: Why Vertical Microseries Are Replacing Traditional Streaming",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZHdtdW9ScnRIczhxWDQwS3JXRW5QOWpqTHAybWZEQWpraF82NmVKLUp1Q1cwRDRlOXV0TnJnMlZYQnowQ1JlYi1PZXZOTXctRER3T0tMWVVyVHlrdzFWdkRsemRmbGlTVDdiZFlORXdoWFZFOVl6TEFPV2ExR0NCSG1QaTlQQmQtcEJQVEFsdjgxc2ZBWWtqUEt6TDFnc1U5T0c5UlZYdzVMMy1TVzhnWUc0dUo4Q285RzQ1dlJ2cmhvNUhmYTZhTW1MQV8?oc=5",
-          "source": "InsightTrendsWorld",
-          "thumbnail": "",
-          "meta": "2d ago"
-        },
-        {
           "title": "Fake Hotel Challenge Videos Flood TikTok: Guests Are Calling Properties for Prizes That Don't Exist",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdmhnbTJxR2FIeG5jU0E5bHNtTHdCWkVUWkNQR0hmOUNCcEQwMHNlVHJyLWY1TWpIRjZER1lQVHZnVnRiUVJrXzd5VE1vc09aTFBWeDhBaDZBX3lfczU1OWYxN0JabWNHTV9zaTY0WTJLc0lNc3VsNzRmQjhvSUd2dGkybWZNVDd2cjhvbm5IdGhsM1VncDNIWHZUbUxWX0dDZHg1aGZyOXJiWHdnQWRJSWNBZ3o0aHF0eXFOWFRDcWt0VGhiSkFhRmNYWGlOeDVCSVk2YkhSRWJxUGFXcVlxM0c5b2JjUzQ?oc=5",
@@ -67,7 +59,7 @@
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb0l0RTJYbFJPeURCRHVHU3doY2xOUlhoZFc5Vk5qd2RXTm5ZRTZvc0hsZWZnNy1GUU1yNDRuODJCSG1QTWM1R3FWaTVkbmFGQXpFSTFTNGV6bTRaeVhfTkpWZy1yc1R1aTN0SnBSXzMtSzV1Z2J2UExTeWlTdjlLcmU0LVNGdVlh?oc=5",
           "source": "Dexerto",
           "thumbnail": "",
-          "meta": "2d ago"
+          "meta": "3d ago"
         },
         {
           "title": "What does ‘mogging’ mean on TikTok? New slang word becomes viral trend",
@@ -75,7 +67,7 @@
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdUIwMjA0OVZBSTBwNHZWdTlHTEcwWGxHVm13WjRjQTJNdmFMRVh5MEI4bDAxTG5BRlR3eG5SOU5DNE5hZ2NGZUZ1OWExTDMzQnFfak9ZNHc4NEczUjdsN0VXaUw5TEYzQmFKUHIyeDlFUWZ3M0hXVkFmcTVKQzk4Tg?oc=5",
           "source": "Dexerto",
           "thumbnail": "",
-          "meta": "2d ago"
+          "meta": "3d ago"
         },
         {
           "title": "What does ‘dupe’ mean on TikTok?",
@@ -98,6 +90,14 @@
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY2hhQkp6RWh5Tm9RRHBabWtPaHdaWUp0NUhHazQxQmFjZUczdlV5MkJyamszSnRhd0U3VTRlbU1QUUVjVXhvRzdCX1FVSWVkRUo2MzJHZUVnMVZMNnd0QS1ZZUNPNUp0dC1LRUUtVlIwX1pIdVJYRTAzMFNfS2FoaTFXQjZlQTBCRC1MYTdlRDkzSXBfM3lTSEVRTnBmUE5UQmpoclZ5REVudWZPMGd6OXZqY3lsOFU?oc=5",
           "source": "Dexerto",
+          "thumbnail": "",
+          "meta": "3d ago"
+        },
+        {
+          "title": "Far East Movement, Ester Dean, Akon: Currently Trending Songs",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1NX2lRZ2poNHE5NXN0UnFFM1hGM3VBdExkWmx0VTNBNU4teDhqenB2UnhLRG9teHU0YVl4Z2xsTV9DSV9YTzYyY05rY0ZtVTIyeWFzaUlHTTUxX05kUnJwY2JBdWs?oc=5",
+          "source": "uDiscoverMusic",
           "thumbnail": "",
           "meta": "3d ago"
         },
@@ -156,12 +156,20 @@
       "label": "Instagram Reels formats trending",
       "items": [
         {
+          "title": "NetShort app",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qa2ZhYm10UlBTQS1YeXVDY0JhTS1LRGg2bjJzcDl0ZzhtNXlXRmYyZ3R5b2pqcWNiekZfdmx2S1E4WGtGQmhQS2VBbzVCZUF1VTg3dmtERGpkWXVU?oc=5",
+          "source": "白鲸出海",
+          "thumbnail": "",
+          "meta": "2h ago"
+        },
+        {
           "title": "Instagram AI tools Buying Guide: How Creators Can Choose Image Filters",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11VWFDS3lqbjJWR0ZIVXBnXzduWjBTN0pTOHpURTVva1RNVTFQaG44V2tzOTVpWWV6THNjbXhmMnpMUS03bFJZRnAwbDRnUXJNVEhMc3Rmb2YwYWNIUUt4LUZhYVhicFVnS1Zn?oc=5",
           "source": "TechnoSports Media Group",
           "thumbnail": "",
-          "meta": "7h ago"
+          "meta": "11h ago"
         },
         {
           "title": "Love Gill and Gurpreet Ghuggi Controversy: Fact-Check vs. Rumors",
@@ -169,7 +177,7 @@
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzRkotb2NtTHhlOGx5TTlNOVo3QWdyRTlTRVdCcDgwVVJHOWdsUDhMNllyRG5HdGkzQmVSRUF6ckxmU2hzMUZtWXptTTdabFZnSU5wUDlfaHNFNm8zY1JUWV9laUlmVVpsQ0pxQ0RHUGUzQWRwQmxDeHl3?oc=5",
           "source": "EkSukoon",
           "thumbnail": "",
-          "meta": "14h ago"
+          "meta": "18h ago"
         },
         {
           "title": "Short Video Social Media Engagement Benchmarks 2026",
@@ -177,7 +185,7 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yX283bFlha2VtQnYtNExqbFBfRUFNWXFBR1MtYXhPSUY3V0cyZmJMZ0xYNTV3SDUxa2lQalF0eGtaUDI2T3ZiRUY5bW1aWnBDRFhSQURVRXk5VU9NelFzMG02R0xfUkVGVWQ1bzVBbzlsLUc0R3ZXQkJjVHc4SmM?oc=5",
           "source": "Metricool",
           "thumbnail": "",
-          "meta": "22h ago"
+          "meta": "1d ago"
         },
         {
           "title": "Travel Influencer Animesh Pradhan Says Vietnam Can Make Indians Feel Like Crorepatis",
@@ -233,7 +241,7 @@
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNXRQakdGTGZxRHlVQ2c5Mm40Wlp5djNkcHRzRVFxaFUtbHpZT1NIT25TR09WQzN6UTFFVnlJYlRyd041czNvOC04Vm9XcGlMakZ3N05NTURfaWxsU2RsQU1zN3BSZlQyeWhnNzIxdHg1aTBjbC14RHJPcHlSVkRHRlVqajcwVUktdFg3S0xjazdtbnBIeTl4cEZ5aVk0ZF9jVU9jOF85QWZ1VC1naGdOc0ptZEFQRHJVSGZ3czUyRQ?oc=5",
           "source": "Digital Trends",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "Influencer Flees Home After Fans Send Fridges, TVs, And Even A Tank",
@@ -276,14 +284,6 @@
           "meta": "2d ago"
         },
         {
-          "title": "How Gen Z Watches TV on Socials: Why Vertical Microseries Are Replacing Traditional Streaming",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZHdtdW9ScnRIczhxWDQwS3JXRW5QOWpqTHAybWZEQWpraF82NmVKLUp1Q1cwRDRlOXV0TnJnMlZYQnowQ1JlYi1PZXZOTXctRER3T0tMWVVyVHlrdzFWdkRsemRmbGlTVDdiZFlORXdoWFZFOVl6TEFPV2ExR0NCSG1QaTlQQmQtcEJQVEFsdjgxc2ZBWWtqUEt6TDFnc1U5T0c5UlZYdzVMMy1TVzhnWUc0dUo4Q285RzQ1dlJ2cmhvNUhmYTZhTW1MQV8?oc=5",
-          "source": "InsightTrendsWorld",
-          "thumbnail": "",
-          "meta": "2d ago"
-        },
-        {
           "title": "What Is The 'Boo Trend' On TikTok? The Origin Of The Viral Trend And Prank Explained",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT2Y4a0wxVEp5YWw4ZlA0bFBkZlpQOVBQSnRIQTVYRUxlcGRuenU2ZXdybi1LVWtWRlVrTnBIZjVSRTlkZVRON0dxNHItMHpjSzJNbG0zSlNDX3ctZXJsanI3MlVjNlhkekNVQ0RnckdJRDc1MXg0bVhQc1hsUUh2dUZxZzZORDFOQ1hMZEdqaVBoTUZxeGIxTVZGeEVSTm8zeUhybXpkeW9yV21KMTFjUTkzaHNNQVVockY0bFdJbVJ4a2dpYzNpYlB3b1dwdw?oc=5",
@@ -306,20 +306,28 @@
       "label": "Viral sounds & songs in content",
       "items": [
         {
+          "title": "Culture Motion And Pro Tee Turn Viral Gwijo Sensation Into A Global Moment With ‘Ingoma Ezimnandi (iGwijo)’",
+          "subtitle": "",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUZiSFNEdTJXOVVSeVgyS1FDOXBlWWZrLTJxaVotaXV6Wl9iWXphRWdMLWlQY1diT3BFdkktbmpZUzRubFlHa1YxaFZqbUxmcl9Wb0VNckFwV0lmR2dsWUZVY1hJcUw4SndnMkJVVXhZa1FpNWVhRlVZOTBSTDRIQ1ppWUNBVWR0LXBtYnh6TzdHWHpVWkNUU3NVMXdTTF82eW9vcTIxa3pFOHVtSG9ZeEJwa0t3UVBmcDJuTDJYLThIN19vMFVFTUxmMGw?oc=5",
+          "source": "SlikourOnLife",
+          "thumbnail": "",
+          "meta": "5h ago"
+        },
+        {
           "title": "Madonna Joins Adéla’s Viral “Nicole Kidman” TikTok Trend",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSEdiemFVY2czM0QwbnRYX3pLcExVZE9YcFdwX0VWVTRzc1ZBUmFfZnprTTJJUV9WRVQtYVpZY1lDMFpjQUtvYk9JR2pVNlNTRVdLOUxRYUx0NTdQdW5jVDBYYzlWUmxaRmN0RXgxWktyYlJYUjVMbUtSakhPMW81NW96MFZLNk9EMHUzVFFlR1FFem1E?oc=5",
           "source": "Power 106",
           "thumbnail": "",
-          "meta": "7h ago"
+          "meta": "10h ago"
         },
         {
           "title": "TWICE members join the viral \"Nicole Kidman\" dance trend to Adéla's hit song in a new video: Here's everything to know",
           "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQZWtFQ2IxY0VZUl8yQmFrWFB4bEROYWxfamV3ME5MY3pHV2FPTEtxVjVzMVRnaVcyYzMtLVRmQWwyNFFaY0ZqT3FzVWN4WUxYci1hMEVYX05leE5VMkxYYlZlam5OdlI4bDNWNHN4VVpFTGtoWDBVRkhjQUZVTUFCLW0zZUVhTExXV3FzYk83ekpRc25uZEFySmpQeUZZWkw0UDRaRlpmYjExTmFFWjZHM3BhOXlqQl8wSm1HUWx5clR4RzBoZHQ4NnRPWHFYdU1LdmptbEFRdmotTUV4dWRTV3ZsLUo2RE9Tc0JlYlR4XzNFWFNUZHZWTnNPODYxN2VnWW9jaXI4TzZndw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQYmdLMC1LZlg3MVRtcjNaUHV6X0RkU2xsQjQ4M19nd1J2ZzBoaGIweXctMm45dm9PWUc0c1phWERoNm9BVlE0MFlpWjg1aktiSHlfZUxtbUFUWi1mSXUzcl9MazZScXlJZjluTFRwakM2TDZQalZMLUlXeUZCZ1lFcGV0QTJaS19pQnJRYTF1UGRleERjWHJmNmlqWGhFazdlSUZXREdhMk5wMlRMQXdkb203c2hGSTRKZVMyNTRpQzZGaVlQdHNyVWxSR0xxWDhjOTNIb3hJVU1pS2w4aFAwNmEweDZ3cnBLeXh2UmxWanBzOHVvVHFTbTFndXRvb3Nac1U2MQ?oc=5",
           "source": "Business Upturn",
           "thumbnail": "",
-          "meta": "9h ago"
+          "meta": "12h ago"
         },
         {
           "title": "BESTie’s ‘Love Options’ Makes a Global Chart Comeback 13 Years Later as the Full Four-Member Group Reunites",
@@ -327,7 +335,7 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nbEFmRXJmZmpsRjV6VldZOC1Yd2hqdm1rSVF2OFk0bDVVZ1RVX1Z6cEhaTTJuRXVhX3U1dlhJQVhkekZ5eGFuRjFZYi1zUURSMHZYTzgzS1RFYkU?oc=5",
           "source": "씨네플레이",
           "thumbnail": "",
-          "meta": "17h ago"
+          "meta": "21h ago"
         },
         {
           "title": "Stella Lefty Crafted a Viral Hit. Some Thought It Sounded Familiar.",
@@ -362,14 +370,6 @@
           "meta": "1d ago"
         },
         {
-          "title": "Culture Motion And Pro Tee Turn Viral Gwijo Sensation Into A Global Moment With ‘Ingoma Ezimnandi (iGwijo)’",
-          "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUZiSFNEdTJXOVVSeVgyS1FDOXBlWWZrLTJxaVotaXV6Wl9iWXphRWdMLWlQY1diT3BFdkktbmpZUzRubFlHa1YxaFZqbUxmcl9Wb0VNckFwV0lmR2dsWUZVY1hJcUw4SndnMkJVVXhZa1FpNWVhRlVZOTBSTDRIQ1ppWUNBVWR0LXBtYnh6TzdHWHpVWkNUU3NVMXdTTF82eW9vcTIxa3pFOHVtSG9ZeEJwa0t3UVBmcDJuTDJYLThIN19vMFVFTUxmMGw?oc=5",
-          "source": "SlikourOnLife",
-          "thumbnail": "",
-          "meta": "1d ago"
-        },
-        {
           "title": "Watch Madonna Channel Her Inner-‘Nicole Kidman’ With Adela’s Viral Hit in New TikTok",
           "subtitle": "",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLVRZUEpVVmo4aG50SGNPZGgza19GUzF0aUZRajVMLXFVQWdSWUVsLVJjU2pqTVB1TGJTREM1V1FxU3A4QXdWY2lhdFBrcWtOcF9TOHhIamFUMkF2Ul9fZy1BSWE3bkxKUGRkYmtwaGZEOHFtS3k0N21KWnkzclJXUXFDSzU1c2lIc2c4TXhkVUwyZw?oc=5",
@@ -383,7 +383,7 @@
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONzRjQkI5TTZmTW5rbzlJc3E5UHo5cDNIeE9ueXZrTkpFV2szaFVJUkotR2hkaTVoNkdwcGhnVWhfS0Y5MldMcHB5NUwzODlibURvVy1IV0d2a0dTak91YndsSm1YekxvMHZjUDlsNlphcnBYMkE4UHVlV09mSW9nddIBhgFBVV95cUxOZDQxa29KV1lLWEdiMkl3U1RoS1dWU0pXcDAzbXA2RkJVS3dUSnJaOFJ0dnlCczVWcU9kNzBQMTl4aUNvTGJ0RUdTQTkzYlJSZC1hRmJXWVVyVkh5Yl9VSXVmZWp3MDl2NXE1MzR4RW9MVEJXUktMN3NFSTh3SWc0dUx6UWc3QQ?oc=5",
           "source": "Perez Hilton",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "Tom Welling Joins TikTok After Viral Hotel Photo, Mocks His Accident with Haley Kalil’s Help",
@@ -391,7 +391,7 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EdlRWM1AwWlB5M0tlWllkN0dkaGpTVXp2WUtRRUQ4Vl95d1Vra2VkSkt3T29zLUVqRXFPeWw3S0R3UzNJXzlZR1huSFJjODVSMzBhcUIxXzdDbXczZHBpY0FHX3R0aUVEU3c?oc=5",
           "source": "IMDb",
           "thumbnail": "",
-          "meta": "1d ago"
+          "meta": "2d ago"
         },
         {
           "title": "What's that 'Milwaukee Brewers' song? All about Foenem's viral hit",
@@ -431,7 +431,7 @@
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb0l0RTJYbFJPeURCRHVHU3doY2xOUlhoZFc5Vk5qd2RXTm5ZRTZvc0hsZWZnNy1GUU1yNDRuODJCSG1QTWM1R3FWaTVkbmFGQXpFSTFTNGV6bTRaeVhfTkpWZy1yc1R1aTN0SnBSXzMtSzV1Z2J2UExTeWlTdjlLcmU0LVNGdVlh?oc=5",
           "source": "Dexerto",
           "thumbnail": "",
-          "meta": "2d ago"
+          "meta": "3d ago"
         },
         {
           "title": "How Much Did Turnstile & Rosalía’s ‘SNL’ Appearances Help Their Streaming Numbers?",
@@ -442,10 +442,10 @@
           "meta": "3d ago"
         },
         {
-          "title": "Why influencers are changing how Kenyans discover music",
+          "title": "General Hospital Stars Take on the “I Am Drew, I Am Danny” Trend—and Fans Love It",
           "subtitle": "",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUUh1c0dWSlIwUDFLaDJ5X0Qzd08tMFkyYWY4VXRtZWEyZnV5ZmxjRUlORnFzWDVQemRLQ0lFMVZfcnN2QzAzbjFSOGtwVFZ4UnJpV3llMjZxNkliX3VlVk5IVUpxUHN6NjJBTWV6X25ZbEdJYjh6RXNVN2drOWx6bUhkbW8wREtmRlRjWktVTEctdms?oc=5",
-          "source": "K24 Digital",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9LZU1KLXJmSEE0ckk5RzJ6T1ZObEFnLTVpdTh3SmZpN2xBTHA5TFRkUDN4aUZFX1VVM25PT3pGZkpOX05yYWpLSmhrWFF3NDdiTHNUMUJBdTlWazNzQjdUeExza1VwTS15OUFkN2g3V1hNeTVwWWEteWhUNWc?oc=5",
+          "source": "Soap Opera News",
           "thumbnail": "",
           "meta": "3d ago"
         }
